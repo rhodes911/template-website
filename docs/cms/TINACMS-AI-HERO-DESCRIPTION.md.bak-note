@@ -1,1 +1,0 @@
-This file used to include a mock/testing mode section. The system has been updated to remove mock mode entirely in favor of real calls with optional debug/report toggles. If you need offline tests, consider using fixtures or recorded responses in a separate test harness.
