@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    "seo audit",
+    "local seo",
+    "keyword research",
+    "What Social Media Marketing Encompasses",
+    "The Advantages of Social Media Marketing"
+  ],
+  "prefix_mods": [
+    "local",
+    "small business",
+    "local business"
+  ],
+  "suffix_mods": [
+    "near me",
+    "local",
+    "for small business",
+    "for local business"
+  ],
+  "jaccard_threshold": 0.5,
+  "max_per_seed": 200,
+  "max_keywords": 1000
+}

@@ -1,0 +1,528 @@
+{
+  "startedAt": 1756452632736,
+  "durationMs": 22397,
+  "model": "gpt-4o-mini",
+  "agentic": true,
+  "topic": "Meet Ellie Edwards",
+  "collection": "about",
+  "section": "seo",
+  "timeline": [
+    {
+      "at": 2,
+      "step": "start",
+      "data": {
+        "collection": "about",
+        "section": "seo",
+        "topic": "Meet Ellie Edwards",
+        "model": "gpt-4o-mini",
+        "agentic": true
+      }
+    },
+    {
+      "at": 8,
+      "step": "retrieve.done",
+      "data": {
+        "q": "Meet Ellie Edwards Propose the best meta title/description for the About page. UK English, brand-safe, clear and compelling. No fluff or fabricated claims. Improve current values while keeping intent and tone. Current title: About Ellie Edwards | Marketing Consultant. Current description: Meet Ellie Edwards, a marketing consultant helping small businesses grow with strategic, results‑driven marketing.. about seo",
+        "hits": [
+          {
+            "path": "content/testimonials/tom-green.md",
+            "title": "tom-green.md",
+            "score": 0.175149,
+            "count": 1
+          },
+          {
+            "path": "content/blog/marketing-strategy-small-business-guide.md",
+            "title": "How to Create a Marketing Strategy That Actually Works for Small Businesses",
+            "score": 0.123557,
+            "count": 1
+          },
+          {
+            "path": "content/testimonials/sarah-mitchell.md",
+            "title": "sarah-mitchell.md",
+            "score": 0.111261,
+            "count": 1
+          },
+          {
+            "path": "content/case-studies/sarah-mitchell-coaching.md",
+            "title": "Scaling a Personal Brand from Zero to Six Figures",
+            "score": 0.111171,
+            "count": 1
+          }
+        ],
+        "totalHits": 4,
+        "uniqueDocs": 4
+      }
+    },
+    {
+      "at": 8,
+      "step": "openai.request",
+      "data": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "variant": 1
+      }
+    },
+    {
+      "at": 3636,
+      "step": "openai.response",
+      "data": {
+        "keys": [
+          "seo"
+        ],
+        "variant": 1
+      }
+    },
+    {
+      "at": 3636,
+      "step": "qa.revise.request",
+      "data": {
+        "model": "gpt-4o-mini",
+        "variant": 1,
+        "iter": 1
+      }
+    },
+    {
+      "at": 6829,
+      "step": "qa.revise.response",
+      "data": {
+        "keys": [
+          "seo"
+        ],
+        "variant": 1,
+        "iter": 1
+      }
+    },
+    {
+      "at": 6829,
+      "step": "qa.revise.request",
+      "data": {
+        "model": "gpt-4o-mini",
+        "variant": 1,
+        "iter": 2
+      }
+    },
+    {
+      "at": 11049,
+      "step": "qa.revise.response",
+      "data": {
+        "keys": [
+          "seo"
+        ],
+        "variant": 1,
+        "iter": 2
+      }
+    },
+    {
+      "at": 11049,
+      "step": "variant.produced",
+      "data": {
+        "variant": 1,
+        "score": 1390,
+        "pass": true
+      }
+    },
+    {
+      "at": 11050,
+      "step": "openai.request",
+      "data": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "variant": 2
+      }
+    },
+    {
+      "at": 15231,
+      "step": "openai.response",
+      "data": {
+        "keys": [
+          "seo"
+        ],
+        "variant": 2
+      }
+    },
+    {
+      "at": 15231,
+      "step": "qa.revise.request",
+      "data": {
+        "model": "gpt-4o-mini",
+        "variant": 2,
+        "iter": 1
+      }
+    },
+    {
+      "at": 19775,
+      "step": "qa.revise.response",
+      "data": {
+        "keys": [
+          "seo"
+        ],
+        "variant": 2,
+        "iter": 1
+      }
+    },
+    {
+      "at": 19775,
+      "step": "qa.revise.request",
+      "data": {
+        "model": "gpt-4o-mini",
+        "variant": 2,
+        "iter": 2
+      }
+    },
+    {
+      "at": 22397,
+      "step": "qa.revise.response",
+      "data": {
+        "keys": [
+          "seo"
+        ],
+        "variant": 2,
+        "iter": 2
+      }
+    },
+    {
+      "at": 22397,
+      "step": "variant.produced",
+      "data": {
+        "variant": 2,
+        "score": 200,
+        "pass": false
+      }
+    },
+    {
+      "at": 22397,
+      "step": "variant.selected",
+      "data": {
+        "variant": 1,
+        "score": 1390,
+        "pass": true
+      }
+    }
+  ],
+  "settings": {
+    "siteUrl": "https://www.ellieedwardsmarketing.com",
+    "brandVoice": "Friendly, confident, practical. Avoid jargon. Focus on outcomes and clarity.",
+    "hasBusiness": true,
+    "hasSeo": true
+  },
+  "retrieval": {
+    "q": "Meet Ellie Edwards Propose the best meta title/description for the About page. UK English, brand-safe, clear and compelling. No fluff or fabricated claims. Improve current values while keeping intent and tone. Current title: About Ellie Edwards | Marketing Consultant. Current description: Meet Ellie Edwards, a marketing consultant helping small businesses grow with strategic, results‑driven marketing.. about seo",
+    "hits": [
+      {
+        "path": "content/testimonials/tom-green.md",
+        "title": "tom-green.md",
+        "score": 0.175149,
+        "count": 1
+      },
+      {
+        "path": "content/blog/marketing-strategy-small-business-guide.md",
+        "title": "How to Create a Marketing Strategy That Actually Works for Small Businesses",
+        "score": 0.123557,
+        "count": 1
+      },
+      {
+        "path": "content/testimonials/sarah-mitchell.md",
+        "title": "sarah-mitchell.md",
+        "score": 0.111261,
+        "count": 1
+      },
+      {
+        "path": "content/case-studies/sarah-mitchell-coaching.md",
+        "title": "Scaling a Personal Brand from Zero to Six Figures",
+        "score": 0.111171,
+        "count": 1
+      }
+    ],
+    "totalHits": 4,
+    "uniqueDocs": 4
+  },
+  "variants": [
+    {
+      "index": 1,
+      "score": 1390,
+      "compliance": {
+        "title": {
+          "pass": true,
+          "len": 53,
+          "min": 50,
+          "max": 60
+        },
+        "description": {
+          "pass": true,
+          "len": 155,
+          "min": 150,
+          "max": 160
+        },
+        "avoid": {
+          "pass": true,
+          "violations": []
+        },
+        "overallPass": true
+      },
+      "draftKeys": [
+        "seo"
+      ],
+      "finalPreview": "Meet Ellie Edwards | Your Expert Marketing Consultant | Ellie Edwards empowers small businesses with tailored marketing strategies that drive growth and foster strong customer connections. Let's thrive together!",
+      "iterations": [
+        {
+          "n": 0,
+          "compliance": {
+            "title": {
+              "pass": false,
+              "len": 46,
+              "min": 50,
+              "max": 60
+            },
+            "description": {
+              "pass": false,
+              "len": 118,
+              "min": 150,
+              "max": 160
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": false
+          },
+          "data": {
+            "metaTitle": "Meet Ellie Edwards | Your Marketing Consultant",
+            "metaDescription": "Discover how Ellie Edwards empowers small businesses with tailored marketing strategies that drive growth and results.",
+            "canonicalUrl": "/about",
+            "noIndex": false,
+            "keywords": [
+              "marketing consultant",
+              "small business marketing",
+              "lead generation"
+            ],
+            "openGraph": {
+              "ogTitle": "Meet Ellie Edwards | Your Marketing Consultant",
+              "ogDescription": "Find out how Ellie Edwards helps small businesses thrive through bespoke marketing strategies that deliver effective results.",
+              "ogImage": "/og-image.png"
+            }
+          }
+        },
+        {
+          "n": 1,
+          "compliance": {
+            "title": {
+              "pass": true,
+              "len": 53,
+              "min": 50,
+              "max": 60
+            },
+            "description": {
+              "pass": false,
+              "len": 132,
+              "min": 150,
+              "max": 160
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": false
+          },
+          "data": {
+            "metaTitle": "Meet Ellie Edwards | Your Expert Marketing Consultant",
+            "metaDescription": "Ellie Edwards empowers small businesses with tailored marketing strategies that foster growth and build strong customer connections.",
+            "canonicalUrl": "/about",
+            "noIndex": false,
+            "keywords": [
+              "marketing consultant",
+              "small business marketing",
+              "lead generation"
+            ],
+            "openGraph": {
+              "ogTitle": "Meet Ellie Edwards | Your Expert Marketing Consultant",
+              "ogDescription": "Discover how Ellie Edwards helps small businesses thrive with tailored marketing strategies that create lasting customer relationships.",
+              "ogImage": "/og-image.png"
+            }
+          }
+        },
+        {
+          "n": 2,
+          "compliance": {
+            "title": {
+              "pass": true,
+              "len": 53,
+              "min": 50,
+              "max": 60
+            },
+            "description": {
+              "pass": true,
+              "len": 155,
+              "min": 150,
+              "max": 160
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": true
+          },
+          "data": {
+            "metaTitle": "Meet Ellie Edwards | Your Expert Marketing Consultant",
+            "metaDescription": "Ellie Edwards empowers small businesses with tailored marketing strategies that drive growth and foster strong customer connections. Let's thrive together!",
+            "canonicalUrl": "/about",
+            "noIndex": false,
+            "keywords": [
+              "marketing consultant",
+              "small business marketing",
+              "lead generation"
+            ],
+            "openGraph": {
+              "ogTitle": "Meet Ellie Edwards | Your Expert Marketing Consultant",
+              "ogDescription": "Discover how Ellie Edwards helps small businesses thrive with tailored marketing strategies that create lasting customer relationships.",
+              "ogImage": "/og-image.png"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "score": 200,
+      "compliance": {
+        "title": {
+          "pass": true,
+          "len": 52,
+          "min": 50,
+          "max": 60
+        },
+        "description": {
+          "pass": false,
+          "len": 138,
+          "min": 150,
+          "max": 160
+        },
+        "avoid": {
+          "pass": true,
+          "violations": []
+        },
+        "overallPass": false
+      },
+      "draftKeys": [
+        "seo"
+      ],
+      "finalPreview": "Meet Ellie Edwards: Your Expert Marketing Consultant | Ellie Edwards empowers small businesses with tailored marketing strategies that boost lead generation and strengthen community engagement.",
+      "iterations": [
+        {
+          "n": 0,
+          "compliance": {
+            "title": {
+              "pass": true,
+              "len": 52,
+              "min": 50,
+              "max": 60
+            },
+            "description": {
+              "pass": false,
+              "len": 143,
+              "min": 150,
+              "max": 160
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": false
+          },
+          "data": {
+            "metaTitle": "Meet Ellie Edwards: Your Expert Marketing Consultant",
+            "metaDescription": "Discover how Ellie Edwards, a dedicated marketing consultant, empowers small businesses with tailored strategies for effective lead generation.",
+            "canonicalUrl": "/about",
+            "noIndex": false,
+            "keywords": [
+              "marketing consultant",
+              "small business marketing",
+              "lead generation"
+            ],
+            "openGraph": {
+              "ogTitle": "Meet Ellie Edwards: Your Marketing Consultant",
+              "ogDescription": "Explore how Ellie Edwards helps small businesses thrive with bespoke marketing strategies that drive results.",
+              "ogImage": "/og-image.png"
+            }
+          }
+        },
+        {
+          "n": 1,
+          "compliance": {
+            "title": {
+              "pass": true,
+              "len": 52,
+              "min": 50,
+              "max": 60
+            },
+            "description": {
+              "pass": false,
+              "len": 146,
+              "min": 150,
+              "max": 160
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": false
+          },
+          "data": {
+            "metaTitle": "Meet Ellie Edwards: Your Expert Marketing Consultant",
+            "metaDescription": "Learn how Ellie Edwards empowers small businesses with tailored marketing strategies that enhance lead generation and foster community engagement.",
+            "canonicalUrl": "/about",
+            "noIndex": false,
+            "keywords": [
+              "marketing consultant",
+              "small business marketing",
+              "lead generation"
+            ],
+            "openGraph": {
+              "ogTitle": "Meet Ellie Edwards: Your Marketing Consultant",
+              "ogDescription": "Discover how Ellie Edwards helps small businesses thrive with bespoke marketing strategies that drive meaningful results.",
+              "ogImage": "/og-image.png"
+            }
+          }
+        },
+        {
+          "n": 2,
+          "compliance": {
+            "title": {
+              "pass": true,
+              "len": 52,
+              "min": 50,
+              "max": 60
+            },
+            "description": {
+              "pass": false,
+              "len": 138,
+              "min": 150,
+              "max": 160
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": false
+          },
+          "data": {
+            "metaTitle": "Meet Ellie Edwards: Your Expert Marketing Consultant",
+            "metaDescription": "Ellie Edwards empowers small businesses with tailored marketing strategies that boost lead generation and strengthen community engagement.",
+            "canonicalUrl": "/about",
+            "noIndex": false,
+            "keywords": [
+              "marketing consultant",
+              "small business marketing",
+              "lead generation"
+            ],
+            "openGraph": {
+              "ogTitle": "Meet Ellie Edwards: Your Marketing Consultant",
+              "ogDescription": "Discover how Ellie Edwards helps small businesses thrive with bespoke marketing strategies that drive meaningful results.",
+              "ogImage": "/og-image.png"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "outputPreview": "Meet Ellie Edwards | Your Expert Marketing Consultant\nEllie Edwards empowers small businesses with tailored marketing strategies that drive growth and foster strong customer connections. Let's thrive together!"
+}

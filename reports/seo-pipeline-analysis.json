@@ -1,0 +1,3417 @@
+{
+  "timestamp": "2025-09-22T15:43:59.904Z",
+  "summary": {
+    "totalPages": 21,
+    "averageTinaCmsCompletion": 56,
+    "pagesUsingDefaults": 14,
+    "fullyMigrated": 7
+  },
+  "pageTypes": {
+    "home": {
+      "pages": [
+        {
+          "file": "content\\home.md",
+          "pageType": "home",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/home.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Expert Digital Marketing | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Transform your brand with smart marketing strategies. Local digital marketing expert serving Camberley, Surrey, Hampshire, Basingstoke & Reading areas.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/",
+              "sourceDetail": "content.seo.canonicalUrl",
+              "pipeline": "TinaCMS"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "digital marketing",
+                "marketing strategy",
+                "brand development",
+                "lead generation",
+                "personal branding",
+                "marketing consultant",
+                "entrepreneur marketing",
+                "conversion optimization",
+                "digital marketing Camberley",
+                "marketing consultant Surrey",
+                "digital marketing Hampshire",
+                "marketing services Basingstoke",
+                "digital marketing Reading",
+                "local marketing expert"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": false,
+              "sourceDetail": "content.seo.noIndex",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Ellie Edwards Marketing - Expert Digital Marketing for Entrepreneurs",
+              "sourceDetail": "content.seo.openGraph.ogTitle",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Transform your brand with smart marketing strategies. We help entrepreneurs and personal brands create compelling campaigns that convert visitors into loyal customers.",
+              "sourceDetail": "content.seo.openGraph.ogDescription",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogImage": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/og-image.png",
+              "sourceDetail": "content.seo.openGraph.ogImage",
+              "pipeline": "TinaCMS"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 8,
+            "usingDefaults": 0,
+            "missing": 0
+          },
+          "tinaCmsCompletion": 100
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/page.tsx",
+        "contentSource": "content/home.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {
+          "metaTitle": "Expert Digital Marketing Camberley Surrey | Ellie Edwards",
+          "metaDescription": "Transform your brand with smart marketing strategies. Local digital marketing expert serving Camberley, Surrey, Hampshire, Basingstoke & Reading areas.",
+          "openGraph.ogTitle": "Ellie Edwards Marketing - Expert Digital Marketing for Entrepreneurs",
+          "openGraph.ogDescription": "Transform your brand with smart marketing strategies. We help entrepreneurs and personal brands create compelling campaigns that convert visitors into loyal customers."
+        }
+      }
+    },
+    "about": {
+      "pages": [
+        {
+          "file": "content\\about.md",
+          "pageType": "about",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/about.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "About Ellie Edwards | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Ellie Edwards, your dedicated marketing consultant, empowers small businesses with tailored strategies that drive growth and foster community engagement.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/about",
+              "sourceDetail": "content.seo.canonicalUrl",
+              "pipeline": "TinaCMS"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "about Ellie Edwards",
+                "marketing consultant",
+                "small business marketing",
+                "strategic marketing"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": false,
+              "sourceDetail": "content.seo.noIndex",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "About Ellie Edwards | Marketing Consultant",
+              "sourceDetail": "content.seo.openGraph.ogTitle",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Marketing consultant helping small businesses grow with strategic, results‑driven marketing.",
+              "sourceDetail": "content.seo.openGraph.ogDescription",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogImage": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/og-image.png",
+              "sourceDetail": "content.seo.openGraph.ogImage",
+              "pipeline": "TinaCMS"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 8,
+            "usingDefaults": 0,
+            "missing": 0
+          },
+          "tinaCmsCompletion": 100
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/about/page.tsx",
+        "contentSource": "content/about.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {
+          "metaTitle": "About Ellie Edwards | Marketing Consultant",
+          "metaDescription": "Meet Ellie Edwards, a marketing consultant helping small businesses grow with strategic, results‑driven marketing."
+        }
+      }
+    },
+    "contact": {
+      "pages": [
+        {
+          "file": "content\\contact.md",
+          "pageType": "contact",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/contact.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Marketing Consultant | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Contact your local marketing consultant in Camberley. Serving Surrey, Hampshire, Basingstoke & Reading. Schedule your consultation today.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/contact",
+              "sourceDetail": "content.seo.canonicalUrl",
+              "pipeline": "TinaCMS"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "contact marketing consultant",
+                "marketing consultant Camberley",
+                "marketing consultant Surrey",
+                "digital marketing consultant contact",
+                "book marketing consultation",
+                "marketing strategy call",
+                "small business marketing help",
+                "growth marketing consultation",
+                "local marketing expert contact"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": false,
+              "sourceDetail": "content.seo.noIndex",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Contact Ellie Edwards | Marketing Consultant Camberley",
+              "sourceDetail": "content.seo.openGraph.ogTitle",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Contact your local marketing consultant in Camberley. Serving Surrey, Hampshire, Basingstoke & Reading areas.",
+              "sourceDetail": "content.seo.openGraph.ogDescription",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogImage": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/og-image.png",
+              "sourceDetail": "content.seo.openGraph.ogImage",
+              "pipeline": "TinaCMS"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 8,
+            "usingDefaults": 0,
+            "missing": 0
+          },
+          "tinaCmsCompletion": 100
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/contact/page.tsx",
+        "contentSource": "content/contact.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {}
+      }
+    },
+    "faq": {
+      "pages": [
+        {
+          "file": "content\\faq.md",
+          "pageType": "faq",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/faq.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Marketing Consultant FAQ | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Get answers to frequently asked questions about working with Ellie Edwards, your marketing consultant. Learn about services, pricing, process, and more.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/faq",
+              "sourceDetail": "content.seo.canonicalUrl",
+              "pipeline": "TinaCMS"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "marketing consultant faq",
+                "marketing services questions",
+                "digital marketing faq",
+                "seo services questions",
+                "content marketing faq",
+                "small business marketing faq",
+                "marketing process explanation",
+                "how marketing consulting works",
+                "marketing pricing questions"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": false,
+              "sourceDetail": "content.seo.noIndex",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Marketing Consultant FAQ",
+              "sourceDetail": "content.seo.openGraph.ogTitle",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Get answers to frequently asked questions about working with Ellie Edwards, your marketing consultant.",
+              "sourceDetail": "content.seo.openGraph.ogDescription",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogImage": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/og-image.png",
+              "sourceDetail": "content.seo.openGraph.ogImage",
+              "pipeline": "TinaCMS"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 8,
+            "usingDefaults": 0,
+            "missing": 0
+          },
+          "tinaCmsCompletion": 100
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/faq/page.tsx",
+        "contentSource": "content/faq.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {}
+      }
+    },
+    "services-listing": {
+      "pages": [
+        {
+          "file": "content\\services.md",
+          "pageType": "services-listing",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Digital Marketing Services | Expert Growth Solutions | Ellie Edwards",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Transform your business with comprehensive digital marketing services. SEO, PPC, content marketing, social media, and brand strategy from an expert consultant.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/services",
+              "sourceDetail": "content.seo.canonicalUrl",
+              "pipeline": "TinaCMS"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "digital marketing services",
+                "marketing consultant",
+                "SEO services",
+                "PPC management",
+                "content marketing",
+                "brand strategy",
+                "social media marketing",
+                "business growth"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": false,
+              "sourceDetail": "content.seo.noIndex",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Digital Marketing Services | Grow Your Business | Ellie Edwards",
+              "sourceDetail": "content.seo.openGraph.ogTitle",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Expert digital marketing services to transform your business. SEO, PPC, content strategy, and more. Get results that matter.",
+              "sourceDetail": "content.seo.openGraph.ogDescription",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogImage": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/images/services-hero.jpg",
+              "sourceDetail": "content.seo.openGraph.ogImage",
+              "pipeline": "TinaCMS"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 8,
+            "usingDefaults": 0,
+            "missing": 0
+          },
+          "tinaCmsCompletion": 100
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/services/page.tsx",
+        "contentSource": "content/services.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {
+          "metaTitle": "Digital Marketing Services | Ellie Edwards Marketing",
+          "metaDescription": "Comprehensive digital marketing services to grow your business. SEO, PPC, content marketing, social media, and more."
+        }
+      }
+    },
+    "blog-listing": {
+      "pages": [
+        {
+          "file": "content\\blog.md",
+          "pageType": "blog-listing",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/blog.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Marketing Blog | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Discover expert marketing tips and insights. Learn digital marketing, SEO, content marketing, and lead generation from a seasoned consultant.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/blog",
+              "sourceDetail": "content.seo.canonicalUrl",
+              "pipeline": "TinaCMS"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "marketing blog",
+                "digital marketing tips",
+                "seo insights",
+                "content marketing strategies",
+                "small business marketing advice",
+                "lead generation tips",
+                "email marketing best practices",
+                "ppc optimization",
+                "social media strategy",
+                "brand strategy insights",
+                "marketing consultant blog",
+                "marketing case studies",
+                "growth marketing tactics"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": false,
+              "sourceDetail": "content.seo.noIndex",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Marketing Blog | Expert Tips & Insights",
+              "sourceDetail": "content.seo.openGraph.ogTitle",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Discover expert marketing tips, strategies, and insights from a professional marketing consultant.",
+              "sourceDetail": "content.seo.openGraph.ogDescription",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogImage": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/og-image.png",
+              "sourceDetail": "content.seo.openGraph.ogImage",
+              "pipeline": "TinaCMS"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 8,
+            "usingDefaults": 0,
+            "missing": 0
+          },
+          "tinaCmsCompletion": 100
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/blog/page.tsx",
+        "contentSource": "content/blog.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {}
+      }
+    },
+    "case-studies-listing": {
+      "pages": [
+        {
+          "file": "content\\case-studies.md",
+          "pageType": "case-studies-listing",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/case-studies.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Case Studies & Client Success | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Explore detailed marketing case studies and client success stories. See real results from strategic marketing campaigns and business growth solutions.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/case-studies",
+              "sourceDetail": "content.seo.canonicalUrl",
+              "pipeline": "TinaCMS"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "marketing case studies",
+                "client success stories",
+                "digital marketing results",
+                "seo case studies",
+                "content marketing case studies",
+                "ppc case studies",
+                "lead generation results",
+                "small business marketing success",
+                "marketing campaign examples",
+                "growth marketing case studies"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": false,
+              "sourceDetail": "content.seo.noIndex",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Case Studies & Client Success",
+              "sourceDetail": "content.seo.openGraph.ogTitle",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Explore detailed marketing case studies and client success stories. See real results from strategic marketing campaigns.",
+              "sourceDetail": "content.seo.openGraph.ogDescription",
+              "pipeline": "TinaCMS"
+            },
+            "openGraph.ogImage": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/og-image.png",
+              "sourceDetail": "content.seo.openGraph.ogImage",
+              "pipeline": "TinaCMS"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 8,
+            "usingDefaults": 0,
+            "missing": 0
+          },
+          "tinaCmsCompletion": 100
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/case-studies/page.tsx",
+        "contentSource": "content/case-studies.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {}
+      }
+    },
+    "service-pages": {
+      "pages": [
+        {
+          "file": "content\\services\\brand-strategy.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Brand Strategy | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "brand strategy",
+                "brand identity",
+                "brand positioning",
+                "visual identity",
+                "brand messaging",
+                "brand guidelines"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 3,
+            "usingDefaults": 2,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 38
+        },
+        {
+          "file": "content\\services\\content-marketing.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Content Marketing | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${service.description}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "content marketing",
+                "blog writing",
+                "content strategy",
+                "copywriting",
+                "social content",
+                "content creation"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 2,
+            "usingDefaults": 3,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 25
+        },
+        {
+          "file": "content\\services\\digital-campaigns.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Digital Campaigns | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Integrated digital campaigns for Mytchett and Camberley SMEs. Multi-channel strategy that drives leads and measurable ROI.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "digital marketing campaigns",
+                "integrated marketing",
+                "multi-channel campaigns",
+                "campaign management",
+                "digital strategy",
+                "marketing automation"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 3,
+            "usingDefaults": 2,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 38
+        },
+        {
+          "file": "content\\services\\email-marketing.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Email Marketing | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Strategic email campaigns and automations for Mytchett and Camberley small businesses. Build relationships and drive revenue.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "email marketing",
+                "email campaigns",
+                "newsletters",
+                "automation",
+                "email sequences"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 3,
+            "usingDefaults": 2,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 38
+        },
+        {
+          "file": "content\\services\\lead-generation.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Lead Generation | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${service.description}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "lead generation",
+                "lead capture",
+                "lead qualification",
+                "sales funnels",
+                "conversion optimization",
+                "customer acquisition"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 2,
+            "usingDefaults": 3,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 25
+        },
+        {
+          "file": "content\\services\\ppc.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "PPC Advertising | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "High-ROI Google, Facebook, and Instagram ads for Mytchett and Camberley businesses. Drive qualified traffic and conversions fast.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "PPC advertising",
+                "Google Ads",
+                "Facebook Ads",
+                "pay-per-click",
+                "paid advertising",
+                "ad management"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 3,
+            "usingDefaults": 2,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 38
+        },
+        {
+          "file": "content\\services\\seo.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "SEO | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Local and technical SEO for businesses in Mytchett and Camberley. Rank higher on Google and drive more qualified leads.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "SEO",
+                "search engine optimization",
+                "keyword research",
+                "technical SEO",
+                "content optimization",
+                "local SEO"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 3,
+            "usingDefaults": 2,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 38
+        },
+        {
+          "file": "content\\services\\social-media.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Social Media Management | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Strategy, content, and community management for Mytchett and Camberley businesses. Build reach, engagement, and growth.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "social media management",
+                "social media marketing",
+                "content creation",
+                "community management",
+                "social media strategy",
+                "Instagram marketing"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 3,
+            "usingDefaults": 2,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 38
+        },
+        {
+          "file": "content\\services\\website-design.md",
+          "pageType": "service-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/services/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Website Design | Mytchett, Camberley, Surrey",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${service.description}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": [
+                "website design",
+                "web development",
+                "responsive design",
+                "UX/UI design",
+                "landing pages",
+                "website optimization"
+              ],
+              "sourceDetail": "content.seo.keywords",
+              "pipeline": "TinaCMS"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaTitle}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${metaDescription}",
+              "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+              "pipeline": "Smart Defaults"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 2,
+            "usingDefaults": 3,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 25
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/services/[slug]/page.tsx",
+        "contentSource": "content/services/*.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {
+          "metaTitle": "${service.title} Services | Ellie Edwards Marketing",
+          "metaDescription": "${service.description}",
+          "openGraph.ogTitle": "${metaTitle}",
+          "openGraph.ogDescription": "${metaDescription}"
+        }
+      }
+    },
+    "blog-posts": {
+      "pages": [
+        {
+          "file": "content\\blog\\content-marketing-vs-social-media-strategy.md",
+          "pageType": "blog-posts",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/blog/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Content vs Social Media: What Should You Prioritize?",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Compare content marketing and social media strategies. Learn which approach delivers better ROI and fits your business goals in this detailed analysis.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "content",
+              "value": [
+                "content marketing vs social media",
+                "which marketing strategy is better",
+                "content marketing ROI",
+                "social media marketing effectiveness",
+                "digital marketing strategy"
+              ],
+              "sourceDetail": "content.keywords",
+              "pipeline": "Content Field"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${post.socialShare?.title || post.title}",
+              "sourceDetail": "src/app/blog/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${post.socialShare?.description || post.excerpt}",
+              "sourceDetail": "src/app/blog/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 3,
+            "usingDefaults": 2,
+            "missing": 3
+          },
+          "tinaCmsCompletion": 38
+        },
+        {
+          "file": "content\\blog\\marketing-strategy-small-business-guide.md",
+          "pageType": "blog-posts",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/blog/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Small Business Marketing Strategy: A 6-Step Guide",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Build a small business marketing strategy that works with a 6‑step framework covering research, channel mix, and ROI tracking.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "/blog/marketing-strategy-small-business-guide",
+              "sourceDetail": "content.seo.canonicalUrl",
+              "pipeline": "TinaCMS"
+            },
+            "keywords": {
+              "status": "HAS_VALUE",
+              "source": "content",
+              "value": [
+                "marketing strategy for small business",
+                "how to create marketing plan",
+                "small business marketing tips",
+                "digital marketing strategy",
+                "marketing consultant advice"
+              ],
+              "sourceDetail": "content.keywords",
+              "pipeline": "Content Field"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${post.socialShare?.title || post.title}",
+              "sourceDetail": "src/app/blog/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${post.socialShare?.description || post.excerpt}",
+              "sourceDetail": "src/app/blog/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 4,
+            "usingDefaults": 2,
+            "missing": 2
+          },
+          "tinaCmsCompletion": 50
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/blog/[slug]/page.tsx",
+        "contentSource": "content/blog/*.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {
+          "metaTitle": "${post.title} | Ellie Edwards Marketing",
+          "metaDescription": "${post.excerpt}",
+          "openGraph.ogTitle": "${post.socialShare?.title || post.title}",
+          "openGraph.ogDescription": "${post.socialShare?.description || post.excerpt}"
+        }
+      }
+    },
+    "case-study-pages": {
+      "pages": [
+        {
+          "file": "content\\case-studies\\bella-vista-restaurant.md",
+          "pageType": "case-study-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/case-studies/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Restaurant Growth with Digital Marketing",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "Bella Vista lifted bookings and retention with local SEO, social content, reviews, and email—moving from slow nights to steady reservations.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${caseStudy.title} | Case Study",
+              "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${caseStudy.challenge} See how we helped ${caseStudy.client} transform their business.",
+              "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 2,
+            "usingDefaults": 2,
+            "missing": 4
+          },
+          "tinaCmsCompletion": 25
+        },
+        {
+          "file": "content\\case-studies\\ecohome-solutions.md",
+          "pageType": "case-study-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/case-studies/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "EcoHome Solutions: E‑commerce Growth Case Study",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "How EcoHome grew online sales on a lean budget: refined positioning, efficient paid search, and CRO that lifted conversion without extra spend.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${caseStudy.title} | Case Study",
+              "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${caseStudy.challenge} See how we helped ${caseStudy.client} transform their business.",
+              "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 2,
+            "usingDefaults": 2,
+            "missing": 4
+          },
+          "tinaCmsCompletion": 25
+        },
+        {
+          "file": "content\\case-studies\\sarah-mitchell-coaching.md",
+          "pageType": "case-study-pages",
+          "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+          "contentSource": "content/case-studies/*.md (via TinaCMS)",
+          "fields": {
+            "metaTitle": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "From Zero to Booked: A Personal Brand Playbook",
+              "sourceDetail": "content.seo.metaTitle",
+              "pipeline": "TinaCMS"
+            },
+            "metaDescription": {
+              "status": "HAS_VALUE",
+              "source": "seo",
+              "value": "In a crowded coaching market, Sarah built authority, leads, and revenue with content, lead magnets, and email. See the system and results.",
+              "sourceDetail": "content.seo.metaDescription",
+              "pipeline": "TinaCMS"
+            },
+            "canonicalUrl": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "keywords": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "noIndex": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            },
+            "openGraph.ogTitle": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${caseStudy.title} | Case Study",
+              "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogDescription": {
+              "status": "USING_DEFAULT",
+              "source": "hardcoded",
+              "value": "${caseStudy.challenge} See how we helped ${caseStudy.client} transform their business.",
+              "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+              "pipeline": "Inline Function"
+            },
+            "openGraph.ogImage": {
+              "status": "MISSING",
+              "source": null,
+              "value": null,
+              "sourceDetail": "No fallback defined",
+              "pipeline": "Missing Logic"
+            }
+          },
+          "summary": {
+            "totalFields": 8,
+            "hasValue": 2,
+            "usingDefaults": 2,
+            "missing": 4
+          },
+          "tinaCmsCompletion": 25
+        }
+      ],
+      "pipeline": {
+        "path": "/src/app/case-studies/[slug]/page.tsx",
+        "contentSource": "content/case-studies/*.md (via TinaCMS)",
+        "metadataFunction": "buildMetadataFromSeo() - STANDARDIZED",
+        "defaults": {
+          "metaTitle": "${caseStudy.title} | Case Study | Ellie Edwards Marketing",
+          "metaDescription": "${caseStudy.challenge} Learn how we helped ${caseStudy.client} achieve remarkable results through strategic digital marketing.",
+          "openGraph.ogTitle": "${caseStudy.title} | Case Study",
+          "openGraph.ogDescription": "${caseStudy.challenge} See how we helped ${caseStudy.client} transform their business."
+        }
+      }
+    }
+  },
+  "pages": [
+    {
+      "file": "content\\home.md",
+      "pageType": "home",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/home.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Expert Digital Marketing | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Transform your brand with smart marketing strategies. Local digital marketing expert serving Camberley, Surrey, Hampshire, Basingstoke & Reading areas.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/",
+          "sourceDetail": "content.seo.canonicalUrl",
+          "pipeline": "TinaCMS"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "digital marketing",
+            "marketing strategy",
+            "brand development",
+            "lead generation",
+            "personal branding",
+            "marketing consultant",
+            "entrepreneur marketing",
+            "conversion optimization",
+            "digital marketing Camberley",
+            "marketing consultant Surrey",
+            "digital marketing Hampshire",
+            "marketing services Basingstoke",
+            "digital marketing Reading",
+            "local marketing expert"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": false,
+          "sourceDetail": "content.seo.noIndex",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Ellie Edwards Marketing - Expert Digital Marketing for Entrepreneurs",
+          "sourceDetail": "content.seo.openGraph.ogTitle",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Transform your brand with smart marketing strategies. We help entrepreneurs and personal brands create compelling campaigns that convert visitors into loyal customers.",
+          "sourceDetail": "content.seo.openGraph.ogDescription",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogImage": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/og-image.png",
+          "sourceDetail": "content.seo.openGraph.ogImage",
+          "pipeline": "TinaCMS"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 8,
+        "usingDefaults": 0,
+        "missing": 0
+      },
+      "tinaCmsCompletion": 100
+    },
+    {
+      "file": "content\\about.md",
+      "pageType": "about",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/about.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "About Ellie Edwards | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Ellie Edwards, your dedicated marketing consultant, empowers small businesses with tailored strategies that drive growth and foster community engagement.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/about",
+          "sourceDetail": "content.seo.canonicalUrl",
+          "pipeline": "TinaCMS"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "about Ellie Edwards",
+            "marketing consultant",
+            "small business marketing",
+            "strategic marketing"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": false,
+          "sourceDetail": "content.seo.noIndex",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "About Ellie Edwards | Marketing Consultant",
+          "sourceDetail": "content.seo.openGraph.ogTitle",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Marketing consultant helping small businesses grow with strategic, results‑driven marketing.",
+          "sourceDetail": "content.seo.openGraph.ogDescription",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogImage": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/og-image.png",
+          "sourceDetail": "content.seo.openGraph.ogImage",
+          "pipeline": "TinaCMS"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 8,
+        "usingDefaults": 0,
+        "missing": 0
+      },
+      "tinaCmsCompletion": 100
+    },
+    {
+      "file": "content\\contact.md",
+      "pageType": "contact",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/contact.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Marketing Consultant | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Contact your local marketing consultant in Camberley. Serving Surrey, Hampshire, Basingstoke & Reading. Schedule your consultation today.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/contact",
+          "sourceDetail": "content.seo.canonicalUrl",
+          "pipeline": "TinaCMS"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "contact marketing consultant",
+            "marketing consultant Camberley",
+            "marketing consultant Surrey",
+            "digital marketing consultant contact",
+            "book marketing consultation",
+            "marketing strategy call",
+            "small business marketing help",
+            "growth marketing consultation",
+            "local marketing expert contact"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": false,
+          "sourceDetail": "content.seo.noIndex",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Contact Ellie Edwards | Marketing Consultant Camberley",
+          "sourceDetail": "content.seo.openGraph.ogTitle",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Contact your local marketing consultant in Camberley. Serving Surrey, Hampshire, Basingstoke & Reading areas.",
+          "sourceDetail": "content.seo.openGraph.ogDescription",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogImage": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/og-image.png",
+          "sourceDetail": "content.seo.openGraph.ogImage",
+          "pipeline": "TinaCMS"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 8,
+        "usingDefaults": 0,
+        "missing": 0
+      },
+      "tinaCmsCompletion": 100
+    },
+    {
+      "file": "content\\faq.md",
+      "pageType": "faq",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/faq.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Marketing Consultant FAQ | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Get answers to frequently asked questions about working with Ellie Edwards, your marketing consultant. Learn about services, pricing, process, and more.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/faq",
+          "sourceDetail": "content.seo.canonicalUrl",
+          "pipeline": "TinaCMS"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "marketing consultant faq",
+            "marketing services questions",
+            "digital marketing faq",
+            "seo services questions",
+            "content marketing faq",
+            "small business marketing faq",
+            "marketing process explanation",
+            "how marketing consulting works",
+            "marketing pricing questions"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": false,
+          "sourceDetail": "content.seo.noIndex",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Marketing Consultant FAQ",
+          "sourceDetail": "content.seo.openGraph.ogTitle",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Get answers to frequently asked questions about working with Ellie Edwards, your marketing consultant.",
+          "sourceDetail": "content.seo.openGraph.ogDescription",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogImage": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/og-image.png",
+          "sourceDetail": "content.seo.openGraph.ogImage",
+          "pipeline": "TinaCMS"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 8,
+        "usingDefaults": 0,
+        "missing": 0
+      },
+      "tinaCmsCompletion": 100
+    },
+    {
+      "file": "content\\services.md",
+      "pageType": "services-listing",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Digital Marketing Services | Expert Growth Solutions | Ellie Edwards",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Transform your business with comprehensive digital marketing services. SEO, PPC, content marketing, social media, and brand strategy from an expert consultant.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/services",
+          "sourceDetail": "content.seo.canonicalUrl",
+          "pipeline": "TinaCMS"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "digital marketing services",
+            "marketing consultant",
+            "SEO services",
+            "PPC management",
+            "content marketing",
+            "brand strategy",
+            "social media marketing",
+            "business growth"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": false,
+          "sourceDetail": "content.seo.noIndex",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Digital Marketing Services | Grow Your Business | Ellie Edwards",
+          "sourceDetail": "content.seo.openGraph.ogTitle",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Expert digital marketing services to transform your business. SEO, PPC, content strategy, and more. Get results that matter.",
+          "sourceDetail": "content.seo.openGraph.ogDescription",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogImage": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/images/services-hero.jpg",
+          "sourceDetail": "content.seo.openGraph.ogImage",
+          "pipeline": "TinaCMS"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 8,
+        "usingDefaults": 0,
+        "missing": 0
+      },
+      "tinaCmsCompletion": 100
+    },
+    {
+      "file": "content\\blog.md",
+      "pageType": "blog-listing",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/blog.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Marketing Blog | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Discover expert marketing tips and insights. Learn digital marketing, SEO, content marketing, and lead generation from a seasoned consultant.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/blog",
+          "sourceDetail": "content.seo.canonicalUrl",
+          "pipeline": "TinaCMS"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "marketing blog",
+            "digital marketing tips",
+            "seo insights",
+            "content marketing strategies",
+            "small business marketing advice",
+            "lead generation tips",
+            "email marketing best practices",
+            "ppc optimization",
+            "social media strategy",
+            "brand strategy insights",
+            "marketing consultant blog",
+            "marketing case studies",
+            "growth marketing tactics"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": false,
+          "sourceDetail": "content.seo.noIndex",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Marketing Blog | Expert Tips & Insights",
+          "sourceDetail": "content.seo.openGraph.ogTitle",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Discover expert marketing tips, strategies, and insights from a professional marketing consultant.",
+          "sourceDetail": "content.seo.openGraph.ogDescription",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogImage": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/og-image.png",
+          "sourceDetail": "content.seo.openGraph.ogImage",
+          "pipeline": "TinaCMS"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 8,
+        "usingDefaults": 0,
+        "missing": 0
+      },
+      "tinaCmsCompletion": 100
+    },
+    {
+      "file": "content\\case-studies.md",
+      "pageType": "case-studies-listing",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/case-studies.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Case Studies & Client Success | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Explore detailed marketing case studies and client success stories. See real results from strategic marketing campaigns and business growth solutions.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/case-studies",
+          "sourceDetail": "content.seo.canonicalUrl",
+          "pipeline": "TinaCMS"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "marketing case studies",
+            "client success stories",
+            "digital marketing results",
+            "seo case studies",
+            "content marketing case studies",
+            "ppc case studies",
+            "lead generation results",
+            "small business marketing success",
+            "marketing campaign examples",
+            "growth marketing case studies"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": false,
+          "sourceDetail": "content.seo.noIndex",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Case Studies & Client Success",
+          "sourceDetail": "content.seo.openGraph.ogTitle",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Explore detailed marketing case studies and client success stories. See real results from strategic marketing campaigns.",
+          "sourceDetail": "content.seo.openGraph.ogDescription",
+          "pipeline": "TinaCMS"
+        },
+        "openGraph.ogImage": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/og-image.png",
+          "sourceDetail": "content.seo.openGraph.ogImage",
+          "pipeline": "TinaCMS"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 8,
+        "usingDefaults": 0,
+        "missing": 0
+      },
+      "tinaCmsCompletion": 100
+    },
+    {
+      "file": "content\\services\\brand-strategy.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Brand Strategy | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "brand strategy",
+            "brand identity",
+            "brand positioning",
+            "visual identity",
+            "brand messaging",
+            "brand guidelines"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 3,
+        "usingDefaults": 2,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 38
+    },
+    {
+      "file": "content\\services\\content-marketing.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Content Marketing | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${service.description}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "content marketing",
+            "blog writing",
+            "content strategy",
+            "copywriting",
+            "social content",
+            "content creation"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 2,
+        "usingDefaults": 3,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 25
+    },
+    {
+      "file": "content\\services\\digital-campaigns.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Digital Campaigns | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Integrated digital campaigns for Mytchett and Camberley SMEs. Multi-channel strategy that drives leads and measurable ROI.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "digital marketing campaigns",
+            "integrated marketing",
+            "multi-channel campaigns",
+            "campaign management",
+            "digital strategy",
+            "marketing automation"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 3,
+        "usingDefaults": 2,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 38
+    },
+    {
+      "file": "content\\services\\email-marketing.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Email Marketing | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Strategic email campaigns and automations for Mytchett and Camberley small businesses. Build relationships and drive revenue.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "email marketing",
+            "email campaigns",
+            "newsletters",
+            "automation",
+            "email sequences"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 3,
+        "usingDefaults": 2,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 38
+    },
+    {
+      "file": "content\\services\\lead-generation.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Lead Generation | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${service.description}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "lead generation",
+            "lead capture",
+            "lead qualification",
+            "sales funnels",
+            "conversion optimization",
+            "customer acquisition"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 2,
+        "usingDefaults": 3,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 25
+    },
+    {
+      "file": "content\\services\\ppc.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "PPC Advertising | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "High-ROI Google, Facebook, and Instagram ads for Mytchett and Camberley businesses. Drive qualified traffic and conversions fast.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "PPC advertising",
+            "Google Ads",
+            "Facebook Ads",
+            "pay-per-click",
+            "paid advertising",
+            "ad management"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 3,
+        "usingDefaults": 2,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 38
+    },
+    {
+      "file": "content\\services\\seo.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "SEO | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Local and technical SEO for businesses in Mytchett and Camberley. Rank higher on Google and drive more qualified leads.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "SEO",
+            "search engine optimization",
+            "keyword research",
+            "technical SEO",
+            "content optimization",
+            "local SEO"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 3,
+        "usingDefaults": 2,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 38
+    },
+    {
+      "file": "content\\services\\social-media.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Social Media Management | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Strategy, content, and community management for Mytchett and Camberley businesses. Build reach, engagement, and growth.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "social media management",
+            "social media marketing",
+            "content creation",
+            "community management",
+            "social media strategy",
+            "Instagram marketing"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 3,
+        "usingDefaults": 2,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 38
+    },
+    {
+      "file": "content\\services\\website-design.md",
+      "pageType": "service-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/services/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Website Design | Mytchett, Camberley, Surrey",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${service.description}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": [
+            "website design",
+            "web development",
+            "responsive design",
+            "UX/UI design",
+            "landing pages",
+            "website optimization"
+          ],
+          "sourceDetail": "content.seo.keywords",
+          "pipeline": "TinaCMS"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaTitle}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${metaDescription}",
+          "sourceDetail": "src/lib/metadata.ts generateServiceMetadata()",
+          "pipeline": "Smart Defaults"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 2,
+        "usingDefaults": 3,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 25
+    },
+    {
+      "file": "content\\blog\\content-marketing-vs-social-media-strategy.md",
+      "pageType": "blog-posts",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/blog/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Content vs Social Media: What Should You Prioritize?",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Compare content marketing and social media strategies. Learn which approach delivers better ROI and fits your business goals in this detailed analysis.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "content",
+          "value": [
+            "content marketing vs social media",
+            "which marketing strategy is better",
+            "content marketing ROI",
+            "social media marketing effectiveness",
+            "digital marketing strategy"
+          ],
+          "sourceDetail": "content.keywords",
+          "pipeline": "Content Field"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${post.socialShare?.title || post.title}",
+          "sourceDetail": "src/app/blog/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${post.socialShare?.description || post.excerpt}",
+          "sourceDetail": "src/app/blog/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 3,
+        "usingDefaults": 2,
+        "missing": 3
+      },
+      "tinaCmsCompletion": 38
+    },
+    {
+      "file": "content\\blog\\marketing-strategy-small-business-guide.md",
+      "pageType": "blog-posts",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/blog/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Small Business Marketing Strategy: A 6-Step Guide",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Build a small business marketing strategy that works with a 6‑step framework covering research, channel mix, and ROI tracking.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "/blog/marketing-strategy-small-business-guide",
+          "sourceDetail": "content.seo.canonicalUrl",
+          "pipeline": "TinaCMS"
+        },
+        "keywords": {
+          "status": "HAS_VALUE",
+          "source": "content",
+          "value": [
+            "marketing strategy for small business",
+            "how to create marketing plan",
+            "small business marketing tips",
+            "digital marketing strategy",
+            "marketing consultant advice"
+          ],
+          "sourceDetail": "content.keywords",
+          "pipeline": "Content Field"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${post.socialShare?.title || post.title}",
+          "sourceDetail": "src/app/blog/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${post.socialShare?.description || post.excerpt}",
+          "sourceDetail": "src/app/blog/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 4,
+        "usingDefaults": 2,
+        "missing": 2
+      },
+      "tinaCmsCompletion": 50
+    },
+    {
+      "file": "content\\case-studies\\bella-vista-restaurant.md",
+      "pageType": "case-study-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/case-studies/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Restaurant Growth with Digital Marketing",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "Bella Vista lifted bookings and retention with local SEO, social content, reviews, and email—moving from slow nights to steady reservations.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${caseStudy.title} | Case Study",
+          "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${caseStudy.challenge} See how we helped ${caseStudy.client} transform their business.",
+          "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 2,
+        "usingDefaults": 2,
+        "missing": 4
+      },
+      "tinaCmsCompletion": 25
+    },
+    {
+      "file": "content\\case-studies\\ecohome-solutions.md",
+      "pageType": "case-study-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/case-studies/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "EcoHome Solutions: E‑commerce Growth Case Study",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "How EcoHome grew online sales on a lean budget: refined positioning, efficient paid search, and CRO that lifted conversion without extra spend.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${caseStudy.title} | Case Study",
+          "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${caseStudy.challenge} See how we helped ${caseStudy.client} transform their business.",
+          "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 2,
+        "usingDefaults": 2,
+        "missing": 4
+      },
+      "tinaCmsCompletion": 25
+    },
+    {
+      "file": "content\\case-studies\\sarah-mitchell-coaching.md",
+      "pageType": "case-study-pages",
+      "pipeline": "buildMetadataFromSeo() - STANDARDIZED",
+      "contentSource": "content/case-studies/*.md (via TinaCMS)",
+      "fields": {
+        "metaTitle": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "From Zero to Booked: A Personal Brand Playbook",
+          "sourceDetail": "content.seo.metaTitle",
+          "pipeline": "TinaCMS"
+        },
+        "metaDescription": {
+          "status": "HAS_VALUE",
+          "source": "seo",
+          "value": "In a crowded coaching market, Sarah built authority, leads, and revenue with content, lead magnets, and email. See the system and results.",
+          "sourceDetail": "content.seo.metaDescription",
+          "pipeline": "TinaCMS"
+        },
+        "canonicalUrl": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "keywords": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "noIndex": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        },
+        "openGraph.ogTitle": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${caseStudy.title} | Case Study",
+          "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogDescription": {
+          "status": "USING_DEFAULT",
+          "source": "hardcoded",
+          "value": "${caseStudy.challenge} See how we helped ${caseStudy.client} transform their business.",
+          "sourceDetail": "src/app/case-studies/[slug]/page.tsx generateMetadata()",
+          "pipeline": "Inline Function"
+        },
+        "openGraph.ogImage": {
+          "status": "MISSING",
+          "source": null,
+          "value": null,
+          "sourceDetail": "No fallback defined",
+          "pipeline": "Missing Logic"
+        }
+      },
+      "summary": {
+        "totalFields": 8,
+        "hasValue": 2,
+        "usingDefaults": 2,
+        "missing": 4
+      },
+      "tinaCmsCompletion": 25
+    }
+  ]
+}

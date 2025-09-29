@@ -1,0 +1,17 @@
+{
+  "page": "/case-studies/bella-vista-restaurant",
+  "source": "content/case-studies/bella-vista-restaurant.md",
+  "locale": "Manchester, UK",
+  "seeds": [
+    "restaurant digital marketing case study",
+    "local seo restaurant",
+    "social media strategy restaurant",
+    "email marketing restaurant",
+    "italian restaurant marketing",
+    "google business profile optimization restaurant",
+    "increase restaurant reservations"
+  ],
+  "prefix_modifiers": ["real", "successful", "best"],
+  "suffix_modifiers": ["uk", "manchester", "results", "before and after"],
+  "notes": "Informational/navigational hybrid — target discovery and showcase for restaurant marketing results."
+}

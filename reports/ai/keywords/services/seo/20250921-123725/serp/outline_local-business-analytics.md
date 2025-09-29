@@ -1,0 +1,93 @@
+# Content blueprint for: local business analytics
+
+## User intent
+- Local service intent; target small/local businesses
+
+## Key sections (based on competitors)
+- Data analytics for small business - is there a popular open source or low cost solution
+- Related Answers Section
+- Top Posts
+- Small Business Data Analytics: A Game-Changer in Today’s Market.
+- What is Data Analytics?
+- Do Small Businesses Have Enough Data?
+- Key Data Sources for Small Businesses
+- Challenges and Solutions for Small Businesses
+- Implementing Small Business Data Analytics
+- Consolidating Data with Business Analytics Software
+- Next Steps
+- Related Posts
+- Business Analytics Consulting for Small Businesses
+- Power Bi Consulting
+- Retail
+- eCommerce
+- Beauty
+- Business Intelligence Consulting
+- Data Analytics Consulting
+- Data Warehouse Consulting
+- Database Management Consulting
+- Predictive Analytics Consulting
+- Business Intelligence Expert Services
+- Power Bi Mentoring
+- Management Information Health Check
+- Power Bi
+- Tableau
+- Looker Studio Consulting Services
+- Google Data Studio
+- Data Warehouse
+- SQL Server
+- Google BigQuery
+- Snowflake Data Cloud
+- Azure Data Factory
+- SQL Server Integration Services (SSIS)
+- Talend
+- Accounting
+- Facilities Management
+- Fashion
+- Food & Drink
+- Marketing
+- Manafacturing
+- Small Business
+- Supply Chain
+- Telecoms
+- Transportation
+- Utilities
+- Wholesale
+- About Us
+- About - Simon Harrison
+- About - David Laws
+- Our Work - Case Studies
+- Revolutionising Business Intelligence
+- Power Bi Security Case Studies
+- Social Care Power Bi Coaching
+- Improved business performance and understanding
+- Confident decision-making from reliable data
+- Contact Us
+- Leave A Message
+- Google Analytics
+- Analytics for beginners and small businesses
+- Step 1: Set up Google Analytics
+- Step 2: Access your reports
+- Step 3: Manage user access
+- Step 4: Enhance your advertising
+- Small-Business Data Analytics: Everything You Need to Know
+- Key Benefits of Data Analytics for Small Businesses
+- Types of Data Small Businesses Should Track
+- Steps to Get Started With Data Analytics
+- Affordable Tools for Small-Business Analytics
+- Customer Behavior Analytics for Better Marketing
+- Sales and Financial Analytics
+- Operational Analytics for Efficiency
+- Data Visualization Techniques for Small Businesses
+- Data-Driven Decision-Making
+- Challenges Small Businesses Face in Data Analytics
+- Strategies for Overcoming These Challenges
+- Future Trends in Small Business Data Analytics
+- How Small Businesses Can Stay Competitive by Adopting These Trends
+- Learn How to Turn Data Into Opportunities
+
+## Local signals
+- Add service area (Surrey/Camberley/Mytchett) and NAP details
+- Include FAQs addressing local pain points
+
+## Conversion elements
+- Prominent CTA, trust signals, case studies

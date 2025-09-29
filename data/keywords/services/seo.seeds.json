@@ -1,0 +1,34 @@
+{
+  "page": "/services/seo",
+  "source": "content/services/seo.md",
+  "locale": "Surrey, Camberley, Mytchett",
+  "seeds": [
+    "seo services",
+    "local seo",
+    "technical seo",
+    "keyword research",
+    "content optimization",
+    "link building",
+    "seo audit",
+    "seo consulting",
+    "seo agency",
+    "small business seo"
+  ],
+  "prefix_modifiers": [
+    "best",
+    "affordable",
+    "enterprise",
+    "local"
+  ],
+  "suffix_modifiers": [
+    "surrey",
+    "camberley",
+    "mytchett",
+    "pricing",
+    "packages",
+    "near me",
+    "guide",
+    "checklist"
+  ],
+  "notes": "Derived from service features and frontmatter; localized modifiers reflect target service area."
+}

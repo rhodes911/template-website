@@ -1,0 +1,109 @@
+{
+  "data_structure": {
+    "seo": {
+      "metaTitle": "Brand Strategy | Mytchett, Camberley, Surrey",
+      "serpAnalysisHistory": [
+        {
+          "reportId": "report_2025_09_22_12_30_15",
+          "analysisDate": "2025-09-22T12:30:15.123456",
+          "reportName": "Initial Brand Strategy Analysis",
+          "analysisNotes": [
+            "Strong local opportunity in Surrey area",
+            "Moderate competition for main consultant terms",
+            "Good potential for location-specific content"
+          ],
+          "avgDifficulty": 54.9,
+          "easyCount": 5,
+          "easyKeywords": [
+            "brand strategy consultant surrey",
+            "business branding mytchett",
+            "brand development camberley",
+            "strategic branding services",
+            "brand positioning consultant"
+          ],
+          "moderateCount": 8,
+          "moderateKeywords": [
+            "corporate brand strategy",
+            "brand identity design surrey",
+            "rebranding services uk",
+            "brand strategy workshop",
+            "brand audit consultant",
+            "brand messaging strategy",
+            "brand differentiation strategy",
+            "startup brand strategy"
+          ],
+          "hardCount": 2,
+          "hardKeywords": [
+            "brand consultant near me",
+            "brand architecture consulting"
+          ],
+          "nextSteps": [
+            "Create location-specific landing pages",
+            "Optimize for consultant-type queries",
+            "Develop case study content for local businesses"
+          ],
+          "topOpportunities": [
+            "brand strategy services surrey",
+            "business branding consultant camberley",
+            "brand development mytchett"
+          ],
+          "modifiers": {
+            "prefixes": [
+              "affordable",
+              "expert",
+              "professional"
+            ],
+            "suffixes": [
+              "services",
+              "consultant",
+              "agency"
+            ],
+            "locations": [
+              "surrey",
+              "camberley",
+              "mytchett"
+            ]
+          },
+          "competitorAnalysis": {
+            "topCompetitors": [
+              "competitor1.com",
+              "competitor2.com"
+            ],
+            "averageContentLength": 2500,
+            "commonKeywords": [
+              "brand",
+              "strategy",
+              "consulting"
+            ]
+          }
+        }
+      ],
+      "currentReport": "report_2025_09_22_12_30_15"
+    }
+  },
+  "enhancement_plan": {
+    "new_features": [
+      "Report naming interface - allow users to name each analysis",
+      "Historical report viewer - display previous analyses",
+      "Report comparison tool - side-by-side comparisons",
+      "Report management - delete/archive old reports",
+      "Enhanced saving logic - append instead of overwrite"
+    ],
+    "new_functions": [
+      "generate_report_id() - create unique report identifiers",
+      "load_report_history() - read existing reports from file",
+      "save_new_report() - append new report to history",
+      "get_current_report() - retrieve active report",
+      "compare_reports() - analyze differences between reports",
+      "display_report_timeline() - show chronological view"
+    ],
+    "ui_enhancements": [
+      "Report name input field",
+      "Report history sidebar",
+      "Comparison mode toggle",
+      "Report selection dropdown",
+      "Historical metrics visualization"
+    ]
+  },
+  "created_date": "2025-09-22T12:11:51.238714"
+}

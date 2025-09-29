@@ -1,0 +1,79 @@
+{
+  "brand": "Ellie Edwards Marketing",
+  "site_url": "https://ellieedwardsmarketing.com",
+  "primaryCTAs": [
+    "Book a Strategy Call",
+    "Get a Proposal"
+  ],
+  "audience": [
+    "SME owners",
+    "Startup founders"
+  ],
+  "services": [
+    "Brand Strategy",
+    "Content Marketing",
+    "Lead Generation",
+    "SEO",
+    "Social Media Management",
+    "PPC Advertising",
+    "Website Design",
+    "Email Marketing",
+    "Digital Campaigns"
+  ],
+  "locations": [
+    "UK"
+  ],
+  "valueProps": [
+    "Done-for-you, measurable lead gen"
+  ],
+  "targetKeywords": {
+    "primary": [
+      "lead generation websites"
+    ],
+    "secondary": [
+      "b2b lead gen agency"
+    ]
+  },
+  "competitors": [],
+  "socialProfiles": {
+    "linkedin": "https://www.linkedin.com/in/ellie-edwards-marketing",
+    "twitter": ""
+  },
+  "schemaDefaults": {
+    "organization_name": "Ellie Edwards Marketing",
+    "logo_url": "",
+    "contact_phone": "07711152873",
+    "contact_email": "ellieedwardsmarketing@gmai.com",
+    "address": {
+      "streetAddress": "49 Hazel Road",
+      "addressLocality": "Mytchett",
+      "postalCode": "GU16 6BA",
+      "addressCountry": "GB"
+    }
+  },
+  "localSeo": {
+    "description": "Ellie Edwards Marketing is a UK-based consultancy delivering measurable lead generation through brand strategy, content marketing, SEO, paid acquisition and multi-channel nurture programs.",
+    "foundedYear": 2025,
+    "hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-17:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "phones": {
+      "primary": "07711152873"
+    },
+    "images": {
+      "logo": "/og-image.png",
+      "squareLogo": "/og-image.png",
+      "cover": "/og-image.png"
+    },
+    "tracking": {
+      "utmMedium": "local_listing",
+      "utmCampaign": "local_citations"
+    }
+  }
+}

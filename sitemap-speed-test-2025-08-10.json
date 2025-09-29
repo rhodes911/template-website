@@ -1,0 +1,138 @@
+{
+  "testDate": "2025-08-10T11:08:48.548Z",
+  "siteUrl": "https://www.ellieedwardsmarketing.com",
+  "totalPages": 16,
+  "successful": 13,
+  "failed": 3,
+  "averageLoadTime": 117,
+  "results": [
+    {
+      "url": "https://www.ellieedwardsmarketing.com",
+      "pageName": "Home",
+      "loadTime": 121,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/about",
+      "pageName": "/about",
+      "loadTime": 104,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/contact",
+      "pageName": "/contact",
+      "loadTime": 109,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/faq",
+      "pageName": "/faq",
+      "loadTime": 131,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/brand-strategy",
+      "pageName": "/services/brand-strategy",
+      "loadTime": 116,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/content-marketing",
+      "pageName": "/services/content-marketing",
+      "loadTime": 105,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/digital-campaigns",
+      "pageName": "/services/digital-campaigns",
+      "loadTime": 115,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/email-marketing",
+      "pageName": "/services/email-marketing",
+      "loadTime": 141,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/lead-generation",
+      "pageName": "/services/lead-generation",
+      "loadTime": 118,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/ppc",
+      "pageName": "/services/ppc",
+      "loadTime": 122,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/seo",
+      "pageName": "/services/seo",
+      "loadTime": 112,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/social-media",
+      "pageName": "/services/social-media",
+      "loadTime": 110,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/services/website-design",
+      "pageName": "/services/website-design",
+      "loadTime": 118,
+      "status": "🚀 Excellent",
+      "statusCode": 200,
+      "success": true
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/case-studies/bella-vista-restaurant",
+      "pageName": "/case-studies/bella-vista-restaurant",
+      "loadTime": 95,
+      "status": "🚀 Excellent",
+      "statusCode": 404,
+      "success": false
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/case-studies/ecohome-solutions",
+      "pageName": "/case-studies/ecohome-solutions",
+      "loadTime": 124,
+      "status": "🚀 Excellent",
+      "statusCode": 404,
+      "success": false
+    },
+    {
+      "url": "https://www.ellieedwardsmarketing.com/case-studies/sarah-mitchell-coaching",
+      "pageName": "/case-studies/sarah-mitchell-coaching",
+      "loadTime": 113,
+      "status": "🚀 Excellent",
+      "statusCode": 404,
+      "success": false
+    }
+  ]
+}

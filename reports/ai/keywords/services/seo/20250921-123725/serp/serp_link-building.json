@@ -1,0 +1,116 @@
+{
+  "keyword": "link building",
+  "difficulty": 80,
+  "exact_in_title": 4,
+  "unique_domains": 5,
+  "gov_edu": 0,
+  "aggregators": 0,
+  "results": [
+    {
+      "title": "Link building",
+      "link": "https://en.wikipedia.org/wiki/Link_building",
+      "snippet": "Link building is the process of establishing relevant hyperlinks (usually called links) to a website from external sites."
+    },
+    {
+      "title": "Link Building for SEO: The Beginner's Guide",
+      "link": "https://ahrefs.com/blog/link-building/",
+      "snippet": "Link building is the process of getting other websites to link to pages on your website. Its purpose is to boost the “authority” of your pages in the eyes of ..."
+    },
+    {
+      "title": "LinkBuilder.io | Link Building Services Trusted By 300+ Brands",
+      "link": "https://linkbuilder.io/",
+      "snippet": "We're an expert link building agency that offers services to build incredible backlinks to your website. Trusted by SEO professionals Worldwide."
+    },
+    {
+      "title": "Can someone describe how to actually perform link ...",
+      "link": "https://www.reddit.com/r/SEO/comments/11kxabm/can_someone_describe_how_to_actually_perform_link/",
+      "snippet": "The most important thing to keep in mind when performing link building is to focus on acquiring high-quality links from reputable sources. Avoid ..."
+    },
+    {
+      "title": "Link Building for SEO: A Guide to the Basics",
+      "link": "https://www.semrush.com/blog/link-building/",
+      "snippet": "Link building is an SEO strategy that involves acquiring links from other websites to your own. Search engines, including Google, may see these links as ..."
+    }
+  ],
+  "outlines": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Link_building",
+      "title": "Link building - Wikipedia",
+      "h1": [
+        "Link building"
+      ],
+      "h2": [
+        "Contents",
+        "Link types",
+        "Black hat link building",
+        "White hat link building",
+        "See also",
+        "References",
+        "External links"
+      ]
+    },
+    {
+      "url": "https://ahrefs.com/blog/link-building/",
+      "title": "Link Building for SEO: The Beginner’s Guide",
+      "h1": [
+        "Link Building for SEO: The Beginner’s Guide"
+      ],
+      "h2": [
+        "The basics of link building",
+        "How to build links",
+        "Which links move the needle?",
+        "Best link building strategies",
+        "Link building tools",
+        "Let’s wrap this up"
+      ]
+    },
+    {
+      "url": "https://linkbuilder.io/",
+      "title": "LinkBuilder.io | Link Building Services Trusted By 300+ Brands",
+      "h1": [
+        "Link Building Services Agency"
+      ],
+      "h2": [
+        "The link building agency that drives insane rankings",
+        "We get results",
+        "Hear it from those that know",
+        "Hear it first hand",
+        "Why is link building important?",
+        "Cutting Edge Link Building Strategy",
+        "Our Link Building Packages & Pricing",
+        "Don’t even think about building links in-house",
+        "Link Building Blog",
+        "Our SEO Link Building Services",
+        "Frequently Asked Questions",
+        "Let's Double Your Search Traffic"
+      ]
+    },
+    {
+      "url": "https://www.reddit.com/r/SEO/comments/11kxabm/can_someone_describe_how_to_actually_perform_link/",
+      "title": "Reddit - The heart of the internet",
+      "h1": [
+        "Can someone describe how to actually perform link building (not the theory)",
+        "Related Answers Section"
+      ],
+      "h2": [
+        "Top Posts"
+      ]
+    },
+    {
+      "url": "https://www.semrush.com/blog/link-building/",
+      "title": "Link Building in SEO: How to Build Great Backlinks in 2025",
+      "h1": [
+        "Link Building for SEO: A Guide to the Basics"
+      ],
+      "h2": [
+        "What Is Link Building in SEO?",
+        "What Affects a Backlink’s Value?",
+        "How to Build Links (and How Not to)",
+        "9 Best Backlink Building Tactics",
+        "How to Track Your Link Building Efforts",
+        "Start Building Quality Links Today",
+        "Most popular pages"
+      ]
+    }
+  ]
+}

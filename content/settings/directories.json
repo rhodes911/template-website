@@ -1,0 +1,34 @@
+{
+  "directories": [
+    {
+      "name": "Yell",
+      "url": "https://www.yell.com/",
+      "status": "submitted",
+      "submissionDate": "05-09-2025",
+      "lastUpdated": "",
+      "listingUrl": "",
+      "notes": "Priority listing for UK businesses",
+      "isVerified": false
+    },
+    {
+      "name": "Google Business Profile",
+      "url": "https://business.google.com/",
+      "status": "submitted",
+      "submissionDate": "03-09-2025",
+      "lastUpdated": "",
+      "listingUrl": "",
+      "notes": "Essential for local search visibility",
+      "isVerified": false
+    },
+    {
+      "name": "Bing Places",
+      "url": "https://www.bingplaces.com/",
+      "status": "pending",
+      "submissionDate": "",
+      "lastUpdated": "",
+      "listingUrl": "",
+      "notes": "Important for visibility in Bing search",
+      "isVerified": false
+    }
+  ]
+}

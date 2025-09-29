@@ -1,0 +1,77 @@
+{
+  "startedAt": 1756402225245,
+  "durationMs": 1082,
+  "model": "gpt-4o-mini",
+  "agentic": true,
+  "collection": "about",
+  "section": "hero",
+  "timeline": [
+    {
+      "at": 1,
+      "step": "start",
+      "data": {
+        "collection": "about",
+        "section": "hero",
+        "model": "gpt-4o-mini",
+        "agentic": true
+      }
+    },
+    {
+      "at": 1,
+      "step": "retrieve.done",
+      "data": {
+        "q": "Keep it punchy. about hero",
+        "hits": [
+          {
+            "path": "content/services/email-marketing.md",
+            "title": "Email Marketing",
+            "score": 0.205123
+          },
+          {
+            "path": "content/settings/ai.json",
+            "title": "ai.json",
+            "score": 0.177684
+          }
+        ]
+      }
+    },
+    {
+      "at": 1,
+      "step": "openai.request",
+      "data": {
+        "provider": "openai",
+        "model": "gpt-4o-mini"
+      }
+    },
+    {
+      "at": 1082,
+      "step": "openai.response",
+      "data": {
+        "keys": [
+          "heroDescription"
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "siteUrl": "",
+    "brandVoice": "Friendly, confident, practical. Avoid jargon. Focus on outcomes and clarity.",
+    "hasBusiness": true,
+    "hasSeo": true
+  },
+  "retrieval": {
+    "q": "Keep it punchy. about hero",
+    "hits": [
+      {
+        "path": "content/services/email-marketing.md",
+        "title": "Email Marketing",
+        "score": 0.205123
+      },
+      {
+        "path": "content/settings/ai.json",
+        "title": "ai.json",
+        "score": 0.177684
+      }
+    ]
+  }
+}

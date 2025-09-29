@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="860" viewBox="0 0 1280 860" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic Content Assistant – Workflow</title>
+  <desc id="desc">A high-level diagram showing inputs, retrieval, variant generation, QA-revise loop, scoring/selection, human-in-the-loop apply, publish, and reporting.</desc>
+  <defs>
+    <style>
+      .box { fill:#ffffff; stroke:#111827; stroke-width:2; rx:10; }
+      .label { font: 600 18px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#111827; }
+      .small { font: 14px system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill:#374151; }
+      .arrow { stroke:#111827; stroke-width:2; marker-end:url(#arrowHead); }
+      .dashed { stroke-dasharray:6 6; }
+    </style>
+    <marker id="arrowHead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="640" y="48" text-anchor="middle" class="label" style="font-size:26px">Agentic Content Assistant – How It Works</text>
+  <text x="640" y="74" text-anchor="middle" class="small">From inputs → grounded variants → QA loop → human apply → publish → report</text>
+
+  <!-- Inputs Panel -->
+  <rect x="40" y="110" width="320" height="240" class="box"/>
+  <text x="60" y="140" class="label">Inputs</text>
+  <text x="60" y="168" class="small">• Business profile & brand voice</text>
+  <text x="60" y="192" class="small">• Page context (e.g., About → SEO)</text>
+  <text x="60" y="216" class="small">• Goals & brief (Replace / Improve)</text>
+  <text x="60" y="240" class="small">• SEO settings & guardrails</text>
+  <text x="60" y="264" class="small">• Live site content (RAG grounding)</text>
+  <text x="60" y="288" class="small">• Optional: SERP hints / research</text>
+
+  <!-- Retrieve & Ground -->
+  <rect x="420" y="110" width="280" height="120" class="box"/>
+  <text x="440" y="140" class="label">1) Retrieve & Ground</text>
+  <text x="440" y="168" class="small">TF‑IDF search pulls relevant site facts</text>
+  <text x="440" y="192" class="small">Citations injected to prevent fabrication</text>
+
+  <!-- Generate Variants -->
+  <rect x="740" y="110" width="280" height="120" class="box"/>
+  <text x="760" y="140" class="label">2) Generate Variants</text>
+  <text x="760" y="168" class="small">Multiple drafts produced from same brief</text>
+  <text x="760" y="192" class="small">Tone and locale respected</text>
+
+  <!-- QA Loop -->
+  <rect x="420" y="260" width="600" height="150" class="box"/>
+  <text x="440" y="290" class="label">3) QA & Revise Loop</text>
+  <text x="440" y="318" class="small">• Deterministic checks (length, clarity, banned phrases)</text>
+  <text x="440" y="342" class="small">• Fact grounding via retrieved citations</text>
+  <text x="440" y="366" class="small">• Iterates until compliant or max passes</text>
+
+  <!-- Score & Select -->
+  <rect x="420" y="440" width="280" height="120" class="box"/>
+  <text x="440" y="470" class="label">4) Score & Select</text>
+  <text x="440" y="498" class="small">Best variant chosen (compliance + fit)</text>
+
+  <!-- Human-in-the-loop -->
+  <rect x="740" y="440" width="280" height="160" class="box"/>
+  <text x="760" y="470" class="label">5) Human Apply (CMS)</text>
+  <text x="760" y="498" class="small">Editors preview suggestions inside the field</text>
+  <text x="760" y="522" class="small">Apply per-field (e.g., Title, Description)</text>
+  <text x="760" y="546" class="small">No blind overwrites; full control</text>
+
+  <!-- Save & Publish -->
+  <rect x="420" y="590" width="280" height="120" class="box"/>
+  <text x="440" y="620" class="label">6) Save & Publish</text>
+  <text x="440" y="648" class="small">Changes committed via CMS workflow</text>
+
+  <!-- Reporting -->
+  <rect x="740" y="630" width="280" height="120" class="box"/>
+  <text x="760" y="660" class="label">7) Reporting</text>
+  <text x="760" y="688" class="small">Per-run JSON/Markdown reports for QA & audit</text>
+
+  <!-- Arrows -->
+  <line x1="360" y1="230" x2="420" y2="170" class="arrow"/>
+  <line x1="700" y1="170" x2="740" y2="170" class="arrow"/>
+  <line x1="880" y1="230" x2="720" y2="260" class="arrow"/>
+  <line x1="420" y1="335" x2="420" y2="335" class="arrow"/>
+  <line x1="720" y1="410" x2="560" y2="440" class="arrow"/>
+  <line x1="700" y1="500" x2="740" y2="500" class="arrow"/>
+  <line x1="740" y1="560" x2="560" y2="590" class="arrow"/>
+  <line x1="560" y1="650" x2="740" y2="690" class="arrow dashed"/>
+
+  <!-- Optional SERP research (dashed) -->
+  <rect x="40" y="380" width="320" height="90" class="box"/>
+  <text x="60" y="408" class="label">Optional: SERP Research</text>
+  <text x="60" y="436" class="small">Non-scraping signals to inform direction</text>
+  <line x1="360" y1="425" x2="420" y2="335" class="arrow dashed"/>
+
+  <!-- Footer note -->
+  <text x="640" y="820" text-anchor="middle" class="small">Human‑in‑the‑loop by design • Grounded in your site content • Transparent reports for every run</text>
+</svg>

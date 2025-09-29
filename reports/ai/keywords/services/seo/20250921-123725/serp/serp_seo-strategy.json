@@ -1,0 +1,126 @@
+{
+  "keyword": "seo strategy",
+  "difficulty": 70,
+  "exact_in_title": 3,
+  "unique_domains": 5,
+  "gov_edu": 0,
+  "aggregators": 0,
+  "results": [
+    {
+      "title": "SEO Starter Guide: The Basics | Google Search Central",
+      "link": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "snippet": "Make your site interesting and useful · Expect your readers' search terms · Avoid distracting advertisements · Link to relevant resources."
+    },
+    {
+      "title": "How to Create an Effective SEO Strategy in 2025",
+      "link": "https://backlinko.com/seo-strategy",
+      "snippet": "How to Create an Effective SEO Strategy in 2025 · 1. Define Your SEO Goals · 2. Research Keywords Across Platforms · 3. Analyze Search Intent & ..."
+    },
+    {
+      "title": "How to Create an SEO Strategy [Template Included]",
+      "link": "https://blog.hubspot.com/marketing/seo-strategy",
+      "snippet": "An SEO strategy is a process of organizing a website's content by topic to improve the likelihood of appearing in search results."
+    },
+    {
+      "title": "What Is SEO and How Does it Work?",
+      "link": "https://digitalmarketinginstitute.com/blog/what-is-seo",
+      "snippet": "An SEO strategy is focused on optimizing your content to get ranked as high as possible on search engines - preferably page or position #1. Its ..."
+    },
+    {
+      "title": "SEO Strategy: A Guide To SEO Success In 2024",
+      "link": "https://www.forbes.com/councils/forbesagencycouncil/2024/05/28/seo-strategy-a-guide-to-seo-success-in-2024/",
+      "snippet": "Good content is the bedrock of an SEO strategy in 2024. Your content should do three things: inform, engage and set your website as an authority ..."
+    }
+  ],
+  "outlines": [
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "title": "SEO Starter Guide: The Basics | Google Search Central  |  Documentation  |  Google for Developers",
+      "h1": [
+        "Search Engine Optimization (SEO) Starter Guide"
+      ],
+      "h2": [
+        "How does Google Search work?",
+        "How long until I see impact in search results?",
+        "Help Google find your content",
+        "Organize your site",
+        "Make your site interesting and useful",
+        "Influence how your site looks in Google Search",
+        "Add images to your site, and optimize them",
+        "Optimize your videos",
+        "Promote your website",
+        "Things we believe you shouldn't focus on",
+        "Next steps"
+      ]
+    },
+    {
+      "url": "https://backlinko.com/seo-strategy",
+      "title": "How to Create an Effective SEO Strategy in 2025",
+      "h1": [
+        "How to Create an Effective SEO Strategy in 2025"
+      ],
+      "h2": [
+        "Find Out What's Stopping You From Ranking Higher",
+        "Grow your online visibility. On all key channels. From just one platform.",
+        "1. Define Your SEO Goals",
+        "2. Research Keywords Across Platforms",
+        "3. Analyze Search Intent & Competition",
+        "4. Create Authority-Driven Content",
+        "5. Optimize for Clarity and Context",
+        "6. Build Links and Earn Citations",
+        "7. Improve and Update Your Content",
+        "Where to Go From Here"
+      ]
+    },
+    {
+      "url": "https://blog.hubspot.com/marketing/seo-strategy",
+      "title": "How to Create an SEO Strategy [Template Included]",
+      "h1": [
+        "How to Create an SEO Strategy [Template Included]"
+      ],
+      "h2": [
+        "FREE SEO STARTER PACK",
+        "What is an SEO strategy?",
+        "Download Free",
+        "Download Free",
+        "SEO Strategy for Beginners",
+        "Download Free",
+        "Download Free",
+        "SEO Content Strategy",
+        "Download Free",
+        "Best SEO Examples",
+        "SEO Process",
+        "SEO Monthly Plan",
+        "Create A Strategy That Supports Your Business Goals",
+        "Download Free",
+        "Don't forget to share this post!",
+        "Join 600,000+ Fellow Marketers Thanks for Subscribing!",
+        "Popular Features",
+        "Free Tools",
+        "Company",
+        "Customers",
+        "Partners"
+      ]
+    },
+    {
+      "url": "https://digitalmarketinginstitute.com/blog/what-is-seo",
+      "title": "What Is SEO and How Does it Work? | Digital Marketing Institute",
+      "h1": [
+        "What Is SEO and How Does it Work?"
+      ],
+      "h2": []
+    },
+    {
+      "url": "https://www.forbes.com/councils/forbesagencycouncil/2024/05/28/seo-strategy-a-guide-to-seo-success-in-2024/",
+      "title": "SEO Strategy: A Guide To SEO Success In 2024",
+      "h1": [
+        "SEO Strategy: A Guide To SEO Success In 2024"
+      ],
+      "h2": [
+        "Understanding SEO In 2024",
+        "Building A Successful SEO Strategy In 2024",
+        "Optimizing For SEO Success In 2024"
+      ]
+    }
+  ]
+}

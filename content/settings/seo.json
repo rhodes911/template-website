@@ -1,0 +1,51 @@
+{
+  "region": "UK",
+  "locale": "en-GB",
+  "readingLevel": "GCSE-level (UK), clear and accessible",
+  "fleschTarget": 60,
+  "keywordPolicy": {
+    "includeAlways": [],
+    "includePreferred": [
+      "marketing consultant",
+      "small business marketing",
+      "lead generation"
+    ],
+    "avoid": [
+      "clickbait",
+      "guaranteed results",
+      "limited time only"
+    ],
+    "maxDensityPercent": 2.5
+  },
+  "lengthTargets": {
+    "about": {
+      "heroDescription": { "minWords": 20, "maxWords": 45 },
+      "body": { "minWords": 600, "maxWords": 1000 }
+    },
+    "service": {
+      "heroDescription": { "minWords": 30, "maxWords": 60 },
+      "body": { "minWords": 800, "maxWords": 1200 }
+    },
+    "blogPost": {
+      "excerptChars": { "min": 150, "max": 160 },
+      "body": { "minWords": 1200, "maxWords": 1800 }
+    },
+    "caseStudy": {
+      "body": { "minWords": 800, "maxWords": 1400 }
+    },
+    "testimonial": {
+      "body": { "minWords": 40, "maxWords": 90 }
+    }
+  },
+  "jsonLd": {
+    "organization": true,
+  "website": true,
+    "person": true,
+    "service": true,
+    "article": true,
+    "breadcrumb": true,
+    "faq": true,
+    "review": true,
+    "localBusiness": false
+  }
+}

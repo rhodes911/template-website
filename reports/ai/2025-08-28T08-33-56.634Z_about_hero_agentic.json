@@ -1,0 +1,93 @@
+{
+  "startedAt": 1756370035241,
+  "durationMs": 1393,
+  "model": "gpt-4o-mini",
+  "agentic": true,
+  "topic": "Meet Ellie Edwards",
+  "collection": "about",
+  "section": "hero",
+  "timeline": [
+    {
+      "at": 0,
+      "step": "start",
+      "data": {
+        "collection": "about",
+        "section": "hero",
+        "topic": "Meet Ellie Edwards",
+        "model": "gpt-4o-mini",
+        "agentic": true
+      }
+    },
+    {
+      "at": 5,
+      "step": "retrieve.done",
+      "data": {
+        "q": "Meet Ellie Edwards Improve the current hero description while keeping tone and meaning. Keep it concise (1-2 sentences). Current: With over 5 years of experience, I specialise in empowering small businesses through bespoke marketing strategies that deliver results, with a senior, hands-on approach. Explore services like SEO, content marketing, PPC, email marketing, website design, and brand strategy to see where we can start. about hero",
+        "hits": [
+          {
+            "path": "content/services/ppc.md",
+            "title": "PPC Advertising",
+            "score": 0.216752
+          },
+          {
+            "path": "content/services/content-marketing.md",
+            "title": "Content Marketing",
+            "score": 0.158419
+          },
+          {
+            "path": "content/settings/ai.json",
+            "title": "ai.json",
+            "score": 0.151396
+          },
+          {
+            "path": "content/blog/marketing-strategy-small-business-guide.md",
+            "title": "How to Create a Marketing Strategy That Actually Works for Small Businesses",
+            "score": 0.150612
+          }
+        ]
+      }
+    },
+    {
+      "at": 5,
+      "step": "openai.request",
+      "data": {
+        "provider": "openai",
+        "model": "gpt-4o-mini"
+      }
+    },
+    {
+      "at": 1393,
+      "step": "openai.response",
+      "data": {
+        "keys": [
+          "heroDescription"
+        ]
+      }
+    }
+  ],
+  "retrieval": {
+    "q": "Meet Ellie Edwards Improve the current hero description while keeping tone and meaning. Keep it concise (1-2 sentences). Current: With over 5 years of experience, I specialise in empowering small businesses through bespoke marketing strategies that deliver results, with a senior, hands-on approach. Explore services like SEO, content marketing, PPC, email marketing, website design, and brand strategy to see where we can start. about hero",
+    "hits": [
+      {
+        "path": "content/services/ppc.md",
+        "title": "PPC Advertising",
+        "score": 0.216752
+      },
+      {
+        "path": "content/services/content-marketing.md",
+        "title": "Content Marketing",
+        "score": 0.158419
+      },
+      {
+        "path": "content/settings/ai.json",
+        "title": "ai.json",
+        "score": 0.151396
+      },
+      {
+        "path": "content/blog/marketing-strategy-small-business-guide.md",
+        "title": "How to Create a Marketing Strategy That Actually Works for Small Businesses",
+        "score": 0.150612
+      }
+    ]
+  }
+}

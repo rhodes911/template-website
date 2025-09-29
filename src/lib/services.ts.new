@@ -1,0 +1,6 @@
+// This file re-exports types and provides client-side API for working with services
+// All server-side operations are moved to src/lib/server/services.ts
+import { Service, SimpleService, ServicePageData } from '@/types/services';
+
+// Re-export the types for backwards compatibility
+export type { Service, SimpleService, ServicePageData };

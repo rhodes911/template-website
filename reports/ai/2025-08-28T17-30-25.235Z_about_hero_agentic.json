@@ -1,0 +1,97 @@
+{
+  "startedAt": 1756402221471,
+  "durationMs": 3764,
+  "model": "gpt-4o-mini",
+  "agentic": true,
+  "collection": "about",
+  "section": "hero",
+  "timeline": [
+    {
+      "at": 0,
+      "step": "start",
+      "data": {
+        "collection": "about",
+        "section": "hero",
+        "model": "gpt-4o-mini",
+        "agentic": true
+      }
+    },
+    {
+      "at": 1,
+      "step": "retrieve.done",
+      "data": {
+        "q": "Highlight UK small business growth. about hero",
+        "hits": [
+          {
+            "path": "content/blog/marketing-strategy-small-business-guide.md",
+            "title": "How to Create a Marketing Strategy That Actually Works for Small Businesses",
+            "score": 0.18825
+          },
+          {
+            "path": "content/services/content-marketing.md",
+            "title": "Content Marketing",
+            "score": 0.154894
+          },
+          {
+            "path": "content/services/social-media.md",
+            "title": "Social Media Management",
+            "score": 0.147946
+          },
+          {
+            "path": "content/settings/ai.json",
+            "title": "ai.json",
+            "score": 0.146909
+          }
+        ]
+      }
+    },
+    {
+      "at": 1,
+      "step": "openai.request",
+      "data": {
+        "provider": "openai",
+        "model": "gpt-4o-mini"
+      }
+    },
+    {
+      "at": 3764,
+      "step": "openai.response",
+      "data": {
+        "keys": [
+          "heroDescription"
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "siteUrl": "",
+    "brandVoice": "Friendly, confident, practical. Avoid jargon. Focus on outcomes and clarity.",
+    "hasBusiness": true,
+    "hasSeo": true
+  },
+  "retrieval": {
+    "q": "Highlight UK small business growth. about hero",
+    "hits": [
+      {
+        "path": "content/blog/marketing-strategy-small-business-guide.md",
+        "title": "How to Create a Marketing Strategy That Actually Works for Small Businesses",
+        "score": 0.18825
+      },
+      {
+        "path": "content/services/content-marketing.md",
+        "title": "Content Marketing",
+        "score": 0.154894
+      },
+      {
+        "path": "content/services/social-media.md",
+        "title": "Social Media Management",
+        "score": 0.147946
+      },
+      {
+        "path": "content/settings/ai.json",
+        "title": "ai.json",
+        "score": 0.146909
+      }
+    ]
+  }
+}

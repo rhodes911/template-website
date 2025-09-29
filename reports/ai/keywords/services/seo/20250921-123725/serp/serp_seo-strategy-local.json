@@ -1,0 +1,123 @@
+{
+  "keyword": "seo strategy local",
+  "difficulty": 90,
+  "exact_in_title": 0,
+  "unique_domains": 5,
+  "gov_edu": 0,
+  "aggregators": 0,
+  "results": [
+    {
+      "title": "Local SEO: What Is It & How to Do It",
+      "link": "https://www.semrush.com/blog/what-is-local-seo/",
+      "snippet": "Local SEO is the process of optimizing a business's visibility in unpaid, location-based search results on Google Search, Google Maps, and other search engines."
+    },
+    {
+      "title": "Local SEO: The Definitive Guide for 2025 (+ Free Toolkit)",
+      "link": "https://backlinko.com/local-seo-guide",
+      "snippet": "Write a clear business description: Summarize what your business offers, who you serve, and where you're located. Include your relevant local ..."
+    },
+    {
+      "title": "Local SEO: The Complete Guide",
+      "link": "https://ahrefs.com/blog/local-seo/",
+      "snippet": "Local SEO is a strategy that helps Google understand where your business is, what you offer, and how trustworthy you are."
+    },
+    {
+      "title": "15 Local SEO Strategies 2025 | Grow Local Organic Visibility",
+      "link": "https://targetedseo.co.uk/local-seo-strategies/",
+      "snippet": "Discover 15 actionable local SEO strategies for 2025 to increase rankings, visibility, and attract more customers in your local service areas."
+    },
+    {
+      "title": "SEO Starter Guide: The Basics | Google Search Central",
+      "link": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "snippet": "This guide will walk you through some of the most common and effective improvements you can do on your site."
+    }
+  ],
+  "outlines": [
+    {
+      "url": "https://www.semrush.com/blog/what-is-local-seo/",
+      "title": "What Is Local SEO? How to Do It + Strategies for 2025",
+      "h1": [
+        "Local SEO: What Is It & How to Do It"
+      ],
+      "h2": [
+        "What Is Local SEO?",
+        "Why Is Local SEO Important?",
+        "How Local SEO Works",
+        "How to Do Local SEO",
+        "Local SEO Tools",
+        "How to Monitor Your Local SEO Results",
+        "Start Building Your Local Visibility",
+        "More on this"
+      ]
+    },
+    {
+      "url": "https://backlinko.com/local-seo-guide",
+      "title": "Local SEO: The Definitive Guide for 2025 (+ Free Toolkit)",
+      "h1": [
+        "Local SEO: The Definitive Guide for 2025 (+ Free Toolkit)"
+      ],
+      "h2": [
+        "Find Out What's Stopping You From Ranking Higher",
+        "What Is Local SEO?",
+        "How Does Local SEO Work?",
+        "1. Find Local Keywords That Bring You Customers",
+        "2. Optimize Your Google Business Profile",
+        "3. Improve Your Website’s Local SEO",
+        "4. Build Consistent NAP Citations",
+        "5. Earn Local Backlinks",
+        "6. Monitor Your Progress and Rankings",
+        "You’ve Got the Playbook. Now Use It."
+      ]
+    },
+    {
+      "url": "https://ahrefs.com/blog/local-seo/",
+      "title": "Local SEO: The Complete Guide",
+      "h1": [
+        "Local SEO: The Complete Guide"
+      ],
+      "h2": [
+        "What is local SEO?",
+        "Why is local SEO important?",
+        "How does local SEO work?",
+        "What is a good local SEO strategy?",
+        "How to do local SEO",
+        "Local SEO tools",
+        "Learn more about local SEO"
+      ]
+    },
+    {
+      "url": "https://targetedseo.co.uk/local-seo-strategies/",
+      "title": "15 Local SEO Strategies 2025 | Grow Local Organic Visibility",
+      "h1": [
+        "15 Local SEO Strategies for 2025"
+      ],
+      "h2": [
+        "What is Local SEO and Why is it Important for Small Businesses?",
+        "The Benefits of Local SEO Strategy",
+        "Ben Sisson",
+        "About Targeted SEO",
+        "Recent articles"
+      ]
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "title": "SEO Starter Guide: The Basics | Google Search Central  |  Documentation  |  Google for Developers",
+      "h1": [
+        "Search Engine Optimization (SEO) Starter Guide"
+      ],
+      "h2": [
+        "How does Google Search work?",
+        "How long until I see impact in search results?",
+        "Help Google find your content",
+        "Organize your site",
+        "Make your site interesting and useful",
+        "Influence how your site looks in Google Search",
+        "Add images to your site, and optimize them",
+        "Optimize your videos",
+        "Promote your website",
+        "Things we believe you shouldn't focus on",
+        "Next steps"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "startedAt": 1756413662221,
+  "durationMs": 1772,
+  "model": "gpt-4o-mini",
+  "agentic": true,
+  "topic": "About My Approach",
+  "collection": "about",
+  "section": "bodyApproach",
+  "timeline": [
+    {
+      "at": 0,
+      "step": "start",
+      "data": {
+        "collection": "about",
+        "section": "bodyApproach",
+        "topic": "About My Approach",
+        "model": "gpt-4o-mini",
+        "agentic": true
+      }
+    },
+    {
+      "at": 1,
+      "step": "retrieve.done",
+      "data": {
+        "q": "About My Approach Write a concise 'Approach' body section: one short paragraph (2–4 sentences) describing your process, principles, and what clients can expect. about bodyApproach",
+        "hits": [
+          {
+            "path": "content/settings/seo.json",
+            "title": "seo.json",
+            "score": 0.133789,
+            "count": 1
+          },
+          {
+            "path": "content/settings/ai.json",
+            "title": "ai.json",
+            "score": 0.128317,
+            "count": 1
+          },
+          {
+            "path": "content/services/lead-generation.md",
+            "title": "Lead Generation",
+            "score": 0.102631,
+            "count": 1
+          },
+          {
+            "path": "content/services/social-media.md",
+            "title": "Social Media Management",
+            "score": 0.078115,
+            "count": 1
+          }
+        ],
+        "totalHits": 4,
+        "uniqueDocs": 4
+      }
+    },
+    {
+      "at": 1,
+      "step": "openai.request",
+      "data": {
+        "provider": "openai",
+        "model": "gpt-4o-mini"
+      }
+    },
+    {
+      "at": 1772,
+      "step": "openai.response",
+      "data": {
+        "keys": [
+          "body"
+        ]
+      }
+    }
+  ],
+  "settings": {
+    "siteUrl": "https://www.ellieedwardsmarketing.com",
+    "brandVoice": "Friendly, confident, practical. Avoid jargon. Focus on outcomes and clarity.",
+    "hasBusiness": true,
+    "hasSeo": true
+  },
+  "retrieval": {
+    "q": "About My Approach Write a concise 'Approach' body section: one short paragraph (2–4 sentences) describing your process, principles, and what clients can expect. about bodyApproach",
+    "hits": [
+      {
+        "path": "content/settings/seo.json",
+        "title": "seo.json",
+        "score": 0.133789,
+        "count": 1
+      },
+      {
+        "path": "content/settings/ai.json",
+        "title": "ai.json",
+        "score": 0.128317,
+        "count": 1
+      },
+      {
+        "path": "content/services/lead-generation.md",
+        "title": "Lead Generation",
+        "score": 0.102631,
+        "count": 1
+      },
+      {
+        "path": "content/services/social-media.md",
+        "title": "Social Media Management",
+        "score": 0.078115,
+        "count": 1
+      }
+    ],
+    "totalHits": 4,
+    "uniqueDocs": 4
+  },
+  "outputPreview": "My approach combines a deep understanding of small business marketing with hands-on execution. I focus on crafting clear strategies that sharpen your message and create straightforward paths to conversion. Starting with content marketing and SEO, I ensure we capture demand effectively, then layer in targeted paid ads to amplify results. You can expect a collaborative process where your needs shape our journey together."
+}

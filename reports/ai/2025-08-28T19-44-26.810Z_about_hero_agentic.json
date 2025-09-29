@@ -1,0 +1,330 @@
+{
+  "startedAt": 1756410262067,
+  "durationMs": 4743,
+  "model": "gpt-4o-mini",
+  "agentic": true,
+  "collection": "about",
+  "section": "hero",
+  "timeline": [
+    {
+      "at": 0,
+      "step": "start",
+      "data": {
+        "collection": "about",
+        "section": "hero",
+        "model": "gpt-4o-mini",
+        "agentic": true
+      }
+    },
+    {
+      "at": 1,
+      "step": "retrieve.done",
+      "data": {
+        "q": "Highlight UK small business growth. about hero",
+        "hits": [
+          {
+            "path": "content/blog/marketing-strategy-small-business-guide.md",
+            "title": "How to Create a Marketing Strategy That Actually Works for Small Businesses",
+            "score": 0.18825
+          },
+          {
+            "path": "content/services/content-marketing.md",
+            "title": "Content Marketing",
+            "score": 0.154894
+          },
+          {
+            "path": "content/services/social-media.md",
+            "title": "Social Media Management",
+            "score": 0.147946
+          },
+          {
+            "path": "content/settings/ai.json",
+            "title": "ai.json",
+            "score": 0.146909
+          }
+        ]
+      }
+    },
+    {
+      "at": 1,
+      "step": "openai.request",
+      "data": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "variant": 1
+      }
+    },
+    {
+      "at": 1420,
+      "step": "openai.response",
+      "data": {
+        "keys": [
+          "heroDescription"
+        ],
+        "variant": 1
+      }
+    },
+    {
+      "at": 1421,
+      "step": "qa.revise.request",
+      "data": {
+        "model": "gpt-4o-mini",
+        "variant": 1,
+        "iter": 1
+      }
+    },
+    {
+      "at": 2618,
+      "step": "qa.revise.response",
+      "data": {
+        "keys": [
+          "heroDescription"
+        ],
+        "variant": 1,
+        "iter": 1
+      }
+    },
+    {
+      "at": 2618,
+      "step": "variant.produced",
+      "data": {
+        "variant": 1,
+        "score": 1145,
+        "pass": true
+      }
+    },
+    {
+      "at": 2618,
+      "step": "openai.request",
+      "data": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "variant": 2
+      }
+    },
+    {
+      "at": 3457,
+      "step": "openai.response",
+      "data": {
+        "keys": [
+          "heroDescription"
+        ],
+        "variant": 2
+      }
+    },
+    {
+      "at": 3458,
+      "step": "qa.revise.request",
+      "data": {
+        "model": "gpt-4o-mini",
+        "variant": 2,
+        "iter": 1
+      }
+    },
+    {
+      "at": 4743,
+      "step": "qa.revise.response",
+      "data": {
+        "keys": [
+          "heroDescription"
+        ],
+        "variant": 2,
+        "iter": 1
+      }
+    },
+    {
+      "at": 4743,
+      "step": "variant.produced",
+      "data": {
+        "variant": 2,
+        "score": 1155,
+        "pass": true
+      }
+    },
+    {
+      "at": 4743,
+      "step": "variant.selected",
+      "data": {
+        "variant": 2,
+        "score": 1155,
+        "pass": true
+      }
+    }
+  ],
+  "settings": {
+    "siteUrl": "",
+    "brandVoice": "Friendly, confident, practical. Avoid jargon. Focus on outcomes and clarity.",
+    "hasBusiness": true,
+    "hasSeo": true
+  },
+  "retrieval": {
+    "q": "Highlight UK small business growth. about hero",
+    "hits": [
+      {
+        "path": "content/blog/marketing-strategy-small-business-guide.md",
+        "title": "How to Create a Marketing Strategy That Actually Works for Small Businesses",
+        "score": 0.18825
+      },
+      {
+        "path": "content/services/content-marketing.md",
+        "title": "Content Marketing",
+        "score": 0.154894
+      },
+      {
+        "path": "content/services/social-media.md",
+        "title": "Social Media Management",
+        "score": 0.147946
+      },
+      {
+        "path": "content/settings/ai.json",
+        "title": "ai.json",
+        "score": 0.146909
+      }
+    ]
+  },
+  "variants": [
+    {
+      "index": 1,
+      "score": 1145,
+      "compliance": {
+        "length": {
+          "pass": true,
+          "words": 27,
+          "min": 20,
+          "max": 45
+        },
+        "includes": {
+          "pass": true,
+          "missing": []
+        },
+        "avoid": {
+          "pass": true,
+          "violations": []
+        },
+        "overallPass": true
+      },
+      "draftKeys": [
+        "heroDescription"
+      ],
+      "finalPreview": "Unlock your small business's potential with tailored small business marketing strategies that boost lead generation and support sustainable growth. Together, we can achieve your business goals effecti",
+      "iterations": [
+        {
+          "n": 0,
+          "compliance": {
+            "length": {
+              "pass": true,
+              "words": 24,
+              "min": 20,
+              "max": 45
+            },
+            "includes": {
+              "pass": false,
+              "missing": [
+                "small business marketing"
+              ]
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": false
+          },
+          "text": "Unlock your small business's potential with tailored marketing strategies that enhance lead generation and foster sustainable growth. Together, we can achieve your business goals."
+        },
+        {
+          "n": 1,
+          "compliance": {
+            "length": {
+              "pass": true,
+              "words": 27,
+              "min": 20,
+              "max": 45
+            },
+            "includes": {
+              "pass": true,
+              "missing": []
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": true
+          },
+          "text": "Unlock your small business's potential with tailored small business marketing strategies that boost lead generation and support sustainable growth. Together, we can achieve your business goals effectively."
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "score": 1155,
+      "compliance": {
+        "length": {
+          "pass": true,
+          "words": 28,
+          "min": 20,
+          "max": 45
+        },
+        "includes": {
+          "pass": true,
+          "missing": []
+        },
+        "avoid": {
+          "pass": true,
+          "violations": []
+        },
+        "overallPass": true
+      },
+      "draftKeys": [
+        "heroDescription"
+      ],
+      "finalPreview": "Unlock your growth potential with effective small business marketing and lead generation strategies. Together, we can create lasting success and help your business thrive in a competitive landscape.",
+      "iterations": [
+        {
+          "n": 0,
+          "compliance": {
+            "length": {
+              "pass": true,
+              "words": 21,
+              "min": 20,
+              "max": 45
+            },
+            "includes": {
+              "pass": false,
+              "missing": [
+                "small business marketing"
+              ]
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": false
+          },
+          "text": "Empowering UK small businesses through effective marketing strategies and lead generation. Let’s unlock your growth potential and create lasting success together."
+        },
+        {
+          "n": 1,
+          "compliance": {
+            "length": {
+              "pass": true,
+              "words": 28,
+              "min": 20,
+              "max": 45
+            },
+            "includes": {
+              "pass": true,
+              "missing": []
+            },
+            "avoid": {
+              "pass": true,
+              "violations": []
+            },
+            "overallPass": true
+          },
+          "text": "Unlock your growth potential with effective small business marketing and lead generation strategies. Together, we can create lasting success and help your business thrive in a competitive landscape."
+        }
+      ]
+    }
+  ],
+  "outputPreview": "Unlock your growth potential with effective small business marketing and lead generation strategies. Together, we can create lasting success and help your business thrive in a competitive landscape."
+}

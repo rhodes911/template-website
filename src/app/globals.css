@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-900 bg-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-50 text-primary-600 font-semibold py-3 px-6 rounded-lg border-2 border-primary-600 transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200;
+  }
+  
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary-50 via-white to-secondary-50;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent;
+  }
+  
+  .markdown-content {
+    @apply text-base leading-relaxed;
+  }
+  
+  /* Custom markdown styling for case studies */
+  .markdown-content h1 {
+    @apply text-4xl font-bold text-gray-900 mb-8 mt-0 border-b border-gray-200 pb-4;
+  }
+  
+  .markdown-content h2 {
+    @apply text-3xl font-bold text-primary-600 mb-6 mt-12 relative;
+  }
+  
+  .markdown-content h2::before {
+    @apply absolute -left-4 top-0 w-1 h-full bg-primary-500 rounded-full;
+    content: '';
+  }
+  
+  .markdown-content h3 {
+    @apply text-2xl font-semibold text-gray-800 mb-4 mt-8;
+  }
+  
+  .markdown-content p {
+    @apply text-gray-700 leading-relaxed mb-6;
+  }
+  
+  .markdown-content ul {
+    @apply space-y-3 mb-6 pl-6;
+  }
+  
+  .markdown-content ol {
+    @apply space-y-3 mb-6 pl-6;
+  }
+  
+  .markdown-content li {
+    @apply text-gray-700 relative;
+  }
+  
+  .markdown-content ul li::before {
+    @apply absolute -left-6 top-2 w-2 h-2 bg-primary-500 rounded-full;
+    content: '';
+  }
+  
+  .markdown-content strong {
+    @apply font-semibold text-gray-900 bg-yellow-100 px-1 rounded;
+  }
+  
+  .markdown-content blockquote {
+    @apply border-l-4 border-primary-500 bg-primary-50 p-6 my-8 italic rounded-r-lg;
+  }
+  
+  .markdown-content blockquote p {
+    @apply text-primary-800 mb-0;
+  }
+  
+  .markdown-content code {
+    @apply bg-gray-100 px-2 py-1 rounded text-sm font-mono;
+  }
+  
+  .markdown-content pre {
+    @apply bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto my-6;
+  }
+  
+  .markdown-content a {
+    @apply text-primary-600 font-medium hover:text-primary-700 hover:underline transition-colors;
+  }
+  
+  /* Special styling for results/metrics */
+  .markdown-content p:has(strong:contains('%')) {
+    @apply bg-green-50 border border-green-200 p-4 rounded-lg font-medium text-green-800;
+  }
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .animate-slideIn {
+    animation: slideIn 0.6s ease-out;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

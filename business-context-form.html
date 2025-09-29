@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Context Form - Ellie Edwards Marketing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#fdf2f8',
+              100: '#fce7f3',
+              200: '#fbcfe8',
+              300: '#f9a8d4',
+              400: '#f472b6',
+              500: '#ec4899',
+              600: '#db2777',
+              700: '#be185d',
+              800: '#9d174d',
+              900: '#831843',
+            },
+            neutral: {
+              0: '#ffffff',
+              50: '#f9fafb',
+              100: '#f3f4f6',
+              200: '#e5e7eb',
+              300: '#d1d5db',
+              400: '#9ca3af',
+              500: '#6b7280',
+              600: '#4b5563',
+              700: '#374151',
+              800: '#1f2937',
+              900: '#111827',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            heading: ['Poppins', 'Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .gradient-bg {
+      background: linear-gradient(to bottom right, #f9fafb, #ffffff, #fff7ed);
+    }
+    .input-field {
+      @apply w-full px-4 py-3 border border-neutral-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-200 bg-white;
+    }
+    .btn-primary {
+      @apply bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 shadow-lg;
+    }
+    .section-card {
+      @apply bg-white rounded-xl shadow-lg border border-neutral-200 p-6 mb-6;
+    }
+    .fade-in {
+      animation: fadeIn 0.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="font-sans gradient-bg min-h-screen">
+  <!-- Header -->
+  <header class="bg-white shadow-sm border-b border-neutral-200">
+    <div class="max-w-4xl mx-auto px-4 py-6">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 bg-gradient-to-r from-primary-500 to-primary-600 rounded-lg flex items-center justify-center">
+          <span class="text-white font-bold text-lg">E</span>
+        </div>
+        <div>
+          <h1 class="text-2xl font-heading font-bold text-neutral-900">Business Context Form</h1>
+          <p class="text-neutral-600">Ellie Edwards Marketing</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <div class="fade-in">
+      <!-- Introduction -->
+      <div class="section-card">
+        <div class="text-center mb-6">
+          <h2 class="text-3xl font-heading font-bold text-neutral-900 mb-4">
+            Let's Build Your 
+            <span class="bg-gradient-to-r from-primary-600 to-primary-700 bg-clip-text text-transparent">Perfect Website</span>
+          </h2>
+          <p class="text-neutral-600 text-lg max-w-2xl mx-auto">
+            Fill out this form to help us understand your business and create a website that converts visitors into customers.
+          </p>
+        </div>
+      </div>
+
+      <form id="contextForm" class="space-y-6">
+        <!-- Basic Information -->
+        <div class="section-card">
+          <h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center text-sm font-bold mr-3">1</span>
+            Basic Information
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Brand Name *</label>
+              <input type="text" name="brand" class="input-field" placeholder="e.g., Ellie Edwards Marketing">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Website URL *</label>
+              <input type="text" name="site_url" class="input-field" placeholder="https://example.com">
+            </div>
+          </div>
+        </div>
+
+        <!-- Target Audience & CTAs -->
+        <div class="section-card">
+          <h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center text-sm font-bold mr-3">2</span>
+            Target Audience & Goals
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Primary Call-to-Actions (one per line)</label>
+              <textarea name="primary_ctas" rows="3" class="input-field" placeholder="Book a Strategy Call&#10;Get a Proposal&#10;Download Free Guide"></textarea>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Target Audience (one per line)</label>
+              <textarea name="audience" rows="3" class="input-field" placeholder="SME owners&#10;Startup founders&#10;Marketing managers"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Services & Locations -->
+        <div class="section-card">
+          <h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center text-sm font-bold mr-3">3</span>
+            Services & Coverage
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Services Offered (one per line)</label>
+              <textarea name="services" rows="4" class="input-field" placeholder="Lead Generation Websites&#10;Local AI Agent Setup&#10;Content & SEO&#10;Email Automation"></textarea>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Service Areas (one per line)</label>
+              <textarea name="locations" rows="4" class="input-field" placeholder="UK-wide&#10;Hampshire&#10;Surrey&#10;Berkshire"></textarea>
+            </div>
+          </div>
+          <div class="mt-4">
+            <label class="block text-sm font-medium text-neutral-700 mb-2">Value Propositions (one per line)</label>
+            <textarea name="value_props" rows="3" class="input-field" placeholder="Done-for-you, measurable lead gen&#10;AI-enhanced inbound funnels&#10;Fast deployment on modern stack"></textarea>
+          </div>
+        </div>
+
+        <!-- SEO Keywords -->
+        <div class="section-card">
+          <h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center text-sm font-bold mr-3">4</span>
+            SEO Keywords
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Primary Keywords (one per line)</label>
+              <textarea name="primary_keywords" rows="4" class="input-field" placeholder="lead generation websites&#10;digital marketing for SMEs&#10;local ai agents&#10;content marketing services"></textarea>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Secondary Keywords (one per line)</label>
+              <textarea name="secondary_keywords" rows="4" class="input-field" placeholder="b2b lead gen agency&#10;landing page design&#10;marketing automation setup&#10;email nurture sequences"></textarea>
+            </div>
+          </div>
+          <div class="mt-4">
+            <label class="block text-sm font-medium text-neutral-700 mb-2">Main Competitors (one per line)</label>
+            <textarea name="competitors" rows="2" class="input-field" placeholder="Competitor One&#10;Competitor Two"></textarea>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="section-card">
+          <h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center text-sm font-bold mr-3">5</span>
+            Social Media Profiles
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">LinkedIn URL</label>
+              <input type="text" name="linkedin" class="input-field" placeholder="https://www.linkedin.com/company/example">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Twitter/X URL</label>
+              <input type="text" name="twitter" class="input-field" placeholder="https://x.com/example">
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="section-card">
+          <h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4 flex items-center">
+            <span class="w-8 h-8 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center text-sm font-bold mr-3">6</span>
+            Contact & Schema Information
+          </h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Organization Name</label>
+              <input type="text" name="organization_name" class="input-field" placeholder="Ellie Edwards Marketing">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Logo URL</label>
+              <input type="text" name="logo_url" class="input-field" placeholder="https://example.com/logo.png">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Contact Phone</label>
+              <input type="text" name="contact_phone" class="input-field" placeholder="+44 0000 000000">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Contact Email</label>
+              <input type="email" name="contact_email" class="input-field" placeholder="hello@example.com">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Street Address</label>
+              <input type="text" name="streetAddress" class="input-field" placeholder="1 High Street">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">City/Town</label>
+              <input type="text" name="addressLocality" class="input-field" placeholder="Farnborough">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Postal Code</label>
+              <input type="text" name="postalCode" class="input-field" placeholder="GU14 0AA">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-neutral-700 mb-2">Country Code</label>
+              <input type="text" name="addressCountry" class="input-field" placeholder="GB" value="GB">
+            </div>
+          </div>
+        </div>
+
+        <!-- Generate Button -->
+        <div class="text-center">
+          <button type="button" onclick="collectData()" class="btn-primary">
+            🚀 Generate Business Context JSON
+          </button>
+        </div>
+      </form>
+
+      <!-- Output -->
+      <div id="outputSection" class="section-card mt-8" style="display: none;">
+        <h3 class="text-xl font-heading font-semibold text-neutral-900 mb-4 flex items-center">
+          <span class="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center text-sm font-bold mr-3">✓</span>
+          Your Business Context JSON
+        </h3>
+        <div class="bg-neutral-900 rounded-lg p-4 overflow-x-auto">
+          <pre id="output" class="text-green-400 text-sm font-mono whitespace-pre-wrap"></pre>
+        </div>
+        <div class="mt-4 flex space-x-3">
+          <button onclick="copyToClipboard()" class="bg-neutral-600 hover:bg-neutral-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
+            📋 Copy to Clipboard
+          </button>
+          <button onclick="downloadJson()" class="bg-primary-600 hover:bg-primary-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200">
+            💾 Download JSON
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-neutral-200 mt-12">
+    <div class="max-w-4xl mx-auto px-4 py-6 text-center">
+      <p class="text-neutral-600">Created with ❤️ for Ellie Edwards Marketing clients</p>
+    </div>
+  </footer>
+
+  <script>
+    let generatedContext = null;
+
+    function collectData() {
+      const f = document.forms.contextForm;
+      const context = {
+        brand: f.brand.value,
+        site_url: f.site_url.value,
+        primary_ctas: f.primary_ctas.value.split('\n').filter(Boolean),
+        audience: f.audience.value.split('\n').filter(Boolean),
+        services: f.services.value.split('\n').filter(Boolean),
+        locations: f.locations.value.split('\n').filter(Boolean),
+        value_props: f.value_props.value.split('\n').filter(Boolean),
+        target_keywords: {
+          primary: f.primary_keywords.value.split('\n').filter(Boolean),
+          secondary: f.secondary_keywords.value.split('\n').filter(Boolean)
+        },
+        competitors: f.competitors.value.split('\n').filter(Boolean),
+        social_profiles: {
+          linkedin: f.linkedin.value,
+          twitter: f.twitter.value
+        },
+        schema_defaults: {
+          organization_name: f.organization_name.value,
+          logo_url: f.logo_url.value,
+          contact_phone: f.contact_phone.value,
+          contact_email: f.contact_email.value,
+          address: {
+            streetAddress: f.streetAddress.value,
+            addressLocality: f.addressLocality.value,
+            postalCode: f.postalCode.value,
+            addressCountry: f.addressCountry.value
+          }
+        }
+      };
+
+      generatedContext = context;
+      document.getElementById('output').textContent = JSON.stringify(context, null, 2);
+      document.getElementById('outputSection').style.display = 'block';
+      document.getElementById('outputSection').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function copyToClipboard() {
+      const output = document.getElementById('output').textContent;
+      navigator.clipboard.writeText(output).then(() => {
+        // Show feedback
+        const button = event.target;
+        const originalText = button.textContent;
+        button.textContent = '✅ Copied!';
+        button.classList.add('bg-green-600', 'hover:bg-green-700');
+        button.classList.remove('bg-neutral-600', 'hover:bg-neutral-700');
+        
+        setTimeout(() => {
+          button.textContent = originalText;
+          button.classList.remove('bg-green-600', 'hover:bg-green-700');
+          button.classList.add('bg-neutral-600', 'hover:bg-neutral-700');
+        }, 2000);
+      });
+    }
+
+    function downloadJson() {
+      if (!generatedContext) return;
+      
+      const dataStr = JSON.stringify(generatedContext, null, 2);
+      const dataBlob = new Blob([dataStr], {type: 'application/json'});
+      const url = URL.createObjectURL(dataBlob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'business-context.json';
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // Auto-populate organization name when brand is filled
+    document.querySelector('input[name="brand"]').addEventListener('input', function(e) {
+      const orgField = document.querySelector('input[name="organization_name"]');
+      if (!orgField.value) {
+        orgField.value = e.target.value;
+      }
+    });
+  </script>
+</body>
+</html>

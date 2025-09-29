@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    "restaurant digital marketing case study",
+    "local seo restaurant",
+    "social media strategy restaurant",
+    "email marketing restaurant",
+    "italian restaurant marketing",
+    "google business profile optimization restaurant",
+    "increase restaurant reservations"
+  ],
+  "prefix_mods": [
+    "real",
+    "successful",
+    "best"
+  ],
+  "suffix_mods": [
+    "uk",
+    "manchester",
+    "results",
+    "before and after"
+  ],
+  "jaccard_threshold": 0.6,
+  "max_per_seed": 200,
+  "max_keywords": 1000
+}
