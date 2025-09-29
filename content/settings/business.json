@@ -1,56 +1,108 @@
-{
-  "brand": "Ellie Edwards Marketing",
-  "site_url": "https://ellieedwardsmarketing.com",
-  "primaryCTAs": [
-    "Book a Strategy Call",
-    "Get a Proposal"
-  ],
-  "audience": [
-    "SME owners",
-    "Startup founders"
-  ],
-  "services": [
-    "Brand Strategy",
-    "Content Marketing",
-    "Lead Generation",
-    "SEO",
-    "Social Media Management",
-    "PPC Advertising",
-    "Website Design",
-    "Email Marketing",
-    "Digital Campaigns"
-  ],
-  "locations": [
-    "UK"
-  ],
-  "valueProps": [
-    "Done-for-you, measurable lead gen"
-  ],
-  "targetKeywords": {
-    "primary": [
-      "lead generation websites"
-    ],
-    "secondary": [
-      "b2b lead gen agency"
-    ]
-  },
-  "competitors": [],
-  "socialProfiles": {
-    "linkedin": "https://www.linkedin.com/in/ellie-edwards-marketing",
-    "twitter": ""
-  },
-  "schemaDefaults": {
-    "organization_name": "Ellie Edwards Marketing",
-    "logo_url": "",
-    "contact_phone": "07711152873",
-    "contact_email": "ellieedwardsmarketing@gmai.com",
-    "address": {
-      "streetAddress": "49 Hazel Road",
-      "addressLocality": "Mytchett",
-      "postalCode": "GU16 6BA",
-      "addressCountry": "GB"
-    }
-  },
+{{
+
+  "brand": "REPLACE Your Business Name",  "brand": "Ellie Edwards Marketing",
+
+  "site_url": "https://your-domain.com",  "site_url": "https://ellieedwardsmarketing.com",
+
+  "primaryCTAs": [  "primaryCTAs": [
+
+    "REPLACE Primary CTA",    "Book a Strategy Call",
+
+    "REPLACE Secondary CTA"    "Get a Proposal"
+
+  ],  ],
+
+  "audience": [  "audience": [
+
+    "REPLACE Target Audience 1",    "SME owners",
+
+    "REPLACE Target Audience 2"    "Startup founders"
+
+  ],  ],
+
+  "services": [  "services": [
+
+    "REPLACE Service 1",    "Brand Strategy",
+
+    "REPLACE Service 2",    "Content Marketing",
+
+    "REPLACE Service 3",    "Lead Generation",
+
+    "REPLACE Service 4",    "SEO",
+
+    "REPLACE Service 5"    "Social Media Management",
+
+  ],    "PPC Advertising",
+
+  "locations": [    "Website Design",
+
+    "REPLACE Your Location"    "Email Marketing",
+
+  ],    "Digital Campaigns"
+
+  "valueProps": [  ],
+
+    "REPLACE Your Unique Value Proposition"  "locations": [
+
+  ],    "UK"
+
+  "targetKeywords": {  ],
+
+    "primary": [  "valueProps": [
+
+      "REPLACE primary keyword 1",    "Done-for-you, measurable lead gen"
+
+      "REPLACE primary keyword 2",  ],
+
+      "REPLACE primary keyword 3"  "targetKeywords": {
+
+    ],    "primary": [
+
+    "secondary": [      "lead generation websites"
+
+      "REPLACE secondary keyword 1",    ],
+
+      "REPLACE secondary keyword 2",    "secondary": [
+
+      "REPLACE secondary keyword 3"      "b2b lead gen agency"
+
+    ],    ]
+
+    "long_tail": [  },
+
+      "REPLACE long tail keyword 1",  "competitors": [],
+
+      "REPLACE long tail keyword 2"  "socialProfiles": {
+
+    ]    "linkedin": "https://www.linkedin.com/in/ellie-edwards-marketing",
+
+  },    "twitter": ""
+
+  "contact": {  },
+
+    "email": "REPLACE your-email@domain.com",  "schemaDefaults": {
+
+    "phone": "REPLACE your phone number",    "organization_name": "Ellie Edwards Marketing",
+
+    "address": "REPLACE Your Address",    "logo_url": "",
+
+    "hours": "REPLACE Business Hours"    "contact_phone": "07711152873",
+
+  },    "contact_email": "ellieedwardsmarketing@gmai.com",
+
+  "social": {    "address": {
+
+    "linkedin": "REPLACE LinkedIn URL",      "streetAddress": "49 Hazel Road",
+
+    "twitter": "REPLACE Twitter URL",      "addressLocality": "Mytchett",
+
+    "facebook": "REPLACE Facebook URL",      "postalCode": "GU16 6BA",
+
+    "instagram": "REPLACE Instagram URL"      "addressCountry": "GB"
+
+  }    }
+
+}  },
   "localSeo": {
     "description": "Ellie Edwards Marketing is a UK-based consultancy delivering measurable lead generation through brand strategy, content marketing, SEO, paid acquisition and multi-channel nurture programs.",
     "foundedYear": 2025,

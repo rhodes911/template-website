@@ -1,7 +1,7 @@
 {
-  "name": "ellie-edwards-marketing",
+  "name": "professional-website-template",
   "version": "1.0.0",
-  "description": "Lead generation website for Ellie Edwards Marketing",
+  "description": "Professional website template for service-based businesses. Built with Next.js, TinaCMS, and Tailwind CSS.",
   "scripts": {
     "dev": "cross-env TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev\"",
     "build": "node scripts/build-embeddings.cjs && node scripts/build-vercel.js",
