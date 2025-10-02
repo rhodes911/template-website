@@ -104,8 +104,8 @@ export default function AboutClient({ data, markdown, testimonialItems }: AboutC
                         {/* Centered logo for reliable render */}
                         <div aria-hidden className="absolute inset-0 pointer-events-none flex items-center justify-center">
                           <Image
-                            src="/images/ellie-edwards-logo.png"
-                            alt="Ellie Edwards Marketing Logo"
+                            src="/images/REPLACE-your-logo.png"
+                            alt="REPLACE Your Business Name Logo"
                             width={180}
                             height={180}
                             className="grayscale opacity-15"
@@ -126,7 +126,7 @@ export default function AboutClient({ data, markdown, testimonialItems }: AboutC
                             </div>
                             <div className="mt-3 flex items-center justify-center gap-3">
                               <a
-                                href="https://www.linkedin.com/in/ellie-edwards-marketing/"
+                                href="https://www.linkedin.com/in/REPLACE-your-linkedin-username/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="LinkedIn profile"
@@ -135,8 +135,8 @@ export default function AboutClient({ data, markdown, testimonialItems }: AboutC
                                 <Linkedin className="w-4 h-4" />
                               </a>
                               <a
-                                href="mailto:ellieedwardsmarketing@gmail.com"
-                                aria-label="Email Ellie"
+                                href="mailto:REPLACE-your-email@domain.com"
+                                aria-label="Email REPLACE Your Name"
                                 className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-neutral-200 bg-white text-neutral-700 hover:text-white hover:bg-primary-600 hover:border-primary-600 transition-colors"
                               >
                                 <Mail className="w-4 h-4" />
@@ -151,7 +151,7 @@ export default function AboutClient({ data, markdown, testimonialItems }: AboutC
                 <p className="text-center text-sm uppercase tracking-wider text-primary-700/80 font-semibold mb-2">{data.name} • {data.title}</p>
                 <div className="flex items-center justify-center gap-3 mb-3">
                   <a
-                    href="https://www.linkedin.com/in/ellie-edwards-marketing/"
+                    href="https://www.linkedin.com/in/REPLACE-your-linkedin-username/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn profile"
@@ -160,8 +160,8 @@ export default function AboutClient({ data, markdown, testimonialItems }: AboutC
                     <Linkedin className="w-4.5 h-4.5" />
                   </a>
                   <a
-                    href="mailto:ellieedwardsmarketing@gmail.com"
-                    aria-label="Email Ellie"
+                    href="mailto:REPLACE-your-email@domain.com"
+                    aria-label="Email REPLACE Your Name"
                     className="inline-flex items-center justify-center w-9 h-9 rounded-full border border-neutral-200 bg-white text-neutral-700 hover:text-white hover:bg-primary-600 hover:border-primary-600 transition-colors"
                   >
                     <Mail className="w-4.5 h-4.5" />
@@ -337,7 +337,7 @@ export default function AboutClient({ data, markdown, testimonialItems }: AboutC
           />
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-flex items-center px-8 py-4 bg-white text-primary-600 rounded-2xl hover:bg-neutral-50 transition-colors font-semibold shadow-lg">
-              Book Strategy Call <ArrowRight className="ml-2 h-5 w-5" />
+              REPLACE Call to Action Text <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link href="/case-studies" className="inline-flex items-center px-8 py-4 border-2 border-white text-white rounded-2xl hover:bg-primary-700 transition-colors font-semibold">
               View Success Stories
@@ -358,7 +358,7 @@ export default function AboutClient({ data, markdown, testimonialItems }: AboutC
             name: data.name,
             jobTitle: data.title,
             image: data.profileImage,
-            url: 'https://www.ellieedwardsmarketing.com/about'
+            url: 'https://www.REPLACE-your-domain.com/about'
           })
         }}
       />
@@ -374,13 +374,13 @@ export default function AboutClient({ data, markdown, testimonialItems }: AboutC
             return {
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
-              name: 'Ellie Edwards Marketing',
+              name: 'REPLACE Your Business Name',
               image: data.profileImage,
-              url: 'https://www.ellieedwardsmarketing.com',
+              url: 'https://www.REPLACE-your-domain.com',
               founder: {
                 '@type': 'Person',
                 name: data.name,
-                url: 'https://www.ellieedwardsmarketing.com/about'
+                url: 'https://www.REPLACE-your-domain.com/about'
               },
               aggregateRating: {
                 '@type': 'AggregateRating',

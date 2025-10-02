@@ -1,5 +1,5 @@
 // ============================================================================
-// CENTRALIZED THEME SYSTEM FOR ELLIE EDWARDS MARKETING
+// CENTRALIZED THEME SYSTEM FOR WEBSITE TEMPLATE
 // ============================================================================
 // This file contains all design tokens and theme utilities for consistent
 // styling across the entire application. Change values here to restyle 

@@ -1,4 +1,4 @@
-# 🌟 Website Template - Professional Business Website# 🌟 Ellie Edwards Marketing – Lead Generation Website
+# 🌟 Website Template - Professional Business Website
 
 
 
@@ -12,7 +12,7 @@
 
 
 
-This is a **professional website template** built for service-based businesses. Perfect for consultants, agencies, freelancers, and small businesses looking for a modern, conversion-focused website.This is the official lead generation website for **Ellie Edwards Marketing**, a modern digital marketing brand focused on client acquisition, personal branding, and conversion-focused campaigns.
+This is a **professional website template** built for service-based businesses. Perfect for consultants, agencies, freelancers, and small businesses looking for a modern, conversion-focused website.
 
 
 
@@ -34,7 +34,7 @@ This is a **professional website template** built for service-based businesses. 
 
 - ✅ **Service pages** – Detailed service descriptions and features- � Mailchimp/Zapier-ready – Marketing automation friendly
 
-- ✅ **Testimonials** – Social proof integration
+- ✅ **Case Studies** – Showcase client results and success stories
 
 - ✅ **Performance optimized** – Fast loading and Core Web Vitals ready---
 
@@ -104,7 +104,7 @@ Look for these markers throughout the codebase:|------------------|-------------
 
 - `case-studies/*.md` - Client case studies```bash
 
-- `settings/business.json` - Business information and contact detailsgit clone https://github.com/yourusername/ellie-edwards-marketing.git
+- `settings/business.json` - Business information and contact details
 
 cd ellie-edwards-marketing
 
@@ -284,7 +284,7 @@ The template includes contact form functionality:## 📬 Form Flow
 
 2. Add your API key to environment variables3. Data is validated and stored in Supabase PostgreSQL
 
-3. Update the sender email in contact form components4. Email notification sent instantly via Resend to ellieedwardsmarketing@gmail.com
+3. Update the sender email in contact form components4. Email notification sent instantly via Resend to REPLACE-your-email@domain.com
 
 4. Customize email templates in `src/app/api/contact/`5. Future-ready for:
 
@@ -338,7 +338,7 @@ This template works on any platform that supports Next.js:3. Import the GitHub p
 
    RESEND_API_KEY="your-resend-api-key"
 
-## 📊 Performance   NOTIFICATION_EMAIL="ellieedwardsmarketing@gmail.com"
+## 📊 Performance   NOTIFICATION_EMAIL="REPLACE-your-email@domain.com"
 
    NEXT_PUBLIC_SITE_URL="https://your-vercel-domain.vercel.app"
 

@@ -119,7 +119,7 @@ const CommandPalette: React.FC = () => {
   const pathname = usePathname();
   const links = [
     { label: 'Services', href: '/services' },
-    { label: 'SEO Services', href: '/services/seo' },
+    { label: 'REPLACE Service 1', href: '/services/sample-service-1' },
     { label: 'PPC', href: '/services/ppc' },
     { label: 'Content Marketing', href: '/services/content-marketing' },
     { label: 'Case Studies', href: '/case-studies' },
@@ -306,7 +306,7 @@ const CoreBuildingBlocks = ({ itemsOverride }: { itemsOverride?: Array<{ title: 
       category: 'Attract',
       benefits: ['Technical audits', 'On‑page optimisation', 'Local SEO basics'],
       links: [
-        { label: 'SEO Services', href: '/services/seo' },
+        { label: 'REPLACE Service 1', href: '/services/sample-service-1' },
       ],
     },
     {
@@ -821,27 +821,27 @@ const TestimonialRotator: React.FC<{ items?: TestimonialItem[] }> = ({ items }) 
   const testimonials: TestimonialItem[] = items && items.length ? items : [
     {
       quote:
-        "Ellie helped us professionalise our marketing. We went from inconsistent footfall to a waiting list on weekends. The strategy didn't just increase sales – it reconnected us with our local community.",
-      name: 'Maria Rossi',
-      role: 'Owner, Bella Vista Restaurant',
-      metrics: ['+150% revenue', '+300% online orders', '+500% social reach'],
-      slug: 'bella-vista-restaurant',
+        "REPLACE Sample testimonial quote 1. This should be a genuine review from a satisfied client highlighting the value and results you provided.",
+      name: 'REPLACE Client Name 1',
+      role: 'REPLACE Client Title/Role, REPLACE Company Name',
+      metrics: ['REPLACE Metric 1', 'REPLACE Metric 2', 'REPLACE Metric 3'],
+      slug: 'sample-case-study-1',
     },
     {
       quote:
-        "The marketing strategy didn't just grow our sales – it built a community around our mission. Customers have become advocates for sustainable living.",
-      name: 'Tom Green',
-      role: 'Founder, EcoHome Solutions',
-      metrics: ['+500% revenue', '+300% new customers', '+150% conversion rate'],
-      slug: 'ecohome-solutions',
+        "REPLACE Sample testimonial quote 2. Another positive review showcasing different aspects of your service and the impact on their business.",
+      name: 'REPLACE Client Name 2',
+      role: 'REPLACE Client Title/Role, REPLACE Company Name',
+      metrics: ['REPLACE Metric 1', 'REPLACE Metric 2', 'REPLACE Metric 3'],
+      slug: 'sample-case-study-2',
     },
     {
       quote:
-        'Ellie helped me discover and articulate my unique value. The positioning & content approach turned me from just another coach into a recognised expert.',
-      name: 'Sarah Mitchell',
-      role: 'Life Coach, Sarah Mitchell Coaching',
-      metrics: ['+400% revenue', '+1200% email list', '+250% qualified leads'],
-      slug: 'sarah-mitchell-coaching',
+        'REPLACE Sample testimonial quote 3. A third testimonial that demonstrates your expertise and the transformation you helped achieve.',
+      name: 'REPLACE Client Name 3',
+      role: 'REPLACE Client Title/Role, REPLACE Company Name',
+      metrics: ['REPLACE Metric 1', 'REPLACE Metric 2', 'REPLACE Metric 3'],
+      slug: 'sample-case-study-3',
     },
   ];
   const [index, setIndex] = useState(0);
@@ -922,10 +922,10 @@ interface ServiceCardData {
 const InteractiveServices = () => {
   const services: ServiceCardData[] = [
     {
-      title: 'SEO Services',
+      title: 'REPLACE Service 1',
       desc: 'Improve search visibility & increase qualified traffic.',
       benefits: ['Technical Audits', 'On-Page Optimisation', 'Content Structure', 'Local Visibility'],
-      href: '/services/seo'
+      href: '/services/sample-service-1'
     },
     {
       title: 'PPC Management',
@@ -1065,12 +1065,12 @@ const ServicePillars = () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M3 6h18M7 6v3a5 5 0 0 0 10 0V6" />
         </svg>
       ),
-      title: 'Attract Demand',
-      desc: 'Find more of the right people through search and paid discovery.',
+      title: 'REPLACE Service Category 1',
+      desc: 'REPLACE Description of your first service category. Explain how this helps your clients.',
       links: [
-        { label: 'SEO', href: '/services/seo' },
-        { label: 'PPC', href: '/services/ppc' },
-        { label: 'Social Ads', href: '/services/social-media' }
+        { label: 'REPLACE Service 1A', href: '/services/service-1a' },
+        { label: 'REPLACE Service 1B', href: '/services/service-1b' },
+        { label: 'REPLACE Service 1C', href: '/services/service-1c' }
       ]
     },
     {
@@ -1079,12 +1079,12 @@ const ServicePillars = () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M3 4h18M6 4l6 16 6-16M4 14h16" />
         </svg>
       ),
-      title: 'Turn Interest Into Leads',
-      desc: 'Make next steps obvious and useful so curiosity becomes contact.',
+      title: 'REPLACE Service Category 2',
+      desc: 'REPLACE Description of your second service category. Explain the benefits you provide.',
       links: [
-        { label: 'Lead Generation', href: '/services/lead-generation' },
-        { label: 'Email Marketing', href: '/services/email-marketing' },
-        { label: 'Content Strategy', href: '/services/content-marketing' }
+        { label: 'REPLACE Service 2A', href: '/services/service-2a' },
+        { label: 'REPLACE Service 2B', href: '/services/service-2b' },
+        { label: 'REPLACE Service 2C', href: '/services/service-2c' }
       ]
     },
     {
@@ -1093,12 +1093,12 @@ const ServicePillars = () => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M4 7h16M4 12h10M4 17h7" />
         </svg>
       ),
-      title: 'Design For Conversion',
-      desc: 'Fast, clear, confidence‑building experiences that perform.',
+      title: 'REPLACE Service Category 3',
+      desc: 'REPLACE Description of your third service category. Highlight your expertise.',
       links: [
-        { label: 'Website Design', href: '/services/website-design' },
-        { label: 'Digital Campaigns', href: '/services/digital-campaigns' },
-        { label: 'Brand Strategy', href: '/services/brand-strategy' }
+        { label: 'REPLACE Service 3A', href: '/services/service-3a' },
+        { label: 'REPLACE Service 3B', href: '/services/service-3b' },
+        { label: 'REPLACE Service 3C', href: '/services/service-3c' }
       ]
     }
   ];
@@ -1226,7 +1226,7 @@ export default function InteractiveExperimentClient(props: HomeProps = {}) {
           {/* Removed live concept pill per request */}
           <h1 className="mt-8 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
             <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent">
-              {props.heroTitle || 'Digital Marketing in Camberley, Surrey'}
+              {props.heroTitle || 'REPLACE Service Title | [Your Location]'}
             </span>
             <span className="block mt-2 text-neutral-900">{props.heroSubtitle || 'Creating Measurable Growth'}</span>
           </h1>
@@ -1234,11 +1234,11 @@ export default function InteractiveExperimentClient(props: HomeProps = {}) {
             className="max-w-2xl mt-6 text-lg sm:text-xl text-neutral-600 leading-relaxed"
             data-animate
           >
-            {props.heroDescription || 'Based in Camberley, Surrey we deliver professional digital marketing strategies for businesses across Hampshire, Surrey, Basingstoke and Reading. From smart campaigns and search optimisation to social media, content and brand development – your local growth partner.'}
+            {props.heroDescription || 'REPLACE with your location-based service description. Highlight your service areas, specialties, and value proposition for local businesses.'}
           </p>
           <div className="mt-10 flex flex-wrap gap-4" data-animate>
             <Link href={props.heroCtas?.primaryHref || '/contact'} className={`${ui.primaryBtn} relative overflow-hidden group`}>
-              <span className="relative flex items-center gap-2">{props.heroCtas?.primaryLabel || 'Book Strategy Call'}
+              <span className="relative flex items-center gap-2">{props.heroCtas?.primaryLabel || 'REPLACE CTA Button Text'}
                 <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
@@ -1280,11 +1280,11 @@ export default function InteractiveExperimentClient(props: HomeProps = {}) {
           ) : (
             <p className="max-w-3xl text-neutral-700 text-lg mt-4 mb-10" data-animate>
               The essentials that compound results: technical
-              {' '}<Link href="/services/seo" className="text-primary-600 font-semibold hover:underline">SEO</Link>, clear
+              {' '}<Link href="/services/sample-service-1" className="text-primary-600 font-semibold hover:underline">SEO</Link>, clear
               {' '}<Link href="/services/content-marketing" className="text-primary-600 font-semibold hover:underline">content marketing</Link>,
               {' '}conversion‑friendly journeys and efficient
               {' '}<Link href="/services/ppc" className="text-primary-600 font-semibold hover:underline">PPC</Link>.
-              {' '}Built for local businesses in Camberley, Surrey & Hampshire and continuously optimised
+              {' '}REPLACE local business tagline and optimization description
               {' '}for speed, visibility and
               {' '}<Link href="/services/lead-generation" className="text-primary-600 font-semibold hover:underline">lead generation</Link>.
             </p>
@@ -1297,11 +1297,11 @@ export default function InteractiveExperimentClient(props: HomeProps = {}) {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       <div className="md:flex md:items-end md:justify-between gap-10 mb-14" data-animate>
             <div>
-              <h3 id="how-we-help-heading" className="text-3xl sm:text-4xl font-bold mb-4">{props.howWeHelp?.title || (<><span>How We Help You </span><span className="text-primary-600">Grow</span></>)}</h3>
+              <h3 id="how-we-help-heading" className="text-3xl sm:text-4xl font-bold mb-4">{props.howWeHelp?.title || (<><span>REPLACE Your Services </span><span className="text-primary-600">Section</span></>)}</h3>
               {props.howWeHelp?.intro ? (
                 <p className="text-neutral-600 max-w-xl">{props.howWeHelp.intro}</p>
               ) : (
-                <p className="text-neutral-600 max-w-xl">A modular stack of acquisition & retention disciplines engineered for compounding performance.</p>
+                <p className="text-neutral-600 max-w-xl">REPLACE Your services section description. Explain what you offer and how it helps your clients achieve their goals.</p>
               )}
             </div>
             <Link
@@ -1338,7 +1338,7 @@ export default function InteractiveExperimentClient(props: HomeProps = {}) {
             href={props.pageCta?.buttonHref || '/contact'}
             className="inline-flex items-center gap-3 px-10 py-5 rounded-2xl bg-gradient-to-r from-primary-500 to-primary-600 font-semibold shadow-lg hover:shadow-primary-600/40 transition-shadow"
           >
-            {props.pageCta?.buttonLabel || 'Book Strategy Call'}
+            {props.pageCta?.buttonLabel || 'REPLACE CTA Button Text'}
             <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>

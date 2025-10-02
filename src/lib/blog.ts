@@ -43,10 +43,10 @@ const blogDirectory = path.join(process.cwd(), 'content/blog');
 
 // Fallback author if frontmatter omits one
 const DEFAULT_AUTHOR = {
-  name: 'Ellie Edwards',
-  bio: 'Strategic marketing consultant helping SMEs unlock growth with positioning, demand and retention systems.',
-  avatar: '/images/ellie-edwards-profile.jpg',
-  linkedin: 'https://www.linkedin.com/in/ellieedwards'
+  name: 'REPLACE Author Name',
+  bio: 'REPLACE Author bio. Describe your expertise and what you help clients achieve.',
+  avatar: '/images/REPLACE-author-profile.jpg',
+  linkedin: 'REPLACE-linkedin-url'
 };
 
 export function getBlogPosts(): BlogPost[] {

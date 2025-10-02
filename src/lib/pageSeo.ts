@@ -121,34 +121,34 @@ function getSmartDefaults(pageType?: string, contentData?: ContentData, slug?: s
 
   switch (pageType) {
     case 'home':
-      defaults.title = 'Expert Digital Marketing Camberley Surrey | Ellie Edwards'
-      defaults.description = 'Transform your brand with smart marketing strategies. Local digital marketing expert serving Camberley, Surrey, Hampshire, Basingstoke & Reading areas.'
+      defaults.title = 'REPLACE Home Page Title | [Your Business] [Location]'
+      defaults.description = 'REPLACE Home page meta description. Describe your business and location. Keep under 160 characters.'
       defaults.canonicalUrl = '/'
-      defaults.ogTitle = 'Ellie Edwards Marketing - Expert Digital Marketing for Entrepreneurs'
-      defaults.ogDescription = 'Transform your brand with smart marketing strategies. We help entrepreneurs and personal brands create compelling campaigns that convert visitors into loyal customers.'
+      defaults.ogTitle = 'REPLACE Business Name - REPLACE Brief Business Description'
+      defaults.ogDescription = 'REPLACE Social media description for home page. Compelling description of your business value proposition.'
       break
       
     case 'about':
-      defaults.title = 'About Ellie Edwards | Marketing Consultant'
-      defaults.description = 'Meet Ellie Edwards, a marketing consultant helping small businesses grow with strategic, results‑driven marketing.'
+      defaults.title = 'REPLACE About Title | [Your Name] | [Your Job Title]'
+      defaults.description = 'REPLACE About page description. Introduce yourself and your expertise. Keep under 160 characters.'
       defaults.canonicalUrl = '/about'
       break
       
     case 'contact':
-      defaults.title = 'Contact Ellie Edwards | Get Your Marketing Quote'
-      defaults.description = 'Ready to transform your marketing? Contact Ellie Edwards for a free consultation and discover how we can grow your business together.'
+      defaults.title = 'REPLACE Contact Title | [Your Business] [Location]'
+      defaults.description = 'REPLACE Contact page description. Include your location and contact methods. Keep under 160 characters.'
       defaults.canonicalUrl = '/contact'
       break
       
     case 'faq':
-      defaults.title = 'Frequently Asked Questions | Ellie Edwards Marketing'
-      defaults.description = 'Get answers to common questions about our digital marketing services, processes, pricing, and how we can help grow your business.'
+      defaults.title = 'REPLACE FAQ Title | [Your Business]'
+      defaults.description = 'REPLACE FAQ page description. Mention what questions you answer about your services.'
       defaults.canonicalUrl = '/faq'
       break
       
     case 'service':
       if (contentData?.title) {
-        defaults.title = `${contentData.title} Services | Ellie Edwards Marketing`
+        defaults.title = `${contentData.title} Services | [Your Business]`
         defaults.description = contentData.description
         defaults.keywords = contentData.keywords
         defaults.canonicalUrl = `/services/${slug}`
@@ -157,7 +157,7 @@ function getSmartDefaults(pageType?: string, contentData?: ContentData, slug?: s
       
     case 'blog':
       if (contentData?.title) {
-        defaults.title = `${contentData.title} | Ellie Edwards Marketing`
+        defaults.title = `${contentData.title} | [Your Business] Blog`
         defaults.description = contentData.excerpt
         defaults.keywords = contentData.keywords
         defaults.canonicalUrl = `/blog/${slug}`
@@ -168,9 +168,9 @@ function getSmartDefaults(pageType?: string, contentData?: ContentData, slug?: s
       
     case 'case-study':
       if (contentData?.title && contentData?.client) {
-        defaults.title = `${contentData.title} | Case Study | Ellie Edwards Marketing`
-        defaults.description = `${contentData.challenge} Learn how we helped ${contentData.client} achieve remarkable results through strategic digital marketing.`
-        const baseKeywords = ['case study', 'digital marketing results']
+        defaults.title = `${contentData.title} | Case Study | [Your Business]`
+        defaults.description = `${contentData.challenge} Learn how we helped ${contentData.client} achieve remarkable results.`
+        const baseKeywords = ['case study', 'results']
         if (contentData.client) baseKeywords.unshift(contentData.client)
         if (contentData.industry) baseKeywords.unshift(contentData.industry)
         if (contentData.tags) baseKeywords.push(...contentData.tags)
@@ -183,7 +183,7 @@ function getSmartDefaults(pageType?: string, contentData?: ContentData, slug?: s
       
     case 'listing':
       if (contentData?.title) {
-        defaults.title = `${contentData.title} | Ellie Edwards Marketing Blog`
+        defaults.title = `${contentData.title} | [Your Business] Blog`
         defaults.description = contentData.description
         defaults.keywords = contentData.keywords
       }

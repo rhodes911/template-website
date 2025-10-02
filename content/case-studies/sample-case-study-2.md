@@ -1,51 +1,39 @@
 ---
-title: REPLACE Sample Case Study 2
-description: REPLACE Case study description. Brief overview of the client challenge and results achieved.
-slug: sample-case-study-2
+title: REPLACE Case Study 2 Title
+subtitle: REPLACE Brief description of the case study
 client: REPLACE Client Name 2
-industry: REPLACE Industry 2
-projectDate: 2024-11-01
+industry: REPLACE Industry Type 2
+services: [REPLACE Service 2, REPLACE Service 3]
+results: 
+  - metric: REPLACE Metric 1
+    value: REPLACE Value 1
+    description: REPLACE Description 1
+  - metric: REPLACE Metric 2  
+    value: REPLACE Value 2
+    description: REPLACE Description 2
 featured: true
+publishDate: 2024-02-20
 image: /images/case-studies/sample-case-2.jpg
-tagServiceMap:
-  services:
-    - sample-service-2
-    - sample-service-3
-testimonial:
-  quote: REPLACE Client testimonial quote. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  author: REPLACE Client Name 2
-  role: REPLACE Client Role 2
-  metrics:
-    - REPLACE metric 1
-    - REPLACE metric 2
-  featured: true
-results:
-  revenue: REPLACE revenue increase %
-  onlineOrders: REPLACE orders increase %
-  socialFollowing: REPLACE social growth %
-  websiteTraffic: REPLACE traffic increase %
-seo:
-  metaTitle: 'REPLACE Case Study 2 | [Your Business]'
-  metaDescription: REPLACE Case study meta description. Highlight the results and client success. Keep under 160 characters.
-  canonicalUrl: /case-studies/sample-case-study-2
-  noIndex: false
-  keywords:
-    - REPLACE case study keyword 1
-    - REPLACE case study keyword 2
-  openGraph:
-    ogTitle: REPLACE Case Study Title 2
-    ogDescription: REPLACE Social description for case study.
-    ogImage: /images/case-studies/sample-case-2.jpg
+slug: sample-case-study-2
+tags: [REPLACE Tag 1, REPLACE Tag 2]
 ---
 
-## REPLACE Background
+## The Challenge
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+REPLACE Describe the client's challenge or problem that needed to be solved. What was their situation before working with you?
 
-## REPLACE Approach
+## Our Approach
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+REPLACE Explain your strategy and methodology. What steps did you take to address the challenge?
 
-## REPLACE Outcomes
+## Implementation
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+REPLACE Detail the specific actions, tools, and tactics you used to execute the solution.
+
+## Results
+
+REPLACE Showcase the measurable outcomes and success metrics achieved through your work.
+
+## Key Takeaways
+
+REPLACE Share insights and lessons learned that would be valuable to other potential clients.

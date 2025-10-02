@@ -14,7 +14,7 @@ import TinaProvider from '@/components/TinaProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 const biz = getBusinessSettings()
-const brand = biz.brand || 'Ellie Edwards Marketing'
+const brand = biz.brand || 'REPLACE Your Business Name'
 const defaultTitle = `${brand} - Expert Digital Marketing for Entrepreneurs`
 const defaultDescription = 'Transform your brand with smart marketing strategies. We help entrepreneurs and personal brands create compelling campaigns that convert visitors into loyal customers.'
 const ogAbs = `${SITE_URL}/og-image.png`
@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     'digital marketing',
     'marketing strategy',
     'brand development',
-    'lead generation',
-    'personal branding',
-    'marketing consultant',
-    'entrepreneur marketing',
-    'conversion optimization'
+    'REPLACE keyword 1',
+    'REPLACE keyword 2',
+    'REPLACE your main service',
+    'REPLACE your job title',
+    'REPLACE your specialty'
   ],
-  authors: [{ name: 'Ellie Edwards' }],
+  authors: [{ name: 'REPLACE Author Name' }],
   creator: brand,
   publisher: brand,
   icons: {
@@ -58,14 +58,14 @@ export const metadata: Metadata = {
         url: ogAbs,
         width: 1200,
         height: 630,
-        alt: `${brand} – Digital Marketing in Camberley, Surrey`,
+        alt: `${brand} – REPLACE Your Business Description`,
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: defaultTitle,
-    description: 'Transform your brand with smart marketing strategies. Get your free consultation today.',
+    description: 'REPLACE Twitter/X card description for your business. Keep under 200 characters.',
     images: [ogAbs],
   },
   verification: {

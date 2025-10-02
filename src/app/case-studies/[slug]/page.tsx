@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   
   if (!caseStudy) {
     return {
-      title: 'Case Study Not Found | Ellie Edwards Marketing',
+      title: 'Case Study Not Found | REPLACE Your Business Name',
       description: 'The requested case study could not be found.',
     };
   }

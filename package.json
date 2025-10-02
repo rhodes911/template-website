@@ -13,7 +13,12 @@
     "perf:sitemap": "node sitemap-speed-test.js",
     "rag:build": "node scripts/build-embeddings.cjs",
     "rag:search": "node scripts/search-rag.cjs \"marketing strategy\"",
-    "reports:html": "node scripts/export-reports-to-html.js"
+    "reports:html": "node scripts/export-reports-to-html.js",
+    "test:headings": "node scripts/test-headings.js",
+    "test:seo": "node scripts/test-seo-meta.js",
+    "test:content": "node scripts/test-content-volume.js",
+    "test:seo-ts": "npx tsx scripts/test-page-seo.ts",
+    "test:all": "npm run test:headings && npm run test:seo && npm run test:content && npm run test:seo-ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

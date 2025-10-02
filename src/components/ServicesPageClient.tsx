@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useMemo } from 'react';
 import type { EnrichedServicePageData, ServicePageData } from '@/lib/client/serviceTypes';
 import { themeStyles } from '@/lib/theme';
+import { ServicesPageData } from '@/lib/server/pages';
 
 
 // Re-introduced icon map for service cards
@@ -88,9 +89,10 @@ const ServiceCard = ({ service, index }: { service: ServiceCardData; index: numb
 
 interface ServicesPageClientProps {
   services: (ServicePageData & Partial<EnrichedServicePageData>)[];
+  pageData: ServicesPageData;
 }
 
-export default function ServicesPageClient({ services }: ServicesPageClientProps) {
+export default function ServicesPageClient({ services, pageData }: ServicesPageClientProps) {
   // Simple: show all services in a clean grid
   const displayServices = useMemo(() => services, [services]);
 
@@ -108,31 +110,27 @@ export default function ServicesPageClient({ services }: ServicesPageClientProps
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
             <h1 className={`${themeStyles.text.h1} mb-6`}>
-              <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent">
-                Marketing Services
-              </span>{' '}
-              <span className="text-neutral-900">That Drive Results</span>
+              {pageData.heroTitle}
             </h1>
             <p className={`${themeStyles.text.bodyLarge} max-w-3xl mx-auto`}>
-              Comprehensive digital marketing solutions designed to grow your business, 
-              increase your revenue, and establish your brand as an industry leader.
+              {pageData.heroDescription}
             </p>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              href="/contact"
+              href={pageData.heroCtas.primaryHref}
               className={`${themeStyles.buttons.primary} transform hover:scale-105 shadow-lg`}
             >
-              Get Your Free Consultation
+              {pageData.heroCtas.primaryLabel}
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
             <Link 
-              href="/case-studies"
+              href={pageData.heroCtas.secondaryHref}
               className={`${themeStyles.buttons.secondary}`}
             >
               <Star className="mr-2 w-5 h-5" />
-              View Success Stories
+              {pageData.heroCtas.secondaryLabel}
             </Link>
           </div>
         </div>
@@ -174,26 +172,25 @@ export default function ServicesPageClient({ services }: ServicesPageClientProps
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 sm:p-12 border border-white/20">
             <h5 id="cta-heading" className={`${themeStyles.text.h4} text-white mb-6`}>
-              Ready to Transform Your Business?
+              {pageData.pageCta.title}
             </h5>
             <p className="text-lg sm:text-xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Let&apos;s discuss which services align best with your goals and create a customized 
-              strategy that delivers real results for your business.
+              {pageData.pageCta.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="/contact"
+                href={pageData.pageCta.buttonHref}
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-primary-600 rounded-lg hover:bg-neutral-50 transition-all duration-300 transform hover:scale-105 shadow-lg font-semibold"
               >
-                Get Free Consultation
+                {pageData.pageCta.buttonLabel}
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Link>
               <Link 
-                href="/case-studies"
+                href={pageData.heroCtas.secondaryHref}
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-lg hover:bg-white hover:text-primary-600 transition-all duration-300 font-semibold"
               >
                 <Star className="mr-2 w-5 h-5" />
-                View Success Stories
+                {pageData.heroCtas.secondaryLabel}
               </Link>
             </div>
           </div>

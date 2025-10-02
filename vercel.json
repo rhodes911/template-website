@@ -5,7 +5,7 @@
     }
   },
   "env": {
-    "NEXT_PUBLIC_SITE_NAME": "Ellie Edwards Marketing",
+    "NEXT_PUBLIC_SITE_NAME": "REPLACE Your Business Name",
     "NEXT_PUBLIC_TINA_BRANCH": "main"
   },
   "build": {
@@ -36,9 +36,9 @@
     {
       "source": "/:path*",
       "has": [
-        { "type": "host", "value": "ellieedwardsmarketing.com" }
+        { "type": "host", "value": "REPLACE-your-domain.com" }
       ],
-      "destination": "https://www.ellieedwardsmarketing.com/:path*",
+      "destination": "https://www.REPLACE-your-domain.com/:path*",
       "permanent": true
     }
   ]

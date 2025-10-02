@@ -199,27 +199,27 @@ export function buildTestimonialTiles(opts?: { limit?: number; includeSlugs?: st
   return [
     {
       quote:
-        "Ellie helped us professionalise our marketing. We went from inconsistent footfall to a waiting list on weekends. The strategy didn't just increase sales – it reconnected us with our local community.",
-      name: 'Maria Rossi',
-      role: 'Owner, Bella Vista Restaurant',
-      metrics: ['+150% revenue', '+300% online orders', '+500% social reach'],
-      slug: 'bella-vista-restaurant',
+        "REPLACE Sample testimonial quote 1. This should be a genuine review from a satisfied client highlighting the value and results you provided.",
+      name: 'REPLACE Client Name 1',
+      role: 'REPLACE Client Title/Role, REPLACE Company Name',
+      metrics: ['REPLACE Metric 1', 'REPLACE Metric 2', 'REPLACE Metric 3'],
+      slug: 'sample-case-study-1',
     },
     {
       quote:
-        "The marketing strategy didn't just grow our sales – it built a community around our mission. Customers have become advocates for sustainable living.",
-      name: 'Tom Green',
-      role: 'Founder, EcoHome Solutions',
-      metrics: ['+500% revenue', '+300% new customers', '+150% conversion rate'],
-      slug: 'ecohome-solutions',
+        "REPLACE Sample testimonial quote 2. Another positive review showcasing different aspects of your service and the impact on their business.",
+      name: 'REPLACE Client Name 2',
+      role: 'REPLACE Client Title/Role, REPLACE Company Name',
+      metrics: ['REPLACE Metric 1', 'REPLACE Metric 2', 'REPLACE Metric 3'],
+      slug: 'sample-case-study-2',
     },
     {
       quote:
-        'Ellie helped me discover and articulate my unique value. The positioning & content approach turned me from just another coach into a recognised expert.',
-      name: 'Sarah Mitchell',
-      role: 'Life Coach, Sarah Mitchell Coaching',
-      metrics: ['+400% revenue', '+1200% email list', '+250% qualified leads'],
-      slug: 'sarah-mitchell-coaching',
+        'REPLACE Sample testimonial quote 3. A third testimonial that demonstrates your expertise and the transformation you helped achieve.',
+      name: 'REPLACE Client Name 3',
+      role: 'REPLACE Client Title/Role, REPLACE Company Name',
+      metrics: ['REPLACE Metric 1', 'REPLACE Metric 2', 'REPLACE Metric 3'],
+      slug: 'sample-case-study-3',
     },
   ].slice(0, limit);
 }
@@ -235,7 +235,9 @@ export function buildTestimonialsFromCaseStudies(limit = 12): Testimonial[] {
       const role = cs.testimonial?.role || '';
       const metrics = (cs.testimonial?.metrics && cs.testimonial.metrics.length)
         ? cs.testimonial.metrics
-        : Object.values(cs.results || {});
+        : Array.isArray(cs.results) 
+          ? cs.results.map(r => `${r.value} ${r.metric}`) 
+          : Object.values(cs.results || {});
       return {
         id: cs.id,
         name,

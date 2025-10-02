@@ -10,19 +10,19 @@ export function getHomeData(): HomeData {
 
   // Minimal normalization with fallbacks so builds never break
   return {
-    heroTitle: data.heroTitle || 'Digital Marketing in Camberley, Surrey',
-    heroSubtitle: data.heroSubtitle || 'Creating Measurable Growth',
+    heroTitle: data.heroTitle || 'REPLACE Home Hero Title',
+    heroSubtitle: data.heroSubtitle || 'REPLACE Home Hero Subtitle',
     heroDescription: data.heroDescription || '',
-    heroCtas: data.heroCtas || { primaryLabel: 'Book Strategy Call', primaryHref: '/contact', secondaryLabel: 'Explore Services', secondaryHref: '/services' },
+    heroCtas: data.heroCtas || { primaryLabel: 'REPLACE Primary CTA', primaryHref: '/contact', secondaryLabel: 'REPLACE Secondary CTA', secondaryHref: '/services' },
     coreBlocks: {
-      title: data.coreBlocks?.title || 'Core Building Blocks',
+      title: data.coreBlocks?.title || 'REPLACE Core Blocks Title',
       intro: data.coreBlocks?.intro,
       items: data.coreBlocks?.items || [],
     },
     howWeHelp: {
-      title: data.howWeHelp?.title || 'How We Help You Grow',
+      title: data.howWeHelp?.title || 'REPLACE Your Services Section Title',
       intro: data.howWeHelp?.intro,
-      ctaLabel: data.howWeHelp?.ctaLabel || 'Full Services Overview',
+      ctaLabel: data.howWeHelp?.ctaLabel || 'View All Services',
       ctaHref: data.howWeHelp?.ctaHref || '/services',
     },
     clientSignals: {
@@ -32,7 +32,7 @@ export function getHomeData(): HomeData {
     pageCta: {
       title: data.pageCta?.title || 'Ready To Build Compounding Growth?',
       description: data.pageCta?.description || '',
-      buttonLabel: data.pageCta?.buttonLabel || 'Book Strategy Call',
+      buttonLabel: data.pageCta?.buttonLabel || 'REPLACE CTA Button Text',
       buttonHref: data.pageCta?.buttonHref || '/contact',
     },
     toggles: data.toggles || { enableCommandPalette: true, enableScrollProgress: true },

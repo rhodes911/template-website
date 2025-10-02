@@ -7,22 +7,28 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import { getPageSeo, buildMetadataFromSeo } from '@/lib/pageSeo';
+import { getBlogPageData } from '@/lib/server/pages';
 
-const blogSeo = getPageSeo('blog')
-export const metadata: Metadata = buildMetadataFromSeo(
-  { 
-    slug: 'blog', 
-    pageType: 'listing',
-    contentData: {
-      title: 'Marketing Blog',
-      description: 'Expert marketing insights, strategies, and tips to grow your business. Learn from proven case studies and industry expertise.'
-    }
-  }, 
-  blogSeo
-)
+export async function generateMetadata(): Promise<Metadata> {
+  const pageData = getBlogPageData();
+  const blogSeo = getPageSeo('blog');
+  
+  return buildMetadataFromSeo(
+    { 
+      slug: 'blog', 
+      pageType: 'listing',
+      contentData: {
+        title: pageData.heroTitle,
+        description: pageData.heroDescription
+      }
+    }, 
+    pageData.seo || blogSeo
+  );
+}
 
 export default function BlogPage() {
   const posts = getBlogPosts();
+  const pageData = getBlogPageData();
   const featuredPosts = posts.filter((post: BlogPost) => post.featured);
   const recentPosts = posts.filter((post: BlogPost) => !post.featured).slice(0, 6);
 
@@ -51,23 +57,33 @@ export default function BlogPage() {
             <div className="text-center">
               <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-primary-200/50 rounded-full px-4 py-2 mb-6">
                 <Tag className="w-4 h-4 text-primary-600" />
-                <span className="text-sm font-medium text-primary-700">Marketing Insights</span>
+                <span className="text-sm font-medium text-primary-700">{pageData.heroTagline}</span>
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-neutral-900 mb-6">
-                Expert Marketing 
-                <span className="block bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent">
-                  Insights & Strategies
-                </span>
+                {pageData.heroTitle.split(' ').length > 2 ? (
+                  <>
+                    {pageData.heroTitle.split(' ').slice(0, -2).join(' ')}{' '}
+                    <span className="block bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent">
+                      {pageData.heroTitle.split(' ').slice(-2).join(' ')}
+                    </span>
+                  </>
+                ) : (
+                  <span className="bg-gradient-to-r from-primary-600 to-primary-500 bg-clip-text text-transparent">
+                    {pageData.heroTitle}
+                  </span>
+                )}
               </h1>
               <p className="text-lg sm:text-xl text-neutral-600 max-w-3xl mx-auto mb-8 leading-relaxed">
-                Proven strategies, actionable insights, and real case studies to grow your business. Learn from 10+ years of marketing expertise and 200+ successful client campaigns.
+                {pageData.heroDescription}
               </p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-sm text-neutral-600">
-                {[`${posts.length} Expert Articles`, 'Weekly Updates', 'Real Case Studies'].map((item, idx) => (
+                {pageData.stats.map((stat, idx) => (
                   <div key={idx} className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-primary-600" />
-                    <span className="font-medium">{item}</span>
+                    <span className="font-medium">
+                      {stat.label.includes('Articles') ? `${posts.length} ${stat.label}` : stat.label}
+                    </span>
                   </div>
                 ))}
               </div>

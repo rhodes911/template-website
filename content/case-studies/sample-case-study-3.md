@@ -1,47 +1,39 @@
 ---
-title: REPLACE Sample Case Study 3
-description: REPLACE Case study description. Brief overview of the client challenge and results achieved.
-slug: sample-case-study-3
+title: REPLACE Case Study 3 Title
+subtitle: REPLACE Brief description of the case study
 client: REPLACE Client Name 3
-industry: REPLACE Industry 3
-projectDate: 2024-10-01
+industry: REPLACE Industry Type 3
+services: [REPLACE Service 1, REPLACE Service 3]
+results: 
+  - metric: REPLACE Metric 1
+    value: REPLACE Value 1
+    description: REPLACE Description 1
+  - metric: REPLACE Metric 2  
+    value: REPLACE Value 2
+    description: REPLACE Description 2
 featured: false
+publishDate: 2024-03-10
 image: /images/case-studies/sample-case-3.jpg
-tagServiceMap:
-  services:
-    - sample-service-1
-    - sample-service-3
-testimonial:
-  quote: REPLACE Client testimonial quote. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  author: REPLACE Client Name 3
-  role: REPLACE Client Role 3
-  metrics:
-    - REPLACE metric 1
-  featured: false
-results:
-  revenue: REPLACE revenue increase %
-  websiteTraffic: REPLACE traffic increase %
-seo:
-  metaTitle: 'REPLACE Case Study 3 | [Your Business]'
-  metaDescription: REPLACE Case study meta description. Keep under 160 characters.
-  canonicalUrl: /case-studies/sample-case-study-3
-  noIndex: false
-  keywords:
-    - REPLACE case study keyword 1
-  openGraph:
-    ogTitle: REPLACE Case Study Title 3
-    ogDescription: REPLACE Social description for case study.
-    ogImage: /images/case-studies/sample-case-3.jpg
+slug: sample-case-study-3
+tags: [REPLACE Tag 2, REPLACE Tag 3]
 ---
 
-## REPLACE Overview
+## The Challenge
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+REPLACE Describe the client's challenge or problem that needed to be solved. What was their situation before working with you?
 
-## REPLACE Solution
+## Our Approach
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+REPLACE Explain your strategy and methodology. What steps did you take to address the challenge?
 
-## REPLACE Results
+## Implementation
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+REPLACE Detail the specific actions, tools, and tactics you used to execute the solution.
+
+## Results
+
+REPLACE Showcase the measurable outcomes and success metrics achieved through your work.
+
+## Key Takeaways
+
+REPLACE Share insights and lessons learned that would be valuable to other potential clients.

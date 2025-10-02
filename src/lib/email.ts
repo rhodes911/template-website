@@ -3,7 +3,7 @@ import { SERVICE_LABELS, type ServiceType } from '@/lib/validations'
 
 // Environment variables with fallbacks
 const resendApiKey = process.env.RESEND_API_KEY || 'placeholder-key'
-const notificationEmail = process.env.NOTIFICATION_EMAIL || 'ellieedwardsmarketing@gmail.com'
+const notificationEmail = process.env.NOTIFICATION_EMAIL || 'REPLACE-your-email@domain.com'
 
 // Check if we're in production and missing required env vars
 if (process.env.NODE_ENV === 'production' && !process.env.RESEND_API_KEY) {
@@ -37,7 +37,7 @@ export async function sendNewLeadNotification(leadData: EmailData) {
     if (!hasValidApiKey) {
       console.error('❌ Invalid Resend API key:', {
         to: notificationEmail,
-        subject: '🎉 New Lead Alert - Ellie Edwards Marketing',
+        subject: '🎉 New Lead Alert - REPLACE Your Business Name',
         leadData,
         apiKeyStatus: resendApiKey ? 'invalid' : 'missing',
         apiKeyValue: resendApiKey
@@ -71,7 +71,7 @@ export async function sendNewLeadNotification(leadData: EmailData) {
       : '<div style="background-color: #f9fafb; padding: 15px; border-radius: 8px; margin: 20px 0; border: 1px solid #e5e7eb;"><p style="color: #6b7280; font-style: italic; margin: 0;">No specific services selected - general inquiry</p></div>'
 
     const { data, error } = await resend.emails.send({
-      from: 'Ellie Edwards Marketing <onboarding@resend.dev>', // Default Resend domain; switch to your verified domain when ready
+      from: 'REPLACE Your Business Name <onboarding@resend.dev>', // Default Resend domain; switch to your verified domain when ready
       to: [notificationEmail],
       reply_to: leadData.email, // Reply directly to the lead
       subject: `🎉 New Lead from ${leadData.name || 'Unknown'} <${leadData.email}>${leadData.services?.length ? ` • ${leadData.services.length} service(s)` : ''}`,
@@ -116,7 +116,7 @@ export async function sendNewLeadNotification(leadData: EmailData) {
             
             <div style="text-align: center; margin-top: 30px;">
               <p style="color: #64748b; font-size: 14px;">
-                This lead was captured from your Ellie Edwards Marketing website.
+                This lead was captured from your REPLACE Your Business Name website.
               </p>
               <p style="color: #64748b; font-size: 14px;">
                 Follow up promptly for best conversion rates! 🚀

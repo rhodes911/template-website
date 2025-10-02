@@ -682,7 +682,7 @@ export default defineConfig({
                 fields: [
                   { type: "string", name: "title", label: "Section Title", required: true },
                   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                  { type: "string", name: "testimonialCaseStudies", label: "Testimonials: Pick Case Studies (slugs)", list: true, ui: { component: CaseStudyMultiSelect as any } },
+                  { type: "string", name: "testimonialCaseStudies", label: "Featured Case Studies (slugs)", list: true, ui: { component: CaseStudyMultiSelect as any } },
                 ],
               },
               {
@@ -1314,6 +1314,141 @@ export default defineConfig({
           },
           { type: "rich-text", name: "body", label: "Blog Content", isBody: true },
         ],
+      },
+      {
+        name: "header",
+        label: "Header & Navigation",
+        path: "content/settings",
+        format: "json",
+        match: { include: "header" },
+        fields: [
+          {
+            type: "object",
+            name: "branding",
+            label: "Header Branding",
+            fields: [
+              { type: "string", name: "businessName", label: "Business Name" },
+              { type: "string", name: "tagline", label: "Business Tagline" },
+              { type: "image", name: "logo", label: "Header Logo" },
+              { type: "string", name: "logoAlt", label: "Logo Alt Text" },
+            ]
+          },
+          {
+            type: "object",
+            name: "navigation",
+            label: "Navigation Links",
+            list: true,
+            fields: [
+              { type: "string", name: "label", label: "Link Label" },
+              { type: "string", name: "href", label: "Link URL" },
+              { type: "boolean", name: "external", label: "External Link", description: "Check if this link goes to another website" },
+            ]
+          },
+          {
+            type: "object",
+            name: "ctaButton",
+            label: "Call-to-Action Button",
+            fields: [
+              { type: "string", name: "label", label: "Button Text" },
+              { type: "string", name: "href", label: "Button Link" },
+              { type: "boolean", name: "enabled", label: "Show CTA Button" },
+            ]
+          },
+          {
+            type: "object",
+            name: "search",
+            label: "Search Configuration",
+            fields: [
+              { type: "boolean", name: "enabled", label: "Enable Search" },
+              { type: "string", name: "placeholder", label: "Search Placeholder Text" },
+            ]
+          }
+        ]
+      },
+      {
+        name: "footer",
+        label: "Footer",
+        path: "content/settings",
+        format: "json",
+        match: { include: "footer" },
+        fields: [
+          {
+            type: "object",
+            name: "branding",
+            label: "Footer Branding",
+            fields: [
+              { type: "string", name: "businessName", label: "Business Name" },
+              { type: "string", name: "tagline", label: "Business Tagline" },
+              { type: "string", name: "description", label: "Business Description", ui: { component: "textarea" } },
+              { type: "image", name: "logo", label: "Footer Logo" },
+              { type: "string", name: "logoAlt", label: "Logo Alt Text" },
+            ]
+          },
+          {
+            type: "object",
+            name: "contact",
+            label: "Contact Information",
+            fields: [
+              { type: "string", name: "email", label: "Email Address" },
+              { type: "string", name: "phone", label: "Phone Number" },
+              { type: "string", name: "address", label: "Business Address", ui: { component: "textarea" } },
+            ]
+          },
+          {
+            type: "object",
+            name: "socialLinks",
+            label: "Social Media Links",
+            list: true,
+            fields: [
+              { type: "string", name: "platform", label: "Platform Name" },
+              { type: "string", name: "url", label: "Profile URL" },
+              { type: "string", name: "icon", label: "Icon Name", description: "Icon identifier (e.g., linkedin, twitter, facebook)" },
+            ]
+          },
+          {
+            type: "object",
+            name: "links",
+            label: "Footer Links",
+            fields: [
+              {
+                type: "object",
+                name: "company",
+                label: "Company Links",
+                list: true,
+                fields: [
+                  { type: "string", name: "label", label: "Link Label" },
+                  { type: "string", name: "href", label: "Link URL" },
+                ]
+              },
+              {
+                type: "object",
+                name: "legal",
+                label: "Legal Links",
+                list: true,
+                fields: [
+                  { type: "string", name: "label", label: "Link Label" },
+                  { type: "string", name: "href", label: "Link URL" },
+                ]
+              }
+            ]
+          },
+          {
+            type: "string",
+            name: "copyrightText",
+            label: "Copyright Text",
+            description: "Copyright notice (year will be automatically updated)"
+          },
+          {
+            type: "object",
+            name: "developer",
+            label: "Developer Credit",
+            fields: [
+              { type: "string", name: "name", label: "Developer Name" },
+              { type: "string", name: "url", label: "Developer URL" },
+              { type: "boolean", name: "show", label: "Show Developer Credit" },
+            ]
+          }
+        ]
       },
     ],
   },

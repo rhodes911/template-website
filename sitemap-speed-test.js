@@ -11,7 +11,7 @@ const { parseString } = require('xml2js');
 function getBaseUrl() {
   const arg = process.argv.find(a => a.startsWith('--url='));
   const fromArg = arg ? arg.split('=')[1] : undefined;
-  const url = (process.env.SITE_URL || process.env.BASE_URL || fromArg || 'https://www.ellieedwardsmarketing.com').trim();
+  const url = (process.env.SITE_URL || process.env.BASE_URL || fromArg || 'https://www.REPLACE-your-domain.com').trim();
   return url.replace(/\/+$/, '');
 }
 

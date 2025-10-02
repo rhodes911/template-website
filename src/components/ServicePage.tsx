@@ -253,7 +253,7 @@ export default function ServicePage({ service, relatedServices = [] }: ServicePa
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href={`mailto:ellieedwardsmarketing@gmail.com?subject=${encodeURIComponent(service.emailSubject + ' - Project Inquiry')}&body=${encodeURIComponent(service.emailBody.replace('consultation', 'project').replace('Could we schedule a consultation', 'I would like to schedule a consultation'))}`}
+                href={`mailto:REPLACE-your-email@domain.com?subject=${encodeURIComponent(service.emailSubject + ' - Project Inquiry')}&body=${encodeURIComponent(service.emailBody.replace('consultation', 'project').replace('Could we schedule a consultation', 'I would like to schedule a consultation'))}`}
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold bg-white text-primary-600 hover:bg-neutral-50 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 <Calendar className="w-5 h-5 mr-2" />

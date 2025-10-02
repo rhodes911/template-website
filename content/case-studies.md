@@ -1,41 +1,195 @@
-------
+------------------
 
-heroTitle: REPLACE Case Studies TitleheroTitle: Proven Client Success Stories
+_template: caseStudiesIndex
 
-heroDescription: REPLACE Case studies description. Show how you've helped clients achieve success. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.heroDescription: >-
+_template: caseStudiesIndex
 
-seo:  Real-world results from strategy to execution. Explore the wins we’ve
+heroTitle: REPLACE Case Studies Title
 
-  metaTitle: 'REPLACE Case Studies | [Your Business] [Location]'  delivered across industries.
+heroDescription: REPLACE Case studies description. Show how you've helped clients achieve success. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.heroTitle: REPLACE Case Studies Title_template: caseStudiesIndex
 
-  metaDescription: REPLACE Case studies meta description. Highlight your success stories and results. Keep under 160 characters.seo:
 
-  canonicalUrl: /case-studies  metaTitle: 'Case Studies & Client Success | Mytchett, Camberley, Surrey'
 
-  noIndex: false  metaDescription: >-
+seo:heroDescription: REPLACE Case studies description. Show how you've helped clients achieve success. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
 
-  keywords:    Explore detailed marketing case studies and client success stories. See real
+  metaTitle: 'REPLACE Case Studies | [Your Business] [Location]'
 
-    - REPLACE case studies keyword 1    results from strategic marketing campaigns and business growth solutions.
+  metaDescription: REPLACE Case studies meta description. Highlight your success stories and results. Keep under 160 characters.seo:heroTitle: REPLACE Case Studies TitleheroTitle: REPLACE Case Studies Title
 
-    - REPLACE case studies keyword 2  canonicalUrl: /case-studies
+  canonicalUrl: /case-studies
 
-    - REPLACE case studies keyword 3  noIndex: false
+  noIndex: false  metaTitle: 'REPLACE Case Studies | [Your Business] [Location]'
 
-  winningKeywords:  keywords:
+  keywords:
+
+    - REPLACE case studies keyword 1  metaDescription: REPLACE Case studies meta description. Highlight your success stories and results. Keep under 160 characters.heroDescription: REPLACE Case studies description. Show how you've helped clients achieve success. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+
+    - REPLACE case studies keyword 2
+
+    - REPLACE case studies keyword 3  canonicalUrl: /case-studies
+
+  winningKeywords:
+
+    - REPLACE case studies winning keyword  noIndex: falseseo:heroDescription: REPLACE Case studies description. Show how you've helped clients achieve success. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.heroTitle: REPLACE Case Studies TitleheroTitle: Proven Client Success Stories
+
+  serpAnalysisHistory: []
+
+  currentReport: sample_report  keywords:
+
+  openGraph:
+
+    ogTitle: REPLACE Case Studies | [Your Business]    - REPLACE case studies keyword 1  metaTitle: 'REPLACE Case Studies | [Your Business] [Location]'
+
+    ogDescription: REPLACE Social description for case studies page.
+
+    ogImage: /og-image.png    - REPLACE case studies keyword 2
+
+
+
+pageCta:    - REPLACE case studies keyword 3  metaDescription: REPLACE Case studies meta description. Highlight your success stories and results. Keep under 160 characters.seo:
+
+  title: Ready To Achieve Similar Results?
+
+  description: REPLACE Case studies CTA. Encourage visitors to contact you. Lorem ipsum dolor sit amet consectetur adipiscing elit.  winningKeywords:
+
+  buttonLabel: Get Started
+
+  buttonHref: /contact    - REPLACE case studies winning keyword  canonicalUrl: /case-studies
+
+---
+
+  serpAnalysisHistory: []
+
+## REPLACE Case Studies Introduction
+
+  currentReport: sample_report  noIndex: false  metaTitle: 'REPLACE Case Studies | [Your Business] [Location]'heroDescription: REPLACE Case studies description. Show how you've helped clients achieve success. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.heroDescription: >-
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  openGraph:
+
+### REPLACE Success Metrics
+
+    ogTitle: REPLACE Case Studies | [Your Business]  keywords:
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur:
+
+    ogDescription: REPLACE Social description for case studies page.
+
+- **REPLACE Metric 1**: Lorem ipsum percentage increase
+
+- **REPLACE Metric 2**: Consectetur adipiscing improvement    ogImage: /og-image.png    - REPLACE case studies keyword 1  metaDescription: REPLACE Case studies meta description. Highlight your success stories and results. Keep under 160 characters.
+
+- **REPLACE Metric 3**: Sed do eiusmod results
+pageCta:
+
+  title: Ready To Achieve Similar Results?    - REPLACE case studies keyword 2
+
+  description: REPLACE Case studies CTA. Encourage visitors to contact you. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+
+  buttonLabel: Get Started    - REPLACE case studies keyword 3  canonicalUrl: /case-studiesseo:  Real-world results from strategy to execution. Explore the wins we’ve
+
+  buttonHref: /contact
+
+---  winningKeywords:
+
+
+
+## REPLACE Case Studies Introduction    - REPLACE case studies winning keyword  noIndex: false
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  serpAnalysisHistory: []
+
+
+
+### REPLACE Success Metrics  currentReport: sample_report  keywords:  metaTitle: 'REPLACE Case Studies | [Your Business] [Location]'  delivered across industries.
+
+
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur:  openGraph:
+
+
+
+- **REPLACE Metric 1**: Lorem ipsum percentage increase    ogTitle: REPLACE Case Studies | [Your Business]    - REPLACE case studies keyword 1
+
+- **REPLACE Metric 2**: Consectetur adipiscing improvement  
+
+- **REPLACE Metric 3**: Sed do eiusmod results    ogDescription: REPLACE Social description for case studies page.
+
+    ogImage: /og-image.png    - REPLACE case studies keyword 2  metaDescription: REPLACE Case studies meta description. Highlight your success stories and results. Keep under 160 characters.seo:
+
+pageCta:
+
+  title: Ready To Achieve Similar Results?    - REPLACE case studies keyword 3
+
+  description: REPLACE Case studies CTA. Encourage visitors to contact you. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+
+  buttonLabel: Get Started  winningKeywords:  canonicalUrl: /case-studies  metaTitle: 'Case Studies & Client Success | Mytchett, Camberley, Surrey'
+
+  buttonHref: /contact
+
+---    - REPLACE case studies winning keyword
+
+
+
+## REPLACE Case Studies Introduction  serpAnalysisHistory: []  noIndex: false  metaDescription: >-
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  currentReport: sample_report
+
+
+
+### REPLACE Success Metrics  openGraph:  keywords:    Explore detailed marketing case studies and client success stories. See real
+
+
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur:    ogTitle: REPLACE Case Studies | [Your Business]
+
+
+
+- **REPLACE Metric 1**: Lorem ipsum percentage increase    ogDescription: REPLACE Social description for case studies page.    - REPLACE case studies keyword 1    results from strategic marketing campaigns and business growth solutions.
+
+- **REPLACE Metric 2**: Consectetur adipiscing improvement  
+
+- **REPLACE Metric 3**: Sed do eiusmod results    ogImage: /og-image.png
+
+pageCta:    - REPLACE case studies keyword 2  canonicalUrl: /case-studies
+
+  title: Ready To Achieve Similar Results?
+
+  description: REPLACE Case studies CTA. Encourage visitors to contact you. Lorem ipsum dolor sit amet consectetur adipiscing elit.    - REPLACE case studies keyword 3  noIndex: false
+
+  buttonLabel: Get Started
+
+  buttonHref: /contact  winningKeywords:  keywords:
+
+---
 
     - REPLACE case studies winning keyword    - marketing case studies
 
+## REPLACE Case Studies Introduction
+
   serpAnalysisHistory: []    - client success stories
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
   currentReport: sample_report    - digital marketing results
 
+### REPLACE Success Metrics
+
   openGraph:    - seo case studies
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur:
 
     ogTitle: REPLACE Case Studies | [Your Business]    - content marketing case studies
 
-    ogDescription: REPLACE Social description for case studies page.    - ppc case studies
+- **REPLACE Metric 1**: Lorem ipsum percentage increase
 
+- **REPLACE Metric 2**: Consectetur adipiscing improvement      ogDescription: REPLACE Social description for case studies page.    - ppc case studies
+
+- **REPLACE Metric 3**: Sed do eiusmod results
     ogImage: /og-image.png    - lead generation results
 
 pageCta:    - small business marketing success

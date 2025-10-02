@@ -10,20 +10,58 @@ export default function CommandPalette() {
   const [query, setQuery] = useState('');
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState<SearchResult[]>([]);
+  const [dynamicLinks, setDynamicLinks] = useState<Array<{ label: string; href: string }>>([]);
   const inputRef = useRef<HTMLInputElement>(null);
   const pathname = usePathname();
 
-  // Basic nav links as fallback when no query typed
-  const links = [
-    { label: 'Services', href: '/services' },
-    { label: 'SEO Services', href: '/services/seo' },
-    { label: 'PPC', href: '/services/ppc' },
-    { label: 'Content Marketing', href: '/services/content-marketing' },
-    { label: 'Case Studies', href: '/case-studies' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'About', href: '/about' },
-    { label: 'Contact', href: '/contact' }
-  ];
+  // Load dynamic navigation links from actual content
+  useEffect(() => {
+    const loadNavLinks = async () => {
+      try {
+        // Get all content items to populate suggestions
+        const res = await fetch('/api/search?q=&limit=50');
+        if (res.ok) {
+          const data = await res.json();
+          const links = [
+            { label: 'Services', href: '/services' },
+            { label: 'Blog', href: '/blog' },
+            { label: 'Case Studies', href: '/case-studies' },
+            { label: 'About', href: '/about' },
+            { label: 'Contact', href: '/contact' }
+          ];
+          
+          // Add dynamic services from actual content
+          if (data.results && Array.isArray(data.results)) {
+            const serviceItems = data.results
+              .filter((item: SearchResult) => item.type === 'services')
+              .slice(0, 5); // Limit to top 5 services
+            
+            // Insert services after main Services link
+            serviceItems.forEach((item: SearchResult, index: number) => {
+              links.splice(1 + index, 0, {
+                label: item.title,
+                href: item.url
+              });
+            });
+          }
+          
+          setDynamicLinks(links);
+        }
+      } catch (error) {
+        console.warn('Failed to load dynamic navigation links:', error);
+        // Fallback to basic navigation
+        setDynamicLinks([
+          { label: 'Services', href: '/services' },
+          { label: 'Blog', href: '/blog' },
+          { label: 'Case Studies', href: '/case-studies' },
+          { label: 'About', href: '/about' },
+          { label: 'Contact', href: '/contact' }
+        ]);
+      }
+    };
+
+    loadNavLinks();
+  }, []);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
@@ -85,7 +123,7 @@ export default function CommandPalette() {
     };
   }, [query, open]);
 
-  const filtered = links.filter((l) => l.label.toLowerCase().includes(query.toLowerCase()));
+  const filtered = dynamicLinks.filter((l) => l.label.toLowerCase().includes(query.toLowerCase()));
 
   if (!open) return null;
 

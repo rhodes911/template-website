@@ -310,7 +310,7 @@ export function LeadForm({
 
           <div className="text-center pt-4">
             <p className="text-xs text-neutral-500 leading-relaxed max-w-md mx-auto">
-              🔒 By submitting this form, you agree to receive marketing communications from <span className="font-semibold text-primary-600">Ellie Edwards Marketing</span>. 
+              🔒 By submitting this form, you agree to receive marketing communications from <span className="font-semibold text-primary-600">REPLACE Your Business Name</span>. 
               You can unsubscribe at any time. Your privacy is our priority.
             </p>
           </div>

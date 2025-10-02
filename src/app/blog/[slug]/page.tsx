@@ -70,7 +70,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
   // Debug toggle no longer required since H2 is always visible when missing subheading
 
   const relatedPosts = getRelatedPosts(post);
-  const shareUrl = `https://www.ellieedwardsmarketing.com/blog/${post.slug}`;
+  const shareUrl = `https://www.REPLACE-your-domain.com/blog/${post.slug}`;
   const shareTitle = encodeURIComponent(post.title);
   const shareDescription = encodeURIComponent(post.excerpt);
 

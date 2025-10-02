@@ -1,0 +1,44 @@
+{
+  "branding": {
+    "businessName": "REPLACE Your Business Name",
+    "tagline": "REPLACE Your Business Tagline",
+    "logo": "/images/REPLACE-your-logo.png",
+    "logoAlt": "REPLACE Your Business Name Logo"
+  },
+  "navigation": [
+    {
+      "label": "About",
+      "href": "/about",
+      "external": false
+    },
+    {
+      "label": "Blog",
+      "href": "/blog",
+      "external": false
+    },
+    {
+      "label": "Case Studies",
+      "href": "/case-studies",
+      "external": false
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq",
+      "external": false
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "external": false
+    }
+  ],
+  "ctaButton": {
+    "label": "Get Started",
+    "href": "/contact",
+    "enabled": true
+  },
+  "search": {
+    "enabled": true,
+    "placeholder": "Search"
+  }
+}

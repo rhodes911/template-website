@@ -119,7 +119,24 @@ export default function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {Object.entries(caseStudy.results).map(([key, value]) => (
+            {Array.isArray(caseStudy.results) ? caseStudy.results.map((result, index) => (
+              <div key={index} className={`${themeStyles.cards.default} ${themeStyles.cards.hover} p-6 text-center group`}>
+                <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <TrendingUp className="w-6 h-6 text-white" />
+                </div>
+                <div className={`text-3xl font-bold ${themeStyles.text.accent} mb-2`}>
+                  {result.value}
+                </div>
+                <div className={`text-sm ${themeStyles.text.muted} mb-1`}>
+                  {result.metric}
+                </div>
+                {result.description && (
+                  <div className={`text-xs ${themeStyles.text.muted} opacity-75`}>
+                    {result.description}
+                  </div>
+                )}
+              </div>
+            )) : Object.entries(caseStudy.results || {}).map(([key, value]) => (
               <div key={key} className={`${themeStyles.cards.default} ${themeStyles.cards.hover} p-6 text-center group`}>
                 <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <TrendingUp className="w-6 h-6 text-white" />

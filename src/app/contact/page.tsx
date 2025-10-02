@@ -20,24 +20,24 @@ export const metadata: Metadata = buildMetadataFromSeo(
 export default function ContactPage() {
   const page = getMainPageData('contact', {
     heroTitle: 'Get In Touch',
-    heroSubtitle: 'Let’s Grow Your Business Together',
-    heroDescription: 'Ready to take your marketing to the next level? I’d love to hear about your business goals and discuss how we can work together to achieve them.',
+    heroSubtitle: 'REPLACE your business tagline',
+    heroDescription: 'REPLACE with your business-specific contact page description that matches your brand voice and value proposition.',
   });
   const contactItems = (page.contactMethods && page.contactMethods.length)
     ? page.contactMethods
     : [
-        { icon: 'Mail', title: 'Email Me', subtitle: 'Get a response within 24 hours', value: 'ellieedwardsmarketing@gmail.com', href: 'mailto:ellieedwardsmarketing@gmail.com' },
-        { icon: 'Calendar', title: 'Book a Consultation', subtitle: 'Schedule a free 30-minute strategy call', href: '#consultation-form' },
-        { icon: 'MapPin', title: 'Local Service Area', subtitle: 'Based in Camberley, serving Surrey • Hampshire • Basingstoke • Reading' },
-        { icon: 'MessageCircle', title: 'Connect on LinkedIn', subtitle: 'Let’s connect and discuss opportunities', href: 'https://www.linkedin.com/in/ellie-edwards-marketing/' },
+        { icon: 'Mail', title: 'Email Me', subtitle: 'REPLACE response time description', value: 'REPLACE-your-email@domain.com', href: 'mailto:REPLACE-your-email@domain.com' },
+        { icon: 'Calendar', title: 'Book a Consultation', subtitle: 'REPLACE consultation offer description', href: '#consultation-form' },
+        { icon: 'MapPin', title: 'Local Service Area', subtitle: 'REPLACE your location and service area description' },
+        { icon: 'MessageCircle', title: 'Connect on LinkedIn', subtitle: 'REPLACE social media call to action', href: 'https://www.linkedin.com/in/REPLACE-your-linkedin-username/' },
       ];
   const expectations = (page.expectations && page.expectations.length)
     ? page.expectations
     : [
-        'Response within 24 hours',
-        'Free 30-minute strategy consultation',
-        'Custom marketing plan discussion',
-        'No-pressure approach',
+        'REPLACE expectation 1',
+        'REPLACE expectation 2',
+        'REPLACE expectation 3',
+        'REPLACE expectation 4',
       ];
   const IconMap: Record<string, React.ComponentType<{ className?: string }>> = {
     Mail,
@@ -61,7 +61,7 @@ export default function ContactPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <h1 className={`${themeStyles.text.h1} mb-6`}>
             {page.heroTitle || 'Get In Touch'}
-            <span className={`block ${themeStyles.text.accent}`}>{page.heroSubtitle || 'Let’s Grow Your Business Together'}</span>
+            <span className={`block ${themeStyles.text.accent}`}>{page.heroSubtitle || 'REPLACE your business tagline'}</span>
           </h1>
           {page.heroDescription && (
             <p className={`${themeStyles.text.bodyLarge} mb-8 max-w-3xl mx-auto`}>
@@ -78,7 +78,7 @@ export default function ContactPage() {
             
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-neutral-900 mb-8">Let’s Start the Conversation</h2>
+              <h2 className="text-3xl font-bold text-neutral-900 mb-8">Let's Start the Conversation</h2>
               
               {/* Contact Methods (from Tina) */}
               <div className="space-y-6 mb-8">
@@ -93,12 +93,12 @@ export default function ContactPage() {
                         {item.title && <h3 className="text-lg font-semibold text-neutral-900 mb-2">{item.title}</h3>}
                         {item.title === 'Local Service Area' && item.subtitle ? (
                           <div className="text-neutral-600">
-                            <p className="mb-1">Camberley-based marketing consultant serving</p>
+                            <p className="mb-1">REPLACE location-based service description</p>
                             <ul className="list-disc pl-5">
-                              <li>Surrey</li>
-                              <li>Hampshire</li>
-                              <li>Basingstoke</li>
-                              <li>Reading</li>
+                              <li>REPLACE location 1</li>
+                              <li>REPLACE location 2</li>
+                              <li>REPLACE location 3</li>
+                              <li>REPLACE location 4</li>
                             </ul>
                           </div>
                         ) : (
@@ -158,20 +158,20 @@ export default function ContactPage() {
         headingLevel="h3"
         faqs={[
           {
-            question: "How quickly can we get started?",
-            answer: "After our initial consultation, I typically start new projects within 1-2 weeks, depending on scope and current workload."
+            question: "REPLACE FAQ question 1?",
+            answer: "REPLACE with your business-specific answer that addresses common client concerns and builds trust."
           },
           {
-            question: "What's included in the free consultation?",
-            answer: "We'll discuss your business goals, current marketing challenges, and I'll provide initial recommendations. No strings attached."
+            question: "REPLACE FAQ question 2?",
+            answer: "REPLACE with information about your consultation process, deliverables, or onboarding experience."
           },
           {
-            question: "Do you work with businesses outside the UK?",
-            answer: "Yes! I work with clients globally. Most of our communication happens via email and video calls, making location flexible."
+            question: "REPLACE FAQ question 3?",
+            answer: "REPLACE with details about your service area, remote work capabilities, or geographical reach."
           },
           {
-            question: "What if I'm not sure which service I need?",
-            answer: "That's perfectly fine! During our consultation, I'll assess your needs and recommend the best approach for your business goals."
+            question: "REPLACE FAQ question 4?",
+            answer: "REPLACE with guidance about your consultation process and how you help clients choose the right services."
           }
         ]}
       />
@@ -186,7 +186,7 @@ export default function ContactPage() {
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h3 className="text-3xl font-bold text-white mb-4">
-            {page.pageCta?.title || 'Ready to Transform Your Marketing?'}
+            {page.pageCta?.title || 'REPLACE Final CTA Title'}
           </h3>
           {page.pageCta?.description && (
             <p className="text-xl text-primary-100 mb-8">{page.pageCta.description}</p>
@@ -195,7 +195,7 @@ export default function ContactPage() {
             href={page.pageCta?.buttonHref || '#consultation-form'}
             className="inline-flex items-center px-8 py-4 bg-white text-primary-600 rounded-2xl hover:bg-neutral-50 transition-colors font-semibold shadow-lg"
           >
-            {page.pageCta?.buttonLabel || 'Start Your Free Consultation'} <ArrowRight className="ml-2 h-5 w-5" />
+            {page.pageCta?.buttonLabel || 'REPLACE CTA Button Text'} <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </div>
       </section>

@@ -357,13 +357,13 @@ export const servicesData: Record<string, ServiceData> = {
       },
       {
         question: 'Do you work with local businesses?',
-        answer: 'Absolutely! We provide both local SEO (for location-based businesses) and national SEO services. Local SEO includes Google My Business optimization, local citations, and location-specific strategies.'
+        answer: 'REPLACE with your service area information. For example: Absolutely! We provide both local and national services. Local services include location optimization, local citations, and location-specific strategies.'
       }
     ],
     ctaTitle: 'Ready to Improve Your Rankings?',
     ctaDescription: 'Let\'s optimize your website for search engines and drive more qualified organic traffic to your business.',
     emailSubject: 'SEO Consultation',
-    emailBody: 'Hi Ellie,\n\nI\'m interested in learning more about your SEO services. Could we schedule a consultation to discuss my business needs?\n\nThank you!'
+    emailBody: 'Hi,\n\nI\'m interested in learning more about your services. Could we schedule a consultation to discuss my business needs?\n\nThank you!'
   },
 
   // Add other services here...

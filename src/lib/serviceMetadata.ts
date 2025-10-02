@@ -6,17 +6,17 @@ export async function generateServiceMetadata(serviceId: string): Promise<Metada
   
   if (!service) {
     return {
-      title: 'Service Not Found | Ellie Edwards Marketing',
+      title: 'Service Not Found | [Your Business]',
       description: 'The requested service could not be found.',
     };
   }
   
   return {
-    title: `${service.title} Services | Ellie Edwards Marketing`,
+    title: `${service.title} Services | [Your Business]`,
     description: service.description,
     keywords: service.keywords.join(', '),
     openGraph: {
-      title: `${service.title} Services | Ellie Edwards Marketing`,
+      title: `${service.title} Services | [Your Business]`,
       description: service.description,
       type: 'website',
     },

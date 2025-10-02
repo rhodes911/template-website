@@ -1,47 +1,127 @@
-------
+---
+_template: servicesIndex
+heroTitle: REPLACE Services Page Title
+heroDescription: REPLACE Services page description. Describe what you offer and how it helps clients. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+heroCtas:
+  primaryLabel: Get Your Free Consultation
+  primaryHref: /contact
+  secondaryLabel: View Success Stories
+  secondaryHref: /case-studies
+secondaryLink:
+  label: View Case Studies
+  href: /case-studies
+seo:
+  metaTitle: 'REPLACE Services | [Your Business] [Location]'
+  metaDescription: REPLACE Services meta description. Highlight your key services and benefits. Keep under 160 characters for best SEO results.
+  canonicalUrl: /services
+  noIndex: false
+  keywords:
+    - REPLACE service keyword 1
+    - REPLACE service keyword 2
+    - REPLACE service keyword 3
+  winningKeywords: []
+  serpAnalysisHistory: []
+pageCta:
+  title: REPLACE Services CTA Title
+  description: REPLACE Services CTA. Encourage visitors to contact you about your services. Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor.
+  buttonLabel: Get Free Consultation
+  buttonHref: /contact
+---
 
-heroSubtitle: REPLACE Your Services SubtitleheroSubtitle: Expert Solutions for Business Growth
+# REPLACE Services Content
 
-seo:seo:
+This content area can be used for additional information about your services, methodology, or any other details you want to include on the services page. This will be rendered below the services grid.
 
-  metaTitle: 'REPLACE Services Page Title | [Your Location]'  metaTitle: 'Digital Marketing Services | Mytchett, Camberley, Surrey'
+You can include:
+- Service methodology
+- Your approach to client work
+- Case studies and results
+- Additional calls-to-action
+- FAQ section
+- Pricing information
 
-  metaDescription: REPLACE Services page meta description. Describe your services and value proposition. Keep under 160 characters.  metaDescription: >-
+The content here is fully editable through TinaCMS and will appear below the automatically generated services grid.
 
-  canonicalUrl: /services    Transform your business with comprehensive digital marketing services. SEO,
+  buttonHref: /contact
 
-  noIndex: false    PPC, content marketing, social media, and brand strategy from an expert
+---  winningKeywords:
 
-  keywords:    consultant.
 
-    - REPLACE service keyword 1  canonicalUrl: /services
 
-    - REPLACE service keyword 2    noIndex: false
+## REPLACE Services Overview    - REPLACE services winning keyword  keywords:    consultant.
 
-    - REPLACE service keyword 3  keywords:
 
-  winningKeywords:    - professional digital marketing services mytchett
 
-    - REPLACE winning keyword 1    - growth solutions mytchett
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  serpAnalysisHistory: []
 
-    - REPLACE winning keyword 2    - digital marketing services mytchett
 
-  serpAnalysisHistory: []  winningKeywords:
 
-  currentReport: sample_report    - ppc management
+### REPLACE Service Categories  currentReport: sample_report    - REPLACE service keyword 1  canonicalUrl: /services
 
-  openGraph:    - seo services
 
-    ogTitle: REPLACE Services | [Your Business Name]    - professional seo services
 
-    ogDescription: REPLACE Social description for services page. Lorem ipsum dolor sit amet consectetur.    - marketing consultant
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore:  openGraph:
+
+
+
+#### REPLACE Service 1    ogTitle: REPLACE Services | [Your Business]    - REPLACE service keyword 2    noIndex: false
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+    ogDescription: REPLACE Social description for services page.
+
+#### REPLACE Service 2  
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.    ogImage: /og-image.png    - REPLACE service keyword 3  keywords:
+
+
+
+#### REPLACE Service 3pageCta:
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  title: Ready To Get Started?  winningKeywords:    - professional digital marketing services REPLACE location
+
+  description: REPLACE Services CTA. Encourage visitors to contact you about your services. Lorem ipsum dolor sit amet consectetur.
+
+  buttonLabel: Contact Us    - REPLACE winning keyword 1    - growth solutions REPLACE location
+
+  buttonHref: /contact
+
+---    - REPLACE winning keyword 2    - digital marketing services REPLACE location
+
+
+
+## REPLACE Services Overview  serpAnalysisHistory: []  winningKeywords:
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  currentReport: sample_report    - ppc management
+
+
+
+### REPLACE Service Categories  openGraph:    - seo services
+
+
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore:    ogTitle: REPLACE Services | [Your Business Name]    - professional seo services
+
+
+
+#### REPLACE Service 1    ogDescription: REPLACE Social description for services page. Lorem ipsum dolor sit amet consectetur.    - REPLACE keyword
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
     ogImage: /og-image.png  serpAnalysisHistory:
 
-heroTitle: Our Services    - reportId: report_2025_09_22_17_12_52
+#### REPLACE Service 2  
 
-heroDescription: REPLACE Describe your services offering and approach. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.      analysisDate: 2025-09-22T16:12:52.896Z
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.heroTitle: Our Services    - reportId: report_2025_09_22_17_12_52
 
+
+
+#### REPLACE Service 3heroDescription: REPLACE Describe your services offering and approach. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.      analysisDate: 2025-09-22T16:12:52.896Z
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 pageCta:      reportName: SERP Analysis 2025-09-22
 
   title: Ready To Get Started?      avgDifficulty: 56
@@ -54,7 +134,7 @@ pageCta:      reportName: SERP Analysis 2025-09-22
 
 ---      moderateKeywords:
 
-        - digital marketing services mytchett
+        - digital marketing services REPLACE location
 
 ## REPLACE Main Services Section        - digital marketing services
 
@@ -62,21 +142,21 @@ pageCta:      reportName: SERP Analysis 2025-09-22
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.        - digital marketing services near me
 
-        - digital marketing services camberley
+        - digital marketing services REPLACE location
 
-### REPLACE Service Category 1        - digital marketing services surrey
+### REPLACE Service Category 1        - digital marketing services REPLACE location
 
-        - marketing consultant
+        - REPLACE keyword
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        - professional marketing consultant
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.        - professional REPLACE keyword
 
-        - marketing consultant near me
+        - REPLACE keyword near me
 
-### REPLACE Service Category 2          - marketing consultant mytchett
+### REPLACE Service Category 2          - REPLACE keyword REPLACE location
 
-        - marketing consultant camberley
+        - REPLACE keyword REPLACE location
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.        - marketing consultant surrey
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.        - REPLACE keyword REPLACE location
 
         - seo services
 
@@ -84,28 +164,28 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 
         - seo services near me
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.        - seo services mytchett
-        - seo services camberley
-        - seo services surrey
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.        - seo services REPLACE location
+        - seo services REPLACE location
+        - seo services REPLACE location
         - ppc management
         - professional ppc management
         - ppc management near me
-        - ppc management mytchett
-        - ppc management camberley
-        - ppc management surrey
+        - ppc management REPLACE location
+        - ppc management REPLACE location
+        - ppc management REPLACE location
         - content marketing near me
-        - content marketing mytchett
-        - content marketing camberley
-        - content marketing surrey
+        - content marketing REPLACE location
+        - content marketing REPLACE location
+        - content marketing REPLACE location
         - brand strategy
         - brand strategy near me
-        - brand strategy mytchett
-        - brand strategy camberley
-        - brand strategy surrey
+        - brand strategy REPLACE location
+        - brand strategy REPLACE location
+        - brand strategy REPLACE location
         - social media marketing near me
-        - social media marketing mytchett
-        - social media marketing camberley
-        - social media marketing surrey
+        - social media marketing REPLACE location
+        - social media marketing REPLACE location
+        - social media marketing REPLACE location
         - business growth
         - professional business growth
       hardCount: 9
@@ -116,19 +196,19 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
         - social media marketing
         - professional social media marketing
         - business growth near me
-        - business growth mytchett
-        - business growth camberley
-        - business growth surrey
+        - business growth REPLACE location
+        - business growth REPLACE location
+        - business growth REPLACE location
       topOpportunities:
         - ppc management
-        - marketing consultant
+        - REPLACE keyword
         - seo services
         - professional seo services
         - brand strategy
-        - content marketing surrey
-        - marketing consultant surrey
-        - seo services surrey
-        - ppc management surrey
+        - content marketing REPLACE location
+        - REPLACE keyword REPLACE location
+        - seo services REPLACE location
+        - ppc management REPLACE location
         - content marketing near me
       analysisNotes: []
       nextSteps: []
@@ -140,15 +220,15 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
       easyKeywords: []
       moderateCount: 2
       moderateKeywords:
-        - professional digital marketing services mytchett
-        - digital marketing services mytchett
+        - professional digital marketing services REPLACE location
+        - digital marketing services REPLACE location
       hardCount: 1
       hardKeywords:
-        - growth solutions mytchett
+        - growth solutions REPLACE location
       topOpportunities:
-        - professional digital marketing services mytchett
-        - digital marketing services mytchett
-        - growth solutions mytchett
+        - professional digital marketing services REPLACE location
+        - digital marketing services REPLACE location
+        - growth solutions REPLACE location
       analysisNotes: []
       nextSteps: []
     - reportId: report_2025_09_22_19_54_04
@@ -159,16 +239,16 @@ Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed 
       easyKeywords: []
       moderateCount: 1
       moderateKeywords:
-        - professional digital marketing services mytchett
+        - professional digital marketing services REPLACE location
       hardCount: 0
       hardKeywords: []
       topOpportunities:
-        - professional digital marketing services mytchett
+        - professional digital marketing services REPLACE location
       analysisNotes: []
       nextSteps: []
   currentReport: report_2025_09_22_19_54_04
   openGraph:
-    ogTitle: Digital Marketing Services | Grow Your Business | Ellie Edwards
+    ogTitle: REPLACE Services Social Title | Grow Your Business | [Your Business Name]
     ogDescription: >-
       Expert digital marketing services to transform your business. SEO, PPC,
       content strategy, and more. Get results that matter.

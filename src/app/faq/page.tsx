@@ -20,7 +20,7 @@ export default function FAQPage() {
     heroDescription: 'Get answers to common questions about working with me as your marketing consultant. Can’t find what you’re looking for? Feel free to get in touch!',
   });
   const generalFAQs = page.faqs && page.faqs.length > 0 ? page.faqs : [
-    { question: 'What makes your marketing approach different?', answer: 'I focus on data-driven strategies tailored specifically to your business goals. Unlike agencies, you work directly with me, ensuring personalized attention and consistent quality. I combine strategic thinking with hands-on execution to deliver measurable results.' },
+    { question: 'REPLACE your FAQ question?', answer: 'REPLACE your answer with business-specific information that differentiates your approach and provides value to potential clients.' },
   ];
 
   return (
@@ -92,7 +92,7 @@ export default function FAQPage() {
               href="/services/seo" 
               className="p-4 bg-gradient-to-br from-primary-50/50 to-neutral-50/50 border border-neutral-200 rounded-xl hover:shadow-lg transition-all duration-300 text-left"
             >
-              <h3 className="font-semibold text-neutral-900 mb-2">SEO Services</h3>
+              <h3 className="font-semibold text-neutral-900 mb-2">REPLACE Service 1</h3>
               <p className="text-sm text-neutral-600">Search optimization and ranking FAQs</p>
             </a>
             <a 

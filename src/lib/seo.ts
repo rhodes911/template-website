@@ -6,14 +6,14 @@ import { getBusinessSettings } from './settings'
 // even if an environment variable is accidentally set to non‑www.
 function deriveSiteUrl() {
   const biz = getBusinessSettings()
-  const fallback = 'https://www.ellieedwardsmarketing.com';
+  const fallback = 'https://www.REPLACE-your-domain.com';
   let raw = (biz.site_url || process.env.NEXT_PUBLIC_SITE_URL || fallback).trim();
   // Remove any trailing slashes
   raw = raw.replace(/\/+$/, '');
   try {
     const u = new URL(raw);
     // If hostname lacks a www. prefix and is a bare domain (no additional subdomain segments), add it.
-    // e.g. ellieedwardsmarketing.com -> www.ellieedwardsmarketing.com
+    // e.g. REPLACE-your-domain.com -> www.REPLACE-your-domain.com
     if (!/^www\./i.test(u.hostname) && u.hostname.split('.').length <= 3) {
       u.hostname = 'www.' + u.hostname.replace(/^www\./i, '');
     }
@@ -42,7 +42,7 @@ export const canonical = (path: string = '/'): string => {
 
 export function organizationJsonLd() {
   const biz = getBusinessSettings()
-  const orgName = biz.schemaDefaults?.organization_name || biz.brand || 'Ellie Edwards Marketing'
+  const orgName = biz.schemaDefaults?.organization_name || biz.brand || 'REPLACE Your Business Name'
   const logo = biz.schemaDefaults?.logo_url || `${SITE_URL}/android-chrome-512x512.png`
   const sameAs: string[] = []
   if (biz.socialProfiles) {
@@ -50,7 +50,7 @@ export function organizationJsonLd() {
       if (url) sameAs.push(url)
     })
   }
-  if (!sameAs.length) sameAs.push('https://www.linkedin.com/in/ellie-edwards-marketing/')
+  if (!sameAs.length) sameAs.push('https://www.linkedin.com/in/REPLACE-your-linkedin-username/')
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
@@ -64,7 +64,7 @@ export function organizationJsonLd() {
 
 export function websiteJsonLd() {
   const biz = getBusinessSettings()
-  const siteName = biz.brand || biz.schemaDefaults?.organization_name || 'Ellie Edwards Marketing'
+  const siteName = biz.brand || biz.schemaDefaults?.organization_name || 'REPLACE Your Business Name'
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -75,22 +75,22 @@ export function websiteJsonLd() {
 
 export function localBusinessJsonLd() {
   const biz = getBusinessSettings()
-  const name = biz.brand || biz.schemaDefaults?.organization_name || 'Ellie Edwards Marketing'
-  const email = biz.schemaDefaults?.contact_email || 'ellieedwardsmarketing@gmail.com'
+  const name = biz.brand || biz.schemaDefaults?.organization_name || 'REPLACE Your Business Name'
+  const email = biz.schemaDefaults?.contact_email || 'REPLACE your-email@domain.com'
   const logo = biz.schemaDefaults?.logo_url || `${SITE_URL}/android-chrome-512x512.png`
-  const address = biz.schemaDefaults?.address || { streetAddress: 'Mytchett', addressLocality: 'Camberley', addressRegion: 'Surrey', postalCode: 'GU16 6BA', addressCountry: 'GB' }
+  const address = biz.schemaDefaults?.address || { streetAddress: 'REPLACE Street', addressLocality: 'REPLACE City', addressRegion: 'REPLACE Region', postalCode: 'REPLACE ZIP', addressCountry: 'REPLACE Country Code' }
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     name,
-    description: 'Expert digital marketing services for entrepreneurs and small businesses',
+    description: 'REPLACE Your business description for schema markup',
     url: SITE_URL,
     logo,
     email,
     address: { '@type': 'PostalAddress', ...address },
-    areaServed: ['Camberley','Surrey','Hampshire','Basingstoke','Reading','Thames Valley','Mytchett','Farnborough','Aldershot'],
-    priceRange: '$$',
-    serviceType: 'Digital Marketing Services'
+    areaServed: ['REPLACE Area 1','REPLACE Area 2','REPLACE Area 3'],
+    priceRange: 'REPLACE Price Range',
+    serviceType: 'REPLACE Your Service Type'
   };
 }
 
@@ -103,12 +103,12 @@ export function personJsonLd(opts?: {
   sameAs?: string[];
   worksForName?: string;
 }) {
-  const name = opts?.name || 'Ellie Edwards';
+  const name = opts?.name || 'REPLACE Your Name';
   const url = opts?.url || `${SITE_URL}/about`;
   const image = opts?.image || `${SITE_URL}/android-chrome-512x512.png`;
-  const jobTitle = opts?.jobTitle || 'Marketing Consultant';
-  const worksForName = opts?.worksForName || 'Ellie Edwards Marketing';
-  const sameAs = opts?.sameAs || ['https://www.linkedin.com/in/ellie-edwards-marketing/'];
+  const jobTitle = opts?.jobTitle || 'REPLACE Your Job Title';
+  const worksForName = opts?.worksForName || 'REPLACE Your Business Name';
+  const sameAs = opts?.sameAs || ['REPLACE-your-social-profile-url'];
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
